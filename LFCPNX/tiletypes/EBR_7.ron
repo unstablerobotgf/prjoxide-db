@@ -629,4 +629,11 @@
       ),
     ],
   },
+  always_on: [
+    (
+      frame: 76,
+      bit: 0,
+      invert: false,
+    ),
+  ],
 )
