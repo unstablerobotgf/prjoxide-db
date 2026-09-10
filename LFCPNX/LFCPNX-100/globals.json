@@ -95,6 +95,20 @@
     "hrows": [
         {
             "hrow_col": 43,
+            "hrow_rows": [
+                28
+            ],
+            "spine_cols": [
+                13,
+                37,
+                61
+            ]
+        },
+        {
+            "hrow_col": 44,
+            "hrow_rows": [
+                46
+            ],
             "spine_cols": [
                 13,
                 37,
@@ -103,6 +117,10 @@
         },
         {
             "hrow_col": 109,
+            "hrow_rows": [
+                28,
+                46
+            ],
             "spine_cols": [
                 85,
                 109,
