@@ -2,7 +2,48 @@
   pips: {},
   words: {},
   enums: {},
-  conns: {},
+  conns: {
+    "JPAD_APIO_REFCLK0N": [
+      (
+        from_wire: "JREFCLK0N_DIFFCLKIO_CORE_DIFFCLKIO0",
+      ),
+    ],
+    "JPAD_APIO_REFCLK0P": [
+      (
+        from_wire: "JREFCLK0P_DIFFCLKIO_CORE_DIFFCLKIO0",
+      ),
+    ],
+    "JPAD_APIO_REFCLK1N": [
+      (
+        from_wire: "JREFCLK1N_DIFFCLKIO_CORE_DIFFCLKIO0",
+      ),
+    ],
+    "JPAD_APIO_REFCLK1P": [
+      (
+        from_wire: "JREFCLK1P_DIFFCLKIO_CORE_DIFFCLKIO0",
+      ),
+    ],
+    "JREFCLK0N_DIFFCLKIO_CORE_DIFFCLKIO0": [
+      (
+        from_wire: "JPAD_APIO_REFCLK0N",
+      ),
+    ],
+    "JREFCLK0P_DIFFCLKIO_CORE_DIFFCLKIO0": [
+      (
+        from_wire: "JPAD_APIO_REFCLK0P",
+      ),
+    ],
+    "JREFCLK1N_DIFFCLKIO_CORE_DIFFCLKIO0": [
+      (
+        from_wire: "JPAD_APIO_REFCLK1N",
+      ),
+    ],
+    "JREFCLK1P_DIFFCLKIO_CORE_DIFFCLKIO0": [
+      (
+        from_wire: "JPAD_APIO_REFCLK1P",
+      ),
+    ],
+  },
   always_on: [
     (
       frame: 0,
