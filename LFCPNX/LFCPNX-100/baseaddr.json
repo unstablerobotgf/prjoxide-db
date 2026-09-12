@@ -1,1 +1,12 @@
-{"regions": {}}
+{
+    "regions": {
+        "EBR_WID0": {
+            "abits": 17,
+            "addr": 536870912
+        },
+        "EBR_WID1": {
+            "abits": 17,
+            "addr": 537001984
+        }
+    }
+}
