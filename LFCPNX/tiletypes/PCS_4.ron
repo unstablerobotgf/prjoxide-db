@@ -1,7 +1,90 @@
 (
   pips: {},
-  words: {},
-  enums: {},
+  words: {
+    "RX_BOND_MODE": (
+      bits: [
+        [(frame:43,bit:0,invert:false,),],
+        [(frame:44,bit:0,invert:false,),],
+        [(frame:45,bit:0,invert:false,),],
+        [(frame:46,bit:0,invert:false,),],
+        [(frame:47,bit:0,invert:false,),],
+      ],
+    ),
+    "TX_BOND_MODE": (
+      bits: [
+        [(frame:38,bit:0,invert:false,),],
+        [(frame:39,bit:0,invert:false,),],
+        [(frame:40,bit:0,invert:false,),],
+        [(frame:41,bit:0,invert:false,),],
+        [(frame:42,bit:0,invert:false,),],
+      ],
+    ),
+  },
+  enums: {
+    "GSR": (
+      options: {
+        "DISABLED": [(frame:1,bit:0,invert:false,),],
+        "ENABLED": [(frame:1,bit:0,invert:true,),],
+      },
+    ),
+    "IDDQ_PCS": (
+      options: {
+        "DISABLED": [(frame:21,bit:0,invert:true,),],
+        "ENABLED": [(frame:21,bit:0,invert:false,),],
+      },
+    ),
+    "LANE_EN": (
+      options: {
+        "DISABLED": [(frame:0,bit:0,invert:true,),],
+        "ENABLED": [(frame:0,bit:0,invert:false,),],
+      },
+    ),
+    "MISC_CTRL": (
+      options: {
+        "0": [(frame:30,bit:0,invert:true,),(frame:31,bit:0,invert:true,),(frame:32,bit:0,invert:true,),],
+        "1": [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:true,),(frame:32,bit:0,invert:true,),],
+        "2": [(frame:30,bit:0,invert:true,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:true,),],
+        "3": [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:true,),],
+        "4": [(frame:30,bit:0,invert:true,),(frame:31,bit:0,invert:true,),(frame:32,bit:0,invert:false,),],
+        "5": [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:true,),(frame:32,bit:0,invert:false,),],
+        "6": [(frame:30,bit:0,invert:true,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:false,),],
+        "7": [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:false,),],
+      },
+    ),
+    "MODESEL": (
+      options: {
+        "PCIE": [(frame:28,bit:0,invert:true,),(frame:29,bit:0,invert:false,),],
+        "PCS": [(frame:28,bit:0,invert:true,),(frame:29,bit:0,invert:true,),],
+        "PCS10GE": [(frame:28,bit:0,invert:false,),(frame:29,bit:0,invert:true,),],
+        "PCS_BYPASS": [(frame:28,bit:0,invert:false,),(frame:29,bit:0,invert:false,),],
+      },
+    ),
+    "PHY_MODE": (
+      options: {
+        "PCIEMODE": [(frame:25,bit:0,invert:true,),],
+        "SATAMODE": [(frame:25,bit:0,invert:false,),],
+      },
+    ),
+    "PIPE_LN2LK": (
+      options: {
+        "X1": [(frame:5,bit:0,invert:true,),(frame:6,bit:0,invert:true,),(frame:7,bit:0,invert:true,),(frame:9,bit:0,invert:true,),(frame:14,bit:0,invert:true,),(frame:15,bit:0,invert:true,),(frame:19,bit:0,invert:true,),],
+        "X1_X1": [(frame:5,bit:0,invert:true,),(frame:6,bit:0,invert:true,),(frame:7,bit:0,invert:true,),(frame:9,bit:0,invert:true,),(frame:14,bit:0,invert:true,),(frame:15,bit:0,invert:true,),(frame:19,bit:0,invert:false,),],
+        "X1_X1_X1": [(frame:5,bit:0,invert:true,),(frame:6,bit:0,invert:true,),(frame:7,bit:0,invert:true,),(frame:9,bit:0,invert:true,),(frame:14,bit:0,invert:false,),(frame:15,bit:0,invert:true,),(frame:19,bit:0,invert:false,),],
+        "X1_X1_X1_X1": [(frame:5,bit:0,invert:true,),(frame:6,bit:0,invert:true,),(frame:7,bit:0,invert:true,),(frame:9,bit:0,invert:false,),(frame:14,bit:0,invert:false,),(frame:15,bit:0,invert:true,),(frame:19,bit:0,invert:false,),],
+        "X1_X1_X2": [(frame:5,bit:0,invert:false,),(frame:6,bit:0,invert:true,),(frame:7,bit:0,invert:true,),(frame:9,bit:0,invert:true,),(frame:14,bit:0,invert:false,),(frame:15,bit:0,invert:true,),(frame:19,bit:0,invert:false,),],
+        "X1_X2": [(frame:5,bit:0,invert:false,),(frame:6,bit:0,invert:true,),(frame:7,bit:0,invert:true,),(frame:9,bit:0,invert:true,),(frame:14,bit:0,invert:true,),(frame:15,bit:0,invert:true,),(frame:19,bit:0,invert:false,),],
+        "X2": [(frame:5,bit:0,invert:false,),(frame:6,bit:0,invert:true,),(frame:7,bit:0,invert:true,),(frame:9,bit:0,invert:true,),(frame:14,bit:0,invert:true,),(frame:15,bit:0,invert:true,),(frame:19,bit:0,invert:true,),],
+        "X2_X2": [(frame:5,bit:0,invert:false,),(frame:6,bit:0,invert:true,),(frame:7,bit:0,invert:true,),(frame:9,bit:0,invert:true,),(frame:14,bit:0,invert:false,),(frame:15,bit:0,invert:false,),(frame:19,bit:0,invert:true,),],
+        "X4": [(frame:5,bit:0,invert:false,),(frame:6,bit:0,invert:false,),(frame:7,bit:0,invert:false,),(frame:9,bit:0,invert:true,),(frame:14,bit:0,invert:true,),(frame:15,bit:0,invert:true,),(frame:19,bit:0,invert:true,),],
+      },
+    ),
+    "PWDN_N": (
+      options: {
+        "DISABLED": [(frame:27,bit:0,invert:false,),],
+        "ENABLED": [(frame:27,bit:0,invert:true,),],
+      },
+    ),
+  },
   conns: {
     "G:JPCSCLKRX4_TMID_CORE_TMIDMUX": [
       (

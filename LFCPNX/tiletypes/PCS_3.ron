@@ -1,0 +1,45 @@
+(
+  pips: {},
+  words: {},
+  enums: {
+    "IDDQ_PCS": (
+      options: {
+        "DISABLED": [(frame:21,bit:0,invert:true,),],
+        "ENABLED": [(frame:21,bit:0,invert:false,),],
+      },
+    ),
+    "LANE_EN": (
+      options: {
+        "DISABLED": [(frame:0,bit:0,invert:true,),],
+        "ENABLED": [(frame:0,bit:0,invert:false,),],
+      },
+    ),
+    "MISC_CTRL": (
+      options: {
+        "0": [(frame:30,bit:0,invert:true,),(frame:31,bit:0,invert:true,),(frame:32,bit:0,invert:true,),],
+        "1": [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:true,),(frame:32,bit:0,invert:true,),],
+        "2": [(frame:30,bit:0,invert:true,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:true,),],
+        "3": [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:true,),],
+        "4": [(frame:30,bit:0,invert:true,),(frame:31,bit:0,invert:true,),(frame:32,bit:0,invert:false,),],
+        "5": [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:true,),(frame:32,bit:0,invert:false,),],
+        "6": [(frame:30,bit:0,invert:true,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:false,),],
+        "7": [(frame:30,bit:0,invert:false,),(frame:31,bit:0,invert:false,),(frame:32,bit:0,invert:false,),],
+      },
+    ),
+    "MODESEL": (
+      options: {
+        "PCIE": [(frame:28,bit:0,invert:true,),(frame:29,bit:0,invert:false,),],
+        "PCS": [(frame:28,bit:0,invert:true,),(frame:29,bit:0,invert:true,),],
+        "PCS10GE": [(frame:28,bit:0,invert:false,),(frame:29,bit:0,invert:true,),],
+        "PCS_BYPASS": [(frame:28,bit:0,invert:false,),(frame:29,bit:0,invert:false,),],
+      },
+    ),
+    "PHY_MODE": (
+      options: {
+        "PCIEMODE": [(frame:25,bit:0,invert:true,),],
+        "SATAMODE": [(frame:25,bit:0,invert:false,),],
+      },
+    ),
+  },
+  conns: {},
+)
