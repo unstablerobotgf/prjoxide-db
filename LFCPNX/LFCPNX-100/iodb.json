@@ -5828,6 +5828,906 @@
             "vref": -1
         },
         {
+            "bank": 83,
+            "dqs": [],
+            "func": [
+                "SD_EXT1_REFCLKN"
+            ],
+            "offset": -1,
+            "pins": [
+                "B22",
+                "D9",
+                "B1",
+                "B1",
+                "B22"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 83,
+            "dqs": [],
+            "func": [
+                "SD_EXT1_REFCLKP"
+            ],
+            "offset": -1,
+            "pins": [
+                "A21",
+                "E10",
+                "A2",
+                "A2",
+                "A21"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 83,
+            "dqs": [],
+            "func": [
+                "SD_EXT0_REFCLKN"
+            ],
+            "offset": -1,
+            "pins": [
+                "B20",
+                "E11",
+                "B3",
+                "B3",
+                "B20"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 83,
+            "dqs": [],
+            "func": [
+                "SD_EXT0_REFCLKP"
+            ],
+            "offset": -1,
+            "pins": [
+                "B21",
+                "D11",
+                "B2",
+                "B2",
+                "B21"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD7_TXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "A19",
+                "A8",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD7_TXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "A18",
+                "A9",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD7_REFRET"
+            ],
+            "offset": -1,
+            "pins": [
+                "D16",
+                "E12",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD7_RXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "C17",
+                "C10",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD7_RXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "B17",
+                "B10",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD7_REXT"
+            ],
+            "offset": -1,
+            "pins": [
+                "D14",
+                "E13",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD6_TXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "A16",
+                "A11",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD6_TXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "A15",
+                "A12",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD6_REFRET"
+            ],
+            "offset": -1,
+            "pins": [
+                "E13",
+                "E15",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD6_RXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "C15",
+                "C12",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD6_RXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "B14",
+                "B13",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD6_REXT"
+            ],
+            "offset": -1,
+            "pins": [
+                "E12",
+                "D15",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SDQ1_REFCLKN"
+            ],
+            "offset": -1,
+            "pins": [
+                "D12",
+                "D13",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SDQ1_REFCLKP"
+            ],
+            "offset": -1,
+            "pins": [
+                "C13",
+                "C14",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD5_TXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "A13",
+                "A14",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD5_TXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "A12",
+                "A15",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD5_REFRET"
+            ],
+            "offset": -1,
+            "pins": [
+                "D11",
+                "J15",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD5_RXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "B11",
+                "B16",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD5_RXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "C11",
+                "C16",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD5_REXT"
+            ],
+            "offset": -1,
+            "pins": [
+                "F12",
+                "K15",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD4_TXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "A10",
+                "A17",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD4_TXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "A9",
+                "A18",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD4_REFRET"
+            ],
+            "offset": -1,
+            "pins": [
+                "E10",
+                "E17",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD4_RXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "B7",
+                "B19",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD4_RXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "B8",
+                "B20",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 81,
+            "dqs": [],
+            "func": [
+                "SD4_REXT"
+            ],
+            "offset": -1,
+            "pins": [
+                "F10",
+                "D17",
+                "-",
+                "-",
+                "-"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD3_TXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "A6",
+                "A21",
+                "A5",
+                "A5",
+                "C17"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD3_TXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "A5",
+                "A22",
+                "A6",
+                "A6",
+                "B17"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD3_REFRET"
+            ],
+            "offset": -1,
+            "pins": [
+                "D9",
+                "D18",
+                "B8",
+                "D8",
+                "C13"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD3_RXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "C5",
+                "C22",
+                "C5",
+                "C6",
+                "B14"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD3_RXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "C6",
+                "C21",
+                "C6",
+                "C5",
+                "C15"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD3_REXT"
+            ],
+            "offset": -1,
+            "pins": [
+                "E9",
+                "C18",
+                "B6",
+                "E8",
+                "E11"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD2_TXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "A3",
+                "A24",
+                "A8",
+                "A8",
+                "A16"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD2_TXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "A2",
+                "A25",
+                "A9",
+                "A9",
+                "A15"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD2_REFRET"
+            ],
+            "offset": -1,
+            "pins": [
+                "E8",
+                "E19",
+                "D8",
+                "C9",
+                "D11"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD2_RXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "B4",
+                "B23",
+                "C9",
+                "B7",
+                "C11"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD2_RXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "C3",
+                "C24",
+                "C8",
+                "C8",
+                "B11"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD2_REXT"
+            ],
+            "offset": -1,
+            "pins": [
+                "F8",
+                "D19",
+                "E8",
+                "D9",
+                "F10"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SDQ0_REFCLKN"
+            ],
+            "offset": -1,
+            "pins": [
+                "E7",
+                "E20",
+                "D10",
+                "E10",
+                "E7"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SDQ0_REFCLKP"
+            ],
+            "offset": -1,
+            "pins": [
+                "D7",
+                "F20",
+                "E10",
+                "D10",
+                "D7"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD1_TXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "F1",
+                "B26",
+                "A11",
+                "A11",
+                "A12"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD1_TXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "E1",
+                "C26",
+                "A12",
+                "A12",
+                "A13"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD1_REFRET"
+            ],
+            "offset": -1,
+            "pins": [
+                "D6",
+                "G21",
+                "B12",
+                "C12",
+                "D10"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD1_RXDN"
+            ],
+            "offset": -1,
+            "pins": [
+                "G3",
+                "D25",
+                "B10",
+                "B10",
+                "B8"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD1_RXDP"
+            ],
+            "offset": -1,
+            "pins": [
+                "G2",
+                "E24",
+                "C11",
+                "C11",
+                "B7"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
+            "bank": 80,
+            "dqs": [],
+            "func": [
+                "SD1_REXT"
+            ],
+            "offset": -1,
+            "pins": [
+                "E6",
+                "G20",
+                "B13",
+                "C13",
+                "D8"
+            ],
+            "pio": -1,
+            "side": "",
+            "vref": -1
+        },
+        {
             "bank": 80,
             "dqs": [],
             "func": [

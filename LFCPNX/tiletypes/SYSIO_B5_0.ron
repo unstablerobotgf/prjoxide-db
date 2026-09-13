@@ -362,10 +362,16 @@
       (
         from_wire: "JDOLP_IOLOGIC_CORE_I_GEARING_PIC_TOP_A",
       ),
+      (
+        from_wire: "N1:JCIBMUXOUTB7",
+      ),
     ],
     "JDOLP_SEIO18A_CORE_IOB": [
       (
         from_wire: "JDOLP_IOLOGIC_CORE_I_GEARING_PIC_TOP_B",
+      ),
+      (
+        from_wire: "N1E1:JCIBMUXOUTB7",
       ),
     ],
     "JDOUT_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
@@ -458,6 +464,16 @@
         from_wire: "JECLKOUT_I218",
       ),
     ],
+    "JHSRXEN_DIFFIO18A_CORE_IOA": [
+      (
+        from_wire: "N1:JCIBMUXOUTB4",
+      ),
+    ],
+    "JHSTXEN_DIFFIO18A_CORE_IOA": [
+      (
+        from_wire: "N1:JCIBMUXOUTD4",
+      ),
+    ],
     "JINDD_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
       (
         from_wire: "JDI_IOLOGIC_CORE_I_GEARING_PIC_TOP_A",
@@ -476,6 +492,16 @@
     "JINLP_IOLOGIC_CORE_I_GEARING_PIC_TOP_B": [
       (
         from_wire: "JINLP_SEIO18A_CORE_IOB",
+      ),
+    ],
+    "JIVREF_IN_DIFFIO18A_CORE_IOA": [
+      (
+        from_wire: "BANK:JIVREFO_IVREF_CORE",
+      ),
+    ],
+    "JIVREF_IN_SEIO18A_CORE_IOB": [
+      (
+        from_wire: "BANK:JIVREFO_IVREF_CORE",
       ),
     ],
     "JLOAD_N_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
@@ -542,20 +568,32 @@
       (
         from_wire: "JDOUT_IOLOGIC_CORE_I_GEARING_PIC_TOP_A",
       ),
+      (
+        from_wire: "N1:JCIBMUXOUTA0",
+      ),
     ],
     "JPADDO_SEIO18A_CORE_IOB": [
       (
         from_wire: "JDOUT_IOLOGIC_CORE_I_GEARING_PIC_TOP_B",
+      ),
+      (
+        from_wire: "N1E1:JCIBMUXOUTA0",
       ),
     ],
     "JPADDT_DIFFIO18A_CORE_IOA": [
       (
         from_wire: "JTOUT_IOLOGIC_CORE_I_GEARING_PIC_TOP_A",
       ),
+      (
+        from_wire: "N1:JCIBMUXOUTB0",
+      ),
     ],
     "JPADDT_SEIO18A_CORE_IOB": [
       (
         from_wire: "JTOUT_IOLOGIC_CORE_I_GEARING_PIC_TOP_B",
+      ),
+      (
+        from_wire: "N1E1:JCIBMUXOUTB0",
       ),
     ],
     "JRANK0UPDATE_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
@@ -897,6 +935,12 @@
       (
         from_wire: "JINDD_IOLOGIC_CORE_I_GEARING_PIC_TOP_A",
       ),
+      (
+        from_wire: "JINLP_DIFFIO18A_CORE_IOA",
+      ),
+      (
+        from_wire: "JPADDI_DIFFIO18A_CORE_IOA",
+      ),
     ],
     "N1:JQ2": [
       (
@@ -971,6 +1015,12 @@
     "N1E1:JQ1": [
       (
         from_wire: "JINDD_IOLOGIC_CORE_I_GEARING_PIC_TOP_B",
+      ),
+      (
+        from_wire: "JINLP_SEIO18A_CORE_IOB",
+      ),
+      (
+        from_wire: "JPADDI_SEIO18A_CORE_IOB",
       ),
     ],
     "N1E1:JQ2": [

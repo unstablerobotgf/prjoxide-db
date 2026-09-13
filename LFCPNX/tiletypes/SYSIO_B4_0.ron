@@ -498,10 +498,16 @@
       (
         from_wire: "N1E25:JIVREFO_IVREF_CORE_BNKVRGEN180",
       ),
+      (
+        from_wire: "BANK:JIVREFO_IVREF_CORE",
+      ),
     ],
     "JIVREF_IN_SEIO18A_CORE_IOB": [
       (
         from_wire: "N1E25:JIVREFO_IVREF_CORE_BNKVRGEN180",
+      ),
+      (
+        from_wire: "BANK:JIVREFO_IVREF_CORE",
       ),
     ],
     "JLOAD_N_IOLOGIC_CORE_I_GEARING_PIC_TOP_A": [
