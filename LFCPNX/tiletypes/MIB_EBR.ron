@@ -1,0 +1,877 @@
+(
+  pips: {},
+  words: {},
+  enums: {},
+  conns: {
+    "JA0_SLICEA": [
+      (
+        from_wire: "JA0",
+      ),
+    ],
+    "JA0_SLICEB": [
+      (
+        from_wire: "JA2",
+      ),
+    ],
+    "JA0_SLICEC": [
+      (
+        from_wire: "JA4",
+      ),
+    ],
+    "JA0_SLICED": [
+      (
+        from_wire: "JA6",
+      ),
+    ],
+    "JA1_SLICEA": [
+      (
+        from_wire: "JA1",
+      ),
+    ],
+    "JA1_SLICEB": [
+      (
+        from_wire: "JA3",
+      ),
+    ],
+    "JA1_SLICEC": [
+      (
+        from_wire: "JA5",
+      ),
+    ],
+    "JA1_SLICED": [
+      (
+        from_wire: "JA7",
+      ),
+    ],
+    "JB0_SLICEA": [
+      (
+        from_wire: "JB0",
+      ),
+    ],
+    "JB0_SLICEB": [
+      (
+        from_wire: "JB2",
+      ),
+    ],
+    "JB0_SLICEC": [
+      (
+        from_wire: "JB4",
+      ),
+    ],
+    "JB0_SLICED": [
+      (
+        from_wire: "JB6",
+      ),
+    ],
+    "JB1_SLICEA": [
+      (
+        from_wire: "JB1",
+      ),
+    ],
+    "JB1_SLICEB": [
+      (
+        from_wire: "JB3",
+      ),
+    ],
+    "JB1_SLICEC": [
+      (
+        from_wire: "JB5",
+      ),
+    ],
+    "JB1_SLICED": [
+      (
+        from_wire: "JB7",
+      ),
+    ],
+    "JC0_DRMUX": [
+      (
+        from_wire: "JC0",
+      ),
+    ],
+    "JC0_SLICEA": [
+      (
+        from_wire: "JCOUT0_CDMUX",
+      ),
+    ],
+    "JC0_SLICEB": [
+      (
+        from_wire: "JCOUT2_CDMUX",
+      ),
+    ],
+    "JC0_SLICEC": [
+      (
+        from_wire: "JCOUT4_CDMUX",
+      ),
+    ],
+    "JC0_SLICED": [
+      (
+        from_wire: "JCOUT6_CDMUX",
+      ),
+    ],
+    "JC1_DRMUX": [
+      (
+        from_wire: "JC1",
+      ),
+    ],
+    "JC1_SLICEA": [
+      (
+        from_wire: "JCOUT1_CDMUX",
+      ),
+    ],
+    "JC1_SLICEB": [
+      (
+        from_wire: "JCOUT3_CDMUX",
+      ),
+    ],
+    "JC1_SLICEC": [
+      (
+        from_wire: "JCOUT5_CDMUX",
+      ),
+    ],
+    "JC1_SLICED": [
+      (
+        from_wire: "JCOUT7_CDMUX",
+      ),
+    ],
+    "JC2_DRMUX": [
+      (
+        from_wire: "JC2",
+      ),
+    ],
+    "JC3_DRMUX": [
+      (
+        from_wire: "JC3",
+      ),
+    ],
+    "JC4_DRMUX": [
+      (
+        from_wire: "JC4",
+      ),
+    ],
+    "JC5_DRMUX": [
+      (
+        from_wire: "JC5",
+      ),
+    ],
+    "JC6_DRMUX": [
+      (
+        from_wire: "JC6",
+      ),
+    ],
+    "JC7_DRMUX": [
+      (
+        from_wire: "JC7",
+      ),
+    ],
+    "JCE0": [
+      (
+        from_wire: "G:VCC",
+      ),
+    ],
+    "JCE1": [
+      (
+        from_wire: "G:VCC",
+      ),
+    ],
+    "JCE_SLICEA": [
+      (
+        from_wire: "JCE0",
+      ),
+    ],
+    "JCE_SLICEB": [
+      (
+        from_wire: "JCE0",
+      ),
+    ],
+    "JCE_SLICEC": [
+      (
+        from_wire: "JCE1",
+      ),
+    ],
+    "JCE_SLICED": [
+      (
+        from_wire: "JCE1",
+      ),
+    ],
+    "JCIN0_CDMUX": [
+      (
+        from_wire: "JC0",
+      ),
+    ],
+    "JCIN1_CDMUX": [
+      (
+        from_wire: "JC1",
+      ),
+    ],
+    "JCIN2_CDMUX": [
+      (
+        from_wire: "JC2",
+      ),
+    ],
+    "JCIN3_CDMUX": [
+      (
+        from_wire: "JC3",
+      ),
+    ],
+    "JCIN4_CDMUX": [
+      (
+        from_wire: "JC4",
+      ),
+    ],
+    "JCIN5_CDMUX": [
+      (
+        from_wire: "JC5",
+      ),
+    ],
+    "JCIN6_CDMUX": [
+      (
+        from_wire: "JC6",
+      ),
+    ],
+    "JCIN7_CDMUX": [
+      (
+        from_wire: "JC7",
+      ),
+    ],
+    "JCLK_SLICEA": [
+      (
+        from_wire: "JCLK0",
+      ),
+    ],
+    "JCLK_SLICEB": [
+      (
+        from_wire: "JCLK0",
+      ),
+    ],
+    "JCLK_SLICEC": [
+      (
+        from_wire: "JCLK1",
+      ),
+    ],
+    "JCLK_SLICED": [
+      (
+        from_wire: "JCLK1",
+      ),
+    ],
+    "JCOUT0_CDMUX": [
+      (
+        from_wire: "JCIN0_CDMUX",
+      ),
+    ],
+    "JCOUT1_CDMUX": [
+      (
+        from_wire: "JCIN1_CDMUX",
+      ),
+    ],
+    "JCOUT2_CDMUX": [
+      (
+        from_wire: "JCIN2_CDMUX",
+      ),
+    ],
+    "JCOUT3_CDMUX": [
+      (
+        from_wire: "JCIN3_CDMUX",
+      ),
+    ],
+    "JCOUT4_CDMUX": [
+      (
+        from_wire: "JCIN4_CDMUX",
+      ),
+    ],
+    "JCOUT5_CDMUX": [
+      (
+        from_wire: "JCIN5_CDMUX",
+      ),
+    ],
+    "JCOUT6_CDMUX": [
+      (
+        from_wire: "JCIN6_CDMUX",
+      ),
+    ],
+    "JCOUT7_CDMUX": [
+      (
+        from_wire: "JCIN7_CDMUX",
+      ),
+    ],
+    "JD0_DIMUX": [
+      (
+        from_wire: "JD0",
+      ),
+    ],
+    "JD0_DRMUX": [
+      (
+        from_wire: "JD0",
+      ),
+    ],
+    "JD0_SLICEA": [
+      (
+        from_wire: "JDL0_DRMUX",
+      ),
+    ],
+    "JD0_SLICEB": [
+      (
+        from_wire: "JDL2_DRMUX",
+      ),
+    ],
+    "JD0_SLICEC": [
+      (
+        from_wire: "JDL4_DRMUX",
+      ),
+    ],
+    "JD0_SLICED": [
+      (
+        from_wire: "JDL6_DRMUX",
+      ),
+    ],
+    "JD1_DIMUX": [
+      (
+        from_wire: "JD1",
+      ),
+    ],
+    "JD1_DRMUX": [
+      (
+        from_wire: "JD1",
+      ),
+    ],
+    "JD1_SLICEA": [
+      (
+        from_wire: "JDL1_DRMUX",
+      ),
+    ],
+    "JD1_SLICEB": [
+      (
+        from_wire: "JDL3_DRMUX",
+      ),
+    ],
+    "JD1_SLICEC": [
+      (
+        from_wire: "JDL5_DRMUX",
+      ),
+    ],
+    "JD1_SLICED": [
+      (
+        from_wire: "JDL7_DRMUX",
+      ),
+    ],
+    "JD2_DIMUX": [
+      (
+        from_wire: "JD2",
+      ),
+    ],
+    "JD2_DRMUX": [
+      (
+        from_wire: "JD2",
+      ),
+    ],
+    "JD3_DIMUX": [
+      (
+        from_wire: "JD3",
+      ),
+    ],
+    "JD3_DRMUX": [
+      (
+        from_wire: "JD3",
+      ),
+    ],
+    "JD4_DIMUX": [
+      (
+        from_wire: "JD4",
+      ),
+    ],
+    "JD4_DRMUX": [
+      (
+        from_wire: "JD4",
+      ),
+    ],
+    "JD5_DIMUX": [
+      (
+        from_wire: "JD5",
+      ),
+    ],
+    "JD5_DRMUX": [
+      (
+        from_wire: "JD5",
+      ),
+    ],
+    "JD6_DIMUX": [
+      (
+        from_wire: "JD6",
+      ),
+    ],
+    "JD6_DRMUX": [
+      (
+        from_wire: "JD6",
+      ),
+    ],
+    "JD7_DIMUX": [
+      (
+        from_wire: "JD7",
+      ),
+    ],
+    "JD7_DRMUX": [
+      (
+        from_wire: "JD7",
+      ),
+    ],
+    "JDI0_DIMUX": [
+      (
+        from_wire: "JM0_DIMUX",
+      ),
+    ],
+    "JDI0_SLICEA": [
+      (
+        from_wire: "JF0_SLICEA",
+      ),
+    ],
+    "JDI0_SLICEB": [
+      (
+        from_wire: "JF0_SLICEB",
+      ),
+    ],
+    "JDI0_SLICEC": [
+      (
+        from_wire: "JF0_SLICEC",
+      ),
+    ],
+    "JDI0_SLICED": [
+      (
+        from_wire: "JF0_SLICED",
+      ),
+    ],
+    "JDI1_DIMUX": [
+      (
+        from_wire: "JM1_DIMUX",
+      ),
+    ],
+    "JDI1_SLICEA": [
+      (
+        from_wire: "JF1_SLICEA",
+      ),
+    ],
+    "JDI1_SLICEB": [
+      (
+        from_wire: "JF1_SLICEB",
+      ),
+    ],
+    "JDI1_SLICEC": [
+      (
+        from_wire: "JF1_SLICEC",
+      ),
+    ],
+    "JDI1_SLICED": [
+      (
+        from_wire: "JF1_SLICED",
+      ),
+    ],
+    "JDI2_DIMUX": [
+      (
+        from_wire: "JM2_DIMUX",
+      ),
+    ],
+    "JDI3_DIMUX": [
+      (
+        from_wire: "JM3_DIMUX",
+      ),
+    ],
+    "JDI4_DIMUX": [
+      (
+        from_wire: "JM4_DIMUX",
+      ),
+    ],
+    "JDI5_DIMUX": [
+      (
+        from_wire: "JM5_DIMUX",
+      ),
+    ],
+    "JDI6_DIMUX": [
+      (
+        from_wire: "JM6_DIMUX",
+      ),
+    ],
+    "JDI7_DIMUX": [
+      (
+        from_wire: "JM7_DIMUX",
+      ),
+    ],
+    "JDL0_DRMUX": [
+      (
+        from_wire: "JD0_DRMUX",
+      ),
+    ],
+    "JDL1_DRMUX": [
+      (
+        from_wire: "JD1_DRMUX",
+      ),
+    ],
+    "JDL2_DRMUX": [
+      (
+        from_wire: "JD2_DRMUX",
+      ),
+    ],
+    "JDL3_DRMUX": [
+      (
+        from_wire: "JD3_DRMUX",
+      ),
+    ],
+    "JDL4_DRMUX": [
+      (
+        from_wire: "JD4_DRMUX",
+      ),
+    ],
+    "JDL5_DRMUX": [
+      (
+        from_wire: "JD5_DRMUX",
+      ),
+    ],
+    "JDL6_DRMUX": [
+      (
+        from_wire: "JD6_DRMUX",
+      ),
+    ],
+    "JDL7_DRMUX": [
+      (
+        from_wire: "JD7_DRMUX",
+      ),
+    ],
+    "JF0": [
+      (
+        from_wire: "JF0_SLICEA",
+      ),
+    ],
+    "JF1": [
+      (
+        from_wire: "JF1_SLICEA",
+      ),
+    ],
+    "JF1_DRMUX": [
+      (
+        from_wire: "JF1_SLICEA",
+      ),
+    ],
+    "JF2": [
+      (
+        from_wire: "JF0_SLICEB",
+      ),
+    ],
+    "JF3": [
+      (
+        from_wire: "JF1_SLICEB",
+      ),
+    ],
+    "JF3_DRMUX": [
+      (
+        from_wire: "JF1_SLICEB",
+      ),
+    ],
+    "JF4": [
+      (
+        from_wire: "JF0_SLICEC",
+      ),
+    ],
+    "JF5": [
+      (
+        from_wire: "JF1_SLICEC",
+      ),
+    ],
+    "JF5_DRMUX": [
+      (
+        from_wire: "JF1_SLICEC",
+      ),
+    ],
+    "JF6": [
+      (
+        from_wire: "JF0_SLICED",
+      ),
+    ],
+    "JF7": [
+      (
+        from_wire: "JF1_SLICED",
+      ),
+    ],
+    "JF7_DRMUX": [
+      (
+        from_wire: "JF1_SLICED",
+      ),
+    ],
+    "JFCIN": [
+      (
+        from_wire: "HFIE0000",
+      ),
+    ],
+    "JFCI_SLICEA": [
+      (
+        from_wire: "JFCIN",
+      ),
+    ],
+    "JFCI_SLICEB": [
+      (
+        from_wire: "JFCO_SLICEA",
+      ),
+    ],
+    "JFCI_SLICEC": [
+      (
+        from_wire: "JFCO_SLICEB",
+      ),
+    ],
+    "JFCI_SLICED": [
+      (
+        from_wire: "JFCO_SLICEC",
+      ),
+    ],
+    "JFCOUT": [
+      (
+        from_wire: "JFCO_SLICED",
+      ),
+    ],
+    "JLSR0": [
+      (
+        from_wire: "G:VCC",
+      ),
+    ],
+    "JLSR1": [
+      (
+        from_wire: "G:VCC",
+      ),
+    ],
+    "JLSR_SLICEA": [
+      (
+        from_wire: "JLSR0",
+      ),
+    ],
+    "JLSR_SLICEB": [
+      (
+        from_wire: "JLSR0",
+      ),
+    ],
+    "JLSR_SLICEC": [
+      (
+        from_wire: "JLSR1",
+      ),
+    ],
+    "JLSR_SLICED": [
+      (
+        from_wire: "JLSR1",
+      ),
+    ],
+    "JM0_DIMUX": [
+      (
+        from_wire: "JM0",
+      ),
+    ],
+    "JM0_SLICEA": [
+      (
+        from_wire: "JDI0_DIMUX",
+      ),
+    ],
+    "JM0_SLICEB": [
+      (
+        from_wire: "JDI2_DIMUX",
+      ),
+    ],
+    "JM0_SLICEC": [
+      (
+        from_wire: "JDI4_DIMUX",
+      ),
+    ],
+    "JM0_SLICED": [
+      (
+        from_wire: "JDI6_DIMUX",
+      ),
+    ],
+    "JM1_DIMUX": [
+      (
+        from_wire: "JM1",
+      ),
+    ],
+    "JM1_SLICEA": [
+      (
+        from_wire: "JDI1_DIMUX",
+      ),
+    ],
+    "JM1_SLICEB": [
+      (
+        from_wire: "JDI3_DIMUX",
+      ),
+    ],
+    "JM1_SLICEC": [
+      (
+        from_wire: "JDI5_DIMUX",
+      ),
+    ],
+    "JM1_SLICED": [
+      (
+        from_wire: "JDI7_DIMUX",
+      ),
+    ],
+    "JM2_DIMUX": [
+      (
+        from_wire: "JM2",
+      ),
+    ],
+    "JM3_DIMUX": [
+      (
+        from_wire: "JM3",
+      ),
+    ],
+    "JM4_DIMUX": [
+      (
+        from_wire: "JM4",
+      ),
+    ],
+    "JM5_DIMUX": [
+      (
+        from_wire: "JM5",
+      ),
+    ],
+    "JM6_DIMUX": [
+      (
+        from_wire: "JM6",
+      ),
+    ],
+    "JM7_DIMUX": [
+      (
+        from_wire: "JM7",
+      ),
+    ],
+    "JQ0": [
+      (
+        from_wire: "JQ0_SLICEA",
+      ),
+    ],
+    "JQ1": [
+      (
+        from_wire: "JQ1_SLICEA",
+      ),
+    ],
+    "JQ2": [
+      (
+        from_wire: "JQ0_SLICEB",
+      ),
+    ],
+    "JQ3": [
+      (
+        from_wire: "JQ1_SLICEB",
+      ),
+    ],
+    "JQ4": [
+      (
+        from_wire: "JQ0_SLICEC",
+      ),
+    ],
+    "JQ5": [
+      (
+        from_wire: "JQ1_SLICEC",
+      ),
+    ],
+    "JQ6": [
+      (
+        from_wire: "JQ0_SLICED",
+      ),
+    ],
+    "JQ7": [
+      (
+        from_wire: "JQ1_SLICED",
+      ),
+    ],
+    "JSEL_SLICEA": [
+      (
+        from_wire: "JM0",
+      ),
+    ],
+    "JSEL_SLICEB": [
+      (
+        from_wire: "JM2",
+      ),
+    ],
+    "JSEL_SLICEC": [
+      (
+        from_wire: "JM4",
+      ),
+    ],
+    "JSEL_SLICED": [
+      (
+        from_wire: "JM6",
+      ),
+    ],
+    "JWAD0_SLICEA": [
+      (
+        from_wire: "JWADO0_SLICEC",
+      ),
+    ],
+    "JWAD0_SLICEB": [
+      (
+        from_wire: "JWADO0_SLICEC",
+      ),
+    ],
+    "JWAD1_SLICEA": [
+      (
+        from_wire: "JWADO1_SLICEC",
+      ),
+    ],
+    "JWAD1_SLICEB": [
+      (
+        from_wire: "JWADO1_SLICEC",
+      ),
+    ],
+    "JWAD2_SLICEA": [
+      (
+        from_wire: "JWADO2_SLICEC",
+      ),
+    ],
+    "JWAD2_SLICEB": [
+      (
+        from_wire: "JWADO2_SLICEC",
+      ),
+    ],
+    "JWAD3_SLICEA": [
+      (
+        from_wire: "JWADO3_SLICEC",
+      ),
+    ],
+    "JWAD3_SLICEB": [
+      (
+        from_wire: "JWADO3_SLICEC",
+      ),
+    ],
+    "JWCK_SLICEA": [
+      (
+        from_wire: "JWCKO_SLICEC",
+      ),
+    ],
+    "JWCK_SLICEB": [
+      (
+        from_wire: "JWCKO_SLICEC",
+      ),
+    ],
+    "JWDI0_SLICEA": [
+      (
+        from_wire: "JWDO0_SLICEC",
+      ),
+    ],
+    "JWDI0_SLICEB": [
+      (
+        from_wire: "JWDO2_SLICEC",
+      ),
+    ],
+    "JWDI1_SLICEA": [
+      (
+        from_wire: "JWDO1_SLICEC",
+      ),
+    ],
+    "JWDI1_SLICEB": [
+      (
+        from_wire: "JWDO3_SLICEC",
+      ),
+    ],
+    "JWRE_SLICEA": [
+      (
+        from_wire: "JWREO_SLICEC",
+      ),
+    ],
+    "JWRE_SLICEB": [
+      (
+        from_wire: "JWREO_SLICEC",
+      ),
+    ],
+  },
+)
