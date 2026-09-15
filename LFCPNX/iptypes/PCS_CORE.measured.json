@@ -1,0 +1,7258 @@
+{
+  "abits": 17,
+  "ch0_base": 239206400,
+  "channel_stride": 131072,
+  "params": {
+    "CH0_A0DIR_VAL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00F6": 17
+        }
+      },
+      "regs": [
+        {
+          "mask": 17,
+          "ones": null,
+          "reg": 246,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_A0_FORCE": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00F0": 128
+        }
+      },
+      "regs": [
+        {
+          "mask": 128,
+          "ones": null,
+          "reg": 240,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_A0_FREEZE": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00F0": 64
+        }
+      },
+      "regs": [
+        {
+          "mask": 64,
+          "ones": null,
+          "reg": 240,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_A0_INIT": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 240,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_A1DIR_VAL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00F6": 18
+        }
+      },
+      "regs": [
+        {
+          "mask": 18,
+          "ones": null,
+          "reg": 246,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_A1_FORCE": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00F1": 128
+        }
+      },
+      "regs": [
+        {
+          "mask": 128,
+          "ones": null,
+          "reg": 241,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_A1_FREEZE": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00F1": 64
+        }
+      },
+      "regs": [
+        {
+          "mask": 64,
+          "ones": null,
+          "reg": 241,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_A1_INIT": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 241,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_A2GAIN_CALIB": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 106,
+          "reg": 181,
+          "zeros": 85
+        }
+      ],
+      "width": 6
+    },
+    "CH0_A2_FORCE": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00F2": 128
+        }
+      },
+      "regs": [
+        {
+          "mask": 128,
+          "ones": null,
+          "reg": 242,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_A2_FREEZE": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00F2": 64
+        }
+      },
+      "regs": [
+        {
+          "mask": 64,
+          "ones": null,
+          "reg": 242,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_A2_INIT": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 242,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_ACJTAG_REG": {
+      "bits": 2,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 48,
+          "ones": 32,
+          "reg": 100,
+          "zeros": 16
+        }
+      ],
+      "width": 2
+    },
+    "CH0_ADIR_OVR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00F6": 20
+        }
+      },
+      "regs": [
+        {
+          "mask": 20,
+          "ones": null,
+          "reg": 246,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_ALERT_ENABLE": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 224,
+          "ones": 164,
+          "reg": 218,
+          "zeros": 68
+        }
+      ],
+      "width": 3
+    },
+    "CH0_ALIGN_2BYTE_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0130": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 304,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_ALMOST_EMPTY_10B": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 148,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_ALMOST_EMPTY_20B": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 151,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_ALMOST_EMPTY_GEN3": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 154,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_ALMOST_FULL_10B": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 150,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_ALMOST_FULL_20B": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 153,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_ALMOST_FULL_GEN3": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 156,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_ARXCAL_OUT": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0088": 65
+        }
+      },
+      "regs": [
+        {
+          "mask": 65,
+          "ones": null,
+          "reg": 136,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_ARXCDRICP_RATE0": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 112,
+          "ones": 83,
+          "reg": 118,
+          "zeros": 35
+        }
+      ],
+      "width": 3
+    },
+    "CH0_ARXCDRICP_RATE1": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 112,
+          "ones": 83,
+          "reg": 120,
+          "zeros": 35
+        }
+      ],
+      "width": 3
+    },
+    "CH0_ARXCDRICP_RATE2": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 112,
+          "ones": 83,
+          "reg": 123,
+          "zeros": 35
+        }
+      ],
+      "width": 3
+    },
+    "CH0_ARXDMPWRDWN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "POWERED_DOWN": {
+          "0x0088": 96
+        }
+      },
+      "regs": [
+        {
+          "mask": 96,
+          "ones": null,
+          "reg": 136,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_ARXDPPWRDN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "POWERED_DOWN": {
+          "0x0088": 80
+        }
+      },
+      "regs": [
+        {
+          "mask": 80,
+          "ones": null,
+          "reg": 136,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_ARXEOM_PWRDN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0088": 0
+        }
+      },
+      "regs": [
+        {
+          "mask": 0,
+          "ones": null,
+          "reg": 136,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_ARXICP_RATE0": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 7,
+          "ones": 53,
+          "reg": 118,
+          "zeros": 50
+        }
+      ],
+      "width": 3
+    },
+    "CH0_ARXICP_RATE1": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 7,
+          "ones": 53,
+          "reg": 120,
+          "zeros": 50
+        }
+      ],
+      "width": 3
+    },
+    "CH0_ARXICP_RATE2": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 7,
+          "ones": 53,
+          "reg": 123,
+          "zeros": 50
+        }
+      ],
+      "width": 3
+    },
+    "CH0_ARXOVR_OUT": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "TAKE_CONTROL": {
+          "0x0088": 68
+        }
+      },
+      "regs": [
+        {
+          "mask": 68,
+          "ones": null,
+          "reg": 136,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_ARXRSACTAT": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 138,
+          "reg": 139,
+          "zeros": 133
+        }
+      ],
+      "width": 4
+    },
+    "CH0_ARXRSAPTAT": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 240,
+          "ones": 161,
+          "reg": 139,
+          "zeros": 81
+        }
+      ],
+      "width": 4
+    },
+    "CH0_ARXRSVCTL": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 125,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_ARXSEL_OUT": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0088": 66
+        }
+      },
+      "regs": [
+        {
+          "mask": 66,
+          "ones": null,
+          "reg": 136,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_ATXICP_RATE0": {
+      "bits": 1,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 2,
+          "ones": 0,
+          "reg": 117,
+          "zeros": 2
+        }
+      ],
+      "width": 3
+    },
+    "CH0_ATXICP_RATE1": {
+      "bits": 1,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 2,
+          "ones": 0,
+          "reg": 119,
+          "zeros": 2
+        }
+      ],
+      "width": 3
+    },
+    "CH0_ATXICP_RATE2": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 7,
+          "ones": 133,
+          "reg": 122,
+          "zeros": 130
+        }
+      ],
+      "width": 3
+    },
+    "CH0_AUTO_SHIFT": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0000": 0
+        }
+      },
+      "regs": [
+        {
+          "mask": 0,
+          "ones": null,
+          "reg": 0,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_AUTO_WA_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0130": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 304,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_AUXCLK1US_MAX": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 32,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_AUXIDL_MAX": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 147,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_A_CHNGD_MAX": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 112,
+          "ones": 84,
+          "reg": 214,
+          "zeros": 36
+        }
+      ],
+      "width": 3
+    },
+    "CH0_BALIGN_64B66B_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0183": 8
+        }
+      },
+      "regs": [
+        {
+          "mask": 8,
+          "ones": null,
+          "reg": 387,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_BIST_BUS8BIT_SEL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "8BIT_DATA": {
+          "0x01E1": 4
+        }
+      },
+      "regs": [
+        {
+          "mask": 4,
+          "ones": null,
+          "reg": 481,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_BIST_BYPASS_TX_GATE": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "SEND_BIST_WHETHER_HEAD_FOUND_OR_NOT": {
+          "0x01E1": 8
+        }
+      },
+      "regs": [
+        {
+          "mask": 8,
+          "ones": null,
+          "reg": 481,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_BIST_CH_SEL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "MPCS_CHANNEL1": {
+          "0x01E2": 64
+        },
+        "MPCS_CHANNEL2": {
+          "0x01E2": 128
+        },
+        "MPCS_CHANNEL3": {
+          "0x01E2": 192
+        }
+      },
+      "regs": [
+        {
+          "mask": 192,
+          "ones": null,
+          "reg": 482,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_BIST_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x01E1": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 481,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_BIST_MODE": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "CONTINUOUS": {
+          "0x01E1": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 481,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_BIST_PTN_SEL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ALTERNATE_CONST_VAL_1AND2": {
+          "0x01E1": 56
+        },
+        "CONST_VAL_1": {
+          "0x01E1": 40
+        },
+        "CONST_VAL_2": {
+          "0x01E1": 48
+        },
+        "PRBS11": {
+          "0x01E1": 8
+        },
+        "PRBS15": {
+          "0x01E1": 32
+        },
+        "PRBS23": {
+          "0x01E1": 16
+        },
+        "PRBS31": {
+          "0x01E1": 24
+        }
+      },
+      "regs": [
+        {
+          "mask": 56,
+          "ones": null,
+          "reg": 481,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_BIST_RES_SEL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "128_ERRORS": {
+          "0x01E2": 48
+        },
+        "16_ERRORS": {
+          "0x01E2": 32
+        },
+        "2_ERRORS": {
+          "0x01E2": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 48,
+          "ones": null,
+          "reg": 482,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_BIST_RX_DATA_SEL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "8B10B_DECODER_DATA": {
+          "0x01E1": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 481,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_BIST_SYNC_HEAD_REG": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "14": {
+          "0x01E2": 2
+        },
+        "24": {
+          "0x01E2": 3
+        },
+        "8": {
+          "0x01E2": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 3,
+          "ones": null,
+          "reg": 482,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_BIST_TIME_SEL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "100K_CYCLES": {
+          "0x01E2": 12
+        },
+        "5E6_CYCLES": {
+          "0x01E2": 8
+        },
+        "5E9_CYCLES": {
+          "0x01E2": 4
+        }
+      },
+      "regs": [
+        {
+          "mask": 12,
+          "ones": null,
+          "reg": 482,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_BYP_AVG": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "BYPASSED": {
+          "0x00D9": 252
+        }
+      },
+      "regs": [
+        {
+          "mask": 252,
+          "ones": null,
+          "reg": 217,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CALIB_3DB": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x00B5": 38
+        }
+      },
+      "regs": [
+        {
+          "mask": 38,
+          "ones": null,
+          "reg": 181,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CALIB_SETTLE_MAX": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 224,
+          "ones": 184,
+          "reg": 13,
+          "zeros": 88
+        }
+      ],
+      "width": 3
+    },
+    "CH0_CALIB_STABLE_MAX": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 31,
+          "ones": 53,
+          "reg": 13,
+          "zeros": 42
+        }
+      ],
+      "width": 5
+    },
+    "CH0_CDRPLL_CMP_MAX": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 33,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_CDRPLL_CNT_MAX": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 34,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_CDRPLL_PRE_RXEQ_COARSE_TIMER": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 196,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_CDRPLL_PRE_RXEQ_FINE_TIMER": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 198,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_CDRPLL_PST_RXEQ_COARSE_TIMER": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 197,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_CDRPLL_PST_RXEQ_FINE_TIMER": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 199,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_CDR_ERR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x000E": 194
+        }
+      },
+      "regs": [
+        {
+          "mask": 194,
+          "ones": null,
+          "reg": 14,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CDR_P1": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "CDR_PLL_ALIVE": {
+          "0x000E": 193
+        }
+      },
+      "regs": [
+        {
+          "mask": 193,
+          "ones": null,
+          "reg": 14,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CDR_PLL_DELTA": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "0P8_PERCENT": {
+          "0x0000": 132
+        }
+      },
+      "regs": [
+        {
+          "mask": 132,
+          "ones": null,
+          "reg": 0,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CDR_REFERENCE": {
+      "bits": 2,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 48,
+          "ones": 160,
+          "reg": 0,
+          "zeros": 144
+        }
+      ],
+      "width": 2
+    },
+    "CH0_CLEAR_ENABLE": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "CLEAR": {
+          "0x01C0": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 448,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CLK_COMP_10B": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "10B_CODE": {
+          "0x0160": 4
+        }
+      },
+      "regs": [
+        {
+          "mask": 4,
+          "ones": null,
+          "reg": 352,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CLK_COMP_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0160": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 352,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CNT250NS_MAX": {
+      "bits": 11,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 196,
+          "ones": 196,
+          "reg": 5,
+          "zeros": 0
+        },
+        {
+          "mask": 255,
+          "ones": 85,
+          "reg": 8,
+          "zeros": 170
+        }
+      ],
+      "width": 9
+    },
+    "CH0_COARSE_GAIN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0079": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 121,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CTC_64B66B_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0183": 4
+        }
+      },
+      "regs": [
+        {
+          "mask": 4,
+          "ones": null,
+          "reg": 387,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CTC_64B66B_HIGH": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 388,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_CTC_64B66B_LOW": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 389,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_CTC_FIFO_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0160": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 352,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CTC_REPEAT_WAIT": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 124,
+          "ones": 84,
+          "reg": 353,
+          "zeros": 40
+        }
+      ],
+      "width": 5
+    },
+    "CH0_CTLEBIAS_1": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 240,
+          "ones": 164,
+          "reg": 122,
+          "zeros": 84
+        }
+      ],
+      "width": 4
+    },
+    "CH0_CTLEBYPASS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x007C": 7
+        }
+      },
+      "regs": [
+        {
+          "mask": 7,
+          "ones": null,
+          "reg": 124,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CTLE_SETTLE": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 7,
+          "ones": 69,
+          "reg": 214,
+          "zeros": 66
+        }
+      ],
+      "width": 3
+    },
+    "CH0_CUR_FOM": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x00D8": 173
+        }
+      },
+      "regs": [
+        {
+          "mask": 173,
+          "ones": null,
+          "reg": 216,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CUR_FOM_AVG": {
+      "bits": 5,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 213,
+          "ones": 0,
+          "reg": 216,
+          "zeros": 213
+        }
+      ],
+      "width": 3
+    },
+    "CH0_CUSTOM_PATTERN": {
+      "bits": 80,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 104,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 105,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 106,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 107,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 108,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 109,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 110,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 111,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 112,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 113,
+          "zeros": 85
+        }
+      ],
+      "width": 80
+    },
+    "CH0_CUST_AUTO": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0072": 64
+        }
+      },
+      "regs": [
+        {
+          "mask": 64,
+          "ones": null,
+          "reg": 114,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CUST_CHK": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "RESET": {
+          "0x0072": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 114,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CUST_SEL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0072": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 114,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CUST_SKIP": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0072": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 114,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_CUST_TYP": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 14,
+          "ones": 10,
+          "reg": 114,
+          "zeros": 4
+        }
+      ],
+      "width": 3
+    },
+    "CH0_DEC_64B66B_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0183": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 387,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_DEC_8B10B_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0120": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 288,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_DEC_8B10B_INTERLEAVE": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0122": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 290,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_DEL_OS_CONT": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0183": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 387,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_DESCR_64B66B_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0183": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 387,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_DFE_BIAS": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 138,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_DFE_PWDN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x007C": 22
+        }
+      },
+      "regs": [
+        {
+          "mask": 22,
+          "ones": null,
+          "reg": 124,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_DIR_PRE_GAIN": {
+      "bits": 2,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 192,
+          "ones": 149,
+          "reg": 255,
+          "zeros": 85
+        }
+      ],
+      "width": 2
+    },
+    "CH0_DIR_PST_GAIN": {
+      "bits": 3,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 37,
+          "ones": 37,
+          "reg": 255,
+          "zeros": 0
+        }
+      ],
+      "width": 2
+    },
+    "CH0_DSPDIR_PRESGN": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 253,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_DSPDIR_PREVAL": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 254,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_DSPDIR_PSTSGN0": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 249,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_DSPDIR_PSTSGN1": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 250,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_DSPDIR_PSTVAL0": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 251,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_DSPDIR_PSTVAL1": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 252,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_DSP_DIR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x00F6": 0
+        }
+      },
+      "regs": [
+        {
+          "mask": 0,
+          "ones": null,
+          "reg": 246,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_EFF_LPBK": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "REPORTED": {
+          "0x0074": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 116,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_EI4": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "EI_I": {
+          "0x0023": 131
+        }
+      },
+      "regs": [
+        {
+          "mask": 131,
+          "ones": null,
+          "reg": 35,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_ENABLE_MSB_COMMA": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x01C5": 0
+        }
+      },
+      "regs": [
+        {
+          "mask": 0,
+          "ones": null,
+          "reg": 453,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_ENC_8B10B_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0110": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 272,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_ENC_8B10B_INTERLEAVE": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0111": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 273,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_ENDCALIB_MAX": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 12,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_END_64B66B_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0180": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 384,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_EOM0DIR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "SELECT_DIR_0": {
+          "0x00A0": 64
+        }
+      },
+      "regs": [
+        {
+          "mask": 64,
+          "ones": null,
+          "reg": 160,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_EOM1DIR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "SELECT_DIR_1": {
+          "0x00A0": 128
+        }
+      },
+      "regs": [
+        {
+          "mask": 128,
+          "ones": null,
+          "reg": 160,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_EOMCTRL0_LOW": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "CTRL_RESET_PMA_EOM": {
+          "0x00A4": 8
+        }
+      },
+      "regs": [
+        {
+          "mask": 8,
+          "ones": null,
+          "reg": 164,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_EOMDIVDIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00A4": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 164,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_EOMMODE": {
+      "bits": 2,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 192,
+          "ones": 128,
+          "reg": 164,
+          "zeros": 64
+        }
+      ],
+      "width": 2
+    },
+    "CH0_EOMRDSEL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "READ_SEC_RESULTS": {
+          "0x00A4": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 164,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_EOMSTART": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00A4": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 164,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_EOMX": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 160,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_EOMX_UPDATE_CNT_VALUE": {
+      "bits": 7,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 127,
+          "ones": 85,
+          "reg": 53,
+          "zeros": 42
+        }
+      ],
+      "width": 7
+    },
+    "CH0_EOMY": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 161,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_EOM_TIME": {
+      "bits": 16,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 162,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 163,
+          "zeros": 85
+        }
+      ],
+      "width": 16
+    },
+    "CH0_ERRCNT_DEC": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 1,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_ERRCNT_THR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 250,
+          "reg": 2,
+          "zeros": 245
+        }
+      ],
+      "width": 4
+    },
+    "CH0_ES_PWDN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x007C": 38
+        }
+      },
+      "regs": [
+        {
+          "mask": 38,
+          "ones": null,
+          "reg": 124,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_EVAL_RST": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00D4": 173
+        }
+      },
+      "regs": [
+        {
+          "mask": 173,
+          "ones": null,
+          "reg": 212,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_FAR_LP_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x01E0": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 480,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_FINE_GAIN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0079": 4
+        }
+      },
+      "regs": [
+        {
+          "mask": 4,
+          "ones": null,
+          "reg": 121,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_FOM_COMPARE": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 244,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_FOM_HIRES": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "COMPUTED_WITH_16SAMPLES": {
+          "0x00D7": 196
+        }
+      },
+      "regs": [
+        {
+          "mask": 196,
+          "ones": null,
+          "reg": 215,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_FOM_ITERCNT": {
+      "bits": 5,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 234,
+          "ones": 0,
+          "reg": 216,
+          "zeros": 234
+        }
+      ],
+      "width": 3
+    },
+    "CH0_FOM_THR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 74,
+          "reg": 215,
+          "zeros": 69
+        }
+      ],
+      "width": 4
+    },
+    "CH0_FORCE_ATXDRA": {
+      "bits": 21,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 85,
+          "reg": 88,
+          "zeros": 170
+        },
+        {
+          "mask": 255,
+          "ones": 85,
+          "reg": 89,
+          "zeros": 170
+        },
+        {
+          "mask": 31,
+          "ones": 21,
+          "reg": 90,
+          "zeros": 10
+        }
+      ],
+      "width": 21
+    },
+    "CH0_FORCE_ATXDRP": {
+      "bits": 21,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 85,
+          "reg": 85,
+          "zeros": 170
+        },
+        {
+          "mask": 255,
+          "ones": 85,
+          "reg": 86,
+          "zeros": 170
+        },
+        {
+          "mask": 31,
+          "ones": 21,
+          "reg": 87,
+          "zeros": 10
+        }
+      ],
+      "width": 21
+    },
+    "CH0_FORCE_ATXDRR": {
+      "bits": 21,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 85,
+          "reg": 82,
+          "zeros": 170
+        },
+        {
+          "mask": 255,
+          "ones": 85,
+          "reg": 83,
+          "zeros": 170
+        },
+        {
+          "mask": 31,
+          "ones": 21,
+          "reg": 84,
+          "zeros": 10
+        }
+      ],
+      "width": 21
+    },
+    "CH0_FORCE_ATXDRT": {
+      "bits": 21,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 85,
+          "reg": 91,
+          "zeros": 170
+        },
+        {
+          "mask": 255,
+          "ones": 85,
+          "reg": 92,
+          "zeros": 170
+        },
+        {
+          "mask": 31,
+          "ones": 21,
+          "reg": 93,
+          "zeros": 10
+        }
+      ],
+      "width": 21
+    },
+    "CH0_FORCE_DIR_RSLT": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 220,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_FORCE_FOM_RSLT": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 221,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_FORCE_IDLE": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x000E": 208
+        }
+      },
+      "regs": [
+        {
+          "mask": 208,
+          "ones": null,
+          "reg": 14,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_FORCE_RX_DETECT": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0000": 192
+        }
+      },
+      "regs": [
+        {
+          "mask": 192,
+          "ones": null,
+          "reg": 0,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_FORCE_SIGNAL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x000E": 224
+        }
+      },
+      "regs": [
+        {
+          "mask": 224,
+          "ones": null,
+          "reg": 14,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_FREQ_LOCK": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0079": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 121,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_F_ARXCTLEDIR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "FORCED": {
+          "0x008C": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 140,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_F_ARXCTLENULL": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 140,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_F_ARXDMDIR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0086": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 134,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_F_ARXDMNULL": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 31,
+          "ones": 21,
+          "reg": 134,
+          "zeros": 10
+        }
+      ],
+      "width": 5
+    },
+    "CH0_F_ARXDPDIR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "FORCED": {
+          "0x0061": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 97,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_F_ARXDPNULL": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 31,
+          "ones": 21,
+          "reg": 97,
+          "zeros": 10
+        }
+      ],
+      "width": 5
+    },
+    "CH0_F_ARXEOMDIR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "FORCED": {
+          "0x009F": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 159,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_F_ARXEOMNULL": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 31,
+          "ones": 21,
+          "reg": 159,
+          "zeros": 10
+        }
+      ],
+      "width": 5
+    },
+    "CH0_F_ARXESDIR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "FORCED": {
+          "0x0087": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 135,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_F_ARXESNULL": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 31,
+          "ones": 21,
+          "reg": 135,
+          "zeros": 10
+        }
+      ],
+      "width": 5
+    },
+    "CH0_F_ARXTDIR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "FORCED": {
+          "0x0062": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 98,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_F_ARXTNULL": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 31,
+          "ones": 21,
+          "reg": 98,
+          "zeros": 10
+        }
+      ],
+      "width": 5
+    },
+    "CH0_F_ASCHCAL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "FORCED": {
+          "0x0063": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 99,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_F_ASCHDIR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "FORCED": {
+          "0x0063": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 99,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_F_ASCHNULL": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 99,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_GAIN_TIMER1": {
+      "bits": 3,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 26,
+          "ones": 26,
+          "reg": 255,
+          "zeros": 0
+        }
+      ],
+      "width": 4
+    },
+    "CH0_GEN12_ENA_POST_A0": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00D5": 229
+        }
+      },
+      "regs": [
+        {
+          "mask": 229,
+          "ones": null,
+          "reg": 213,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_GEN12_ENA_POST_A1A2": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00D3": 225
+        }
+      },
+      "regs": [
+        {
+          "mask": 225,
+          "ones": null,
+          "reg": 211,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_GEN12_ENA_PREA0": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00D1": 229
+        }
+      },
+      "regs": [
+        {
+          "mask": 229,
+          "ones": null,
+          "reg": 209,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_GEN3_ENA_POST_A0": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x00D5": 37
+        }
+      },
+      "regs": [
+        {
+          "mask": 37,
+          "ones": null,
+          "reg": 213,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_GEN3_ENA_POST_A1A2": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x00D3": 33
+        }
+      },
+      "regs": [
+        {
+          "mask": 33,
+          "ones": null,
+          "reg": 211,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_GEN3_ENA_PREA0": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x00D1": 37
+        }
+      },
+      "regs": [
+        {
+          "mask": 37,
+          "ones": null,
+          "reg": 209,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_HIGH_WATER_LINE": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 31,
+          "ones": 21,
+          "reg": 354,
+          "zeros": 10
+        }
+      ],
+      "width": 5
+    },
+    "CH0_HINT0_3DB": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x00C8": 63
+        }
+      },
+      "regs": [
+        {
+          "mask": 63,
+          "ones": null,
+          "reg": 200,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_HINT0_A0GAIN": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 56,
+          "ones": 111,
+          "reg": 200,
+          "zeros": 87
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT0_A2GAIN": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 7,
+          "ones": 125,
+          "reg": 200,
+          "zeros": 122
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT1_3DB": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x00C9": 29
+        }
+      },
+      "regs": [
+        {
+          "mask": 29,
+          "ones": null,
+          "reg": 201,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_HINT1_A0GAIN": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 56,
+          "ones": 109,
+          "reg": 201,
+          "zeros": 85
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT1_A2GAIN": {
+      "bits": 4,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 90,
+          "ones": 0,
+          "reg": 201,
+          "zeros": 90
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT2_3DB": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x00CA": 31
+        }
+      },
+      "regs": [
+        {
+          "mask": 31,
+          "ones": null,
+          "reg": 202,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_HINT2_A0GAIN": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 56,
+          "ones": 111,
+          "reg": 202,
+          "zeros": 87
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT2_A2GAIN": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 7,
+          "ones": 93,
+          "reg": 202,
+          "zeros": 90
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT3_3DB": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x00CB": 7
+        }
+      },
+      "regs": [
+        {
+          "mask": 7,
+          "ones": null,
+          "reg": 203,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_HINT3_A0GAIN": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 56,
+          "ones": 111,
+          "reg": 203,
+          "zeros": 87
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT3_A2GAIN": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 7,
+          "ones": 69,
+          "reg": 203,
+          "zeros": 66
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT4_3DB": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00CC": 127
+        }
+      },
+      "regs": [
+        {
+          "mask": 127,
+          "ones": null,
+          "reg": 204,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_HINT4_A0GAIN": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 56,
+          "ones": 47,
+          "reg": 204,
+          "zeros": 23
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT4_A2GAIN": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 7,
+          "ones": 61,
+          "reg": 204,
+          "zeros": 58
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT5_3DB": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00CD": 93
+        }
+      },
+      "regs": [
+        {
+          "mask": 93,
+          "ones": null,
+          "reg": 205,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_HINT5_A0GAIN": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 56,
+          "ones": 45,
+          "reg": 205,
+          "zeros": 21
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT5_A2GAIN": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 26,
+          "ones": 0,
+          "reg": 205,
+          "zeros": 26
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT6_3DB": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00CE": 95
+        }
+      },
+      "regs": [
+        {
+          "mask": 95,
+          "ones": null,
+          "reg": 206,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_HINT6_A0GAIN": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 56,
+          "ones": 47,
+          "reg": 206,
+          "zeros": 23
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT6_A2GAIN": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 7,
+          "ones": 29,
+          "reg": 206,
+          "zeros": 26
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT7_3DB": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00CF": 71
+        }
+      },
+      "regs": [
+        {
+          "mask": 71,
+          "ones": null,
+          "reg": 207,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_HINT7_A0GAIN": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 56,
+          "ones": 47,
+          "reg": 207,
+          "zeros": 23
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT7_A2GAIN": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 7,
+          "ones": 5,
+          "reg": 207,
+          "zeros": 2
+        }
+      ],
+      "width": 3
+    },
+    "CH0_HINT7_OVR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "IGNORED": {
+          "0x00CF": 135
+        }
+      },
+      "regs": [
+        {
+          "mask": 135,
+          "ones": null,
+          "reg": 207,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_L1_ENTER_PLL_RESET_TIME": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 7,
+          "ones": 117,
+          "reg": 146,
+          "zeros": 114
+        }
+      ],
+      "width": 3
+    },
+    "CH0_L1_EXIT_PLL_LOCK_TIME": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 248,
+          "ones": 172,
+          "reg": 146,
+          "zeros": 84
+        }
+      ],
+      "width": 5
+    },
+    "CH0_LALIGN_10B": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "10B_CODE": {
+          "0x0150": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 336,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_LALIGN_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0150": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 336,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_LALIGN_MASK_CODE": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 348,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_LALIGN_PTN_LEN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "2_BYTE": {
+          "0x0150": 4
+        },
+        "4_BYTE": {
+          "0x0150": 8
+        }
+      },
+      "regs": [
+        {
+          "mask": 12,
+          "ones": null,
+          "reg": 336,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_LF_PHY": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 180,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_LOCK_FIFO_POINTERS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DEBUG": {
+          "0x01C0": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 448,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_LOW_WATER_LINE": {
+      "bits": 3,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 21,
+          "ones": 21,
+          "reg": 355,
+          "zeros": 0
+        }
+      ],
+      "width": 5
+    },
+    "CH0_LPBK_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0064": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 100,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_MAX_LSKEW": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "10_BYTE_SKEW": {
+          "0x0151": 10
+        },
+        "1_BYTE_SKEW": {
+          "0x0151": 1
+        },
+        "2_BYTE_SKEW": {
+          "0x0151": 2
+        },
+        "3_BYTE_SKEW": {
+          "0x0151": 3
+        },
+        "4_BYTE_SKEW": {
+          "0x0151": 4
+        },
+        "5_BYTE_SKEW": {
+          "0x0151": 5
+        },
+        "6_BYTE_SKEW": {
+          "0x0151": 6
+        },
+        "7_BYTE_SKEW": {
+          "0x0151": 7
+        },
+        "8_BYTE_SKEW": {
+          "0x0151": 8
+        },
+        "9_BYTE_SKEW": {
+          "0x0151": 9
+        }
+      },
+      "regs": [
+        {
+          "mask": 15,
+          "ones": null,
+          "reg": 337,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_MAX_RSA_WAIT": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 175,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_MAX_VAR": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 31,
+          "ones": 21,
+          "reg": 218,
+          "zeros": 10
+        }
+      ],
+      "width": 5
+    },
+    "CH0_MESO_LPBK": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0074": 4
+        }
+      },
+      "regs": [
+        {
+          "mask": 4,
+          "ones": null,
+          "reg": 116,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_MID_VALUE_10B": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 149,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_MID_VALUE_20B": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 152,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_MID_VALUE_GEN3": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 155,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_MIN_IPG_CNT": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "1_SKIP": {
+          "0x0161": 1
+        },
+        "2_SKIPS": {
+          "0x0161": 2
+        },
+        "3_SKIPS": {
+          "0x0161": 3
+        }
+      },
+      "regs": [
+        {
+          "mask": 3,
+          "ones": null,
+          "reg": 353,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_MIX_DIR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DSP_GATHERED_DATA_SAMPLES": {
+          "0x00F6": 48
+        }
+      },
+      "regs": [
+        {
+          "mask": 48,
+          "ones": null,
+          "reg": 246,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_MODE_BFF": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x00D9": 116
+        }
+      },
+      "regs": [
+        {
+          "mask": 116,
+          "ones": null,
+          "reg": 217,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_NEAR_LP_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x01E0": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 480,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_NO_FCMP": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x000E": 200
+        }
+      },
+      "regs": [
+        {
+          "mask": 200,
+          "ones": null,
+          "reg": 14,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_NUM_BAD_CODE": {
+      "bits": 6,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 63,
+          "ones": 42,
+          "reg": 315,
+          "zeros": 21
+        }
+      ],
+      "width": 6
+    },
+    "CH0_NUM_GOOD_CODE": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 316,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_NUM_VAL_SYNC": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 314,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_OVER_CTLE": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0051": 128
+        }
+      },
+      "regs": [
+        {
+          "mask": 128,
+          "ones": null,
+          "reg": 81,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_OVER_RX": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0051": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 81,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_OVER_RXDM": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0051": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 81,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_OVER_RXDP": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0051": 4
+        }
+      },
+      "regs": [
+        {
+          "mask": 4,
+          "ones": null,
+          "reg": 81,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_OVER_RXES": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0051": 64
+        }
+      },
+      "regs": [
+        {
+          "mask": 64,
+          "ones": null,
+          "reg": 81,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_OVER_RXT": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0051": 8
+        }
+      },
+      "regs": [
+        {
+          "mask": 8,
+          "ones": null,
+          "reg": 81,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_OVER_SCH": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0051": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 81,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_OVER_TX": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0051": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 81,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_OVR_CDR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00F3": 64
+        }
+      },
+      "regs": [
+        {
+          "mask": 64,
+          "ones": null,
+          "reg": 243,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_OVR_DIR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00F3": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 243,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_OVR_FOM": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00F3": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 243,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_OVR_GAIN3DB": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x007C": 4
+        }
+      },
+      "regs": [
+        {
+          "mask": 4,
+          "ones": null,
+          "reg": 124,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_OVR_HINT3DB": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x007C": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 124,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_PAR_LPBK": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0074": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 116,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_PCS_64B66B_NOFPLL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0183": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 387,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_PHY_STS_PIPE_PHY_STATUS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ASSERTED": {
+          "0x01FE": 64
+        }
+      },
+      "regs": [
+        {
+          "mask": 64,
+          "ones": null,
+          "reg": 510,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_PLESIO_LPBK": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0074": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 116,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_PMA_DRIVEN_MODE": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "PMA_DRIVEN": {
+          "0x0000": 136
+        }
+      },
+      "regs": [
+        {
+          "mask": 136,
+          "ones": null,
+          "reg": 0,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_PMFF_ALL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x000E": 196
+        }
+      },
+      "regs": [
+        {
+          "mask": 196,
+          "ones": null,
+          "reg": 14,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_POST_A0COEF": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 7,
+          "ones": 165,
+          "reg": 211,
+          "zeros": 162
+        }
+      ],
+      "width": 3
+    },
+    "CH0_POST_A1COEF": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 56,
+          "ones": 41,
+          "reg": 210,
+          "zeros": 17
+        }
+      ],
+      "width": 3
+    },
+    "CH0_POST_A2COEF": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 7,
+          "ones": 13,
+          "reg": 210,
+          "zeros": 10
+        }
+      ],
+      "width": 3
+    },
+    "CH0_POST_ITERCNT": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 56,
+          "ones": 169,
+          "reg": 211,
+          "zeros": 145
+        }
+      ],
+      "width": 3
+    },
+    "CH0_PRBS_CHK": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0064": 64
+        }
+      },
+      "regs": [
+        {
+          "mask": 64,
+          "ones": null,
+          "reg": 100,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_PRBS_GEN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0064": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 100,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_PRBS_TYP": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "PRBS11": {
+          "0x0064": 4
+        },
+        "PRBS23": {
+          "0x0064": 8
+        },
+        "PRBS31": {
+          "0x0064": 12
+        }
+      },
+      "regs": [
+        {
+          "mask": 12,
+          "ones": null,
+          "reg": 100,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_PRESET0_POSTCURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 240,
+          "ones": 160,
+          "reg": 184,
+          "zeros": 80
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET0_PRECURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 138,
+          "reg": 184,
+          "zeros": 133
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET10_POSTCURSOR": {
+      "bits": 2,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 80,
+          "ones": 0,
+          "reg": 194,
+          "zeros": 80
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET10_PRECURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 170,
+          "reg": 194,
+          "zeros": 165
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET1_POSTCURSOR": {
+      "bits": 2,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 160,
+          "ones": 160,
+          "reg": 185,
+          "zeros": 0
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET1_PRECURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 90,
+          "reg": 185,
+          "zeros": 85
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET2_POSTCURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 240,
+          "ones": 160,
+          "reg": 186,
+          "zeros": 80
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET2_PRECURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 106,
+          "reg": 186,
+          "zeros": 101
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET3_POSTCURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 240,
+          "ones": 160,
+          "reg": 187,
+          "zeros": 80
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET3_PRECURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 74,
+          "reg": 187,
+          "zeros": 69
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET4_POSTCURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 240,
+          "ones": 160,
+          "reg": 188,
+          "zeros": 80
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET4_PRECURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 188,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET5_POSTCURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 240,
+          "ones": 163,
+          "reg": 189,
+          "zeros": 83
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET5_PRECURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 189,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET6_POSTCURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 240,
+          "ones": 164,
+          "reg": 190,
+          "zeros": 84
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET6_PRECURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 190,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET7_POSTCURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 240,
+          "ones": 163,
+          "reg": 191,
+          "zeros": 83
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET7_PRECURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 106,
+          "reg": 191,
+          "zeros": 101
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET8_POSTCURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 240,
+          "ones": 164,
+          "reg": 192,
+          "zeros": 84
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET8_PRECURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 74,
+          "reg": 192,
+          "zeros": 69
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET9_POSTCURSOR": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 240,
+          "ones": 165,
+          "reg": 193,
+          "zeros": 85
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET9_PRECURSOR": {
+      "bits": 2,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 10,
+          "ones": 10,
+          "reg": 193,
+          "zeros": 0
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRESET_COUNT_INI": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 195,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_PRE_A0COEF": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 162,
+          "ones": 0,
+          "reg": 209,
+          "zeros": 162
+        }
+      ],
+      "width": 3
+    },
+    "CH0_PRE_A1COEF": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 21,
+          "ones": 0,
+          "reg": 208,
+          "zeros": 21
+        }
+      ],
+      "width": 3
+    },
+    "CH0_PRE_A2COEF": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 42,
+          "ones": 0,
+          "reg": 208,
+          "zeros": 42
+        }
+      ],
+      "width": 3
+    },
+    "CH0_PRE_FOM": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x00D8": 109
+        }
+      },
+      "regs": [
+        {
+          "mask": 109,
+          "ones": null,
+          "reg": 216,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_PRE_FOM_AVG": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 112,
+          "ones": 84,
+          "reg": 215,
+          "zeros": 36
+        }
+      ],
+      "width": 3
+    },
+    "CH0_PRE_ITERCNT": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 56,
+          "ones": 173,
+          "reg": 209,
+          "zeros": 149
+        }
+      ],
+      "width": 3
+    },
+    "CH0_PRE_RXEQ_TIMER": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 222,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_PRE_SDPTN_BYTE0": {
+      "bits": 9,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 319,
+          "zeros": 85
+        },
+        {
+          "mask": 1,
+          "ones": 0,
+          "reg": 323,
+          "zeros": 1
+        }
+      ],
+      "width": 10
+    },
+    "CH0_PRE_SDPTN_BYTE1": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 320,
+          "zeros": 85
+        },
+        {
+          "mask": 12,
+          "ones": 10,
+          "reg": 323,
+          "zeros": 6
+        }
+      ],
+      "width": 10
+    },
+    "CH0_PRE_SDPTN_BYTE2": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 321,
+          "zeros": 85
+        },
+        {
+          "mask": 48,
+          "ones": 34,
+          "reg": 323,
+          "zeros": 18
+        }
+      ],
+      "width": 10
+    },
+    "CH0_PRE_SDPTN_BYTE3": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 322,
+          "zeros": 85
+        },
+        {
+          "mask": 192,
+          "ones": 130,
+          "reg": 323,
+          "zeros": 66
+        }
+      ],
+      "width": 10
+    },
+    "CH0_PRI_LAPTN_BYTE0": {
+      "bits": 9,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 338,
+          "zeros": 85
+        },
+        {
+          "mask": 2,
+          "ones": 2,
+          "reg": 342,
+          "zeros": 0
+        }
+      ],
+      "width": 10
+    },
+    "CH0_PRI_LAPTN_BYTE1": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 339,
+          "zeros": 85
+        },
+        {
+          "mask": 12,
+          "ones": 9,
+          "reg": 342,
+          "zeros": 5
+        }
+      ],
+      "width": 10
+    },
+    "CH0_PRI_LAPTN_BYTE2": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 340,
+          "zeros": 85
+        },
+        {
+          "mask": 48,
+          "ones": 33,
+          "reg": 342,
+          "zeros": 17
+        }
+      ],
+      "width": 10
+    },
+    "CH0_PRI_LAPTN_BYTE3": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 341,
+          "zeros": 85
+        },
+        {
+          "mask": 192,
+          "ones": 129,
+          "reg": 342,
+          "zeros": 65
+        }
+      ],
+      "width": 10
+    },
+    "CH0_PRI_SKIP_BYTE0": {
+      "bits": 9,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 356,
+          "zeros": 85
+        },
+        {
+          "mask": 2,
+          "ones": 2,
+          "reg": 360,
+          "zeros": 0
+        }
+      ],
+      "width": 10
+    },
+    "CH0_PRI_SKIP_BYTE1": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 357,
+          "zeros": 85
+        },
+        {
+          "mask": 12,
+          "ones": 9,
+          "reg": 360,
+          "zeros": 5
+        }
+      ],
+      "width": 10
+    },
+    "CH0_PRI_SKIP_BYTE2": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 358,
+          "zeros": 85
+        },
+        {
+          "mask": 48,
+          "ones": 33,
+          "reg": 360,
+          "zeros": 17
+        }
+      ],
+      "width": 10
+    },
+    "CH0_PRI_SKIP_BYTE3": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 359,
+          "zeros": 85
+        },
+        {
+          "mask": 192,
+          "ones": 129,
+          "reg": 360,
+          "zeros": 65
+        }
+      ],
+      "width": 10
+    },
+    "CH0_PRI_WA_PTN": {
+      "bits": 20,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 305,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 306,
+          "zeros": 85
+        },
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 307,
+          "zeros": 5
+        }
+      ],
+      "width": 20
+    },
+    "CH0_PRTP_SEED_A": {
+      "bits": 58,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 402,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 403,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 404,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 405,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 406,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 407,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 408,
+          "zeros": 85
+        },
+        {
+          "mask": 3,
+          "ones": 2,
+          "reg": 409,
+          "zeros": 1
+        }
+      ],
+      "width": 58
+    },
+    "CH0_PRTP_SEED_B": {
+      "bits": 58,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 410,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 411,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 412,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 413,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 414,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 415,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 416,
+          "zeros": 85
+        },
+        {
+          "mask": 3,
+          "ones": 2,
+          "reg": 417,
+          "zeros": 1
+        }
+      ],
+      "width": 58
+    },
+    "CH0_RFIFO_COM_ALIGN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0120": 128
+        }
+      },
+      "regs": [
+        {
+          "mask": 128,
+          "ones": null,
+          "reg": 288,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RL1": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 90,
+          "reg": 144,
+          "zeros": 85
+        }
+      ],
+      "width": 4
+    },
+    "CH0_RL2": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 163,
+          "ones": 163,
+          "reg": 144,
+          "zeros": 0
+        }
+      ],
+      "width": 4
+    },
+    "CH0_RL3": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 145,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_RSTCDR_ERR": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0023": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 35,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RSTCDR_FRQ": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0023": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 35,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RSTCDR_IDL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0023": 7
+        }
+      },
+      "regs": [
+        {
+          "mask": 7,
+          "ones": null,
+          "reg": 35,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RXEQ_ALGO": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 112,
+          "ones": 92,
+          "reg": 217,
+          "zeros": 44
+        }
+      ],
+      "width": 3
+    },
+    "CH0_RXEQ_ENABLE": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 7,
+          "ones": 125,
+          "reg": 217,
+          "zeros": 122
+        }
+      ],
+      "width": 3
+    },
+    "CH0_RXEQ_EVAL_MAX": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 219,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_RXEQ_MANUAL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x00F3": 128
+        }
+      },
+      "regs": [
+        {
+          "mask": 128,
+          "ones": null,
+          "reg": 243,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RXEQ_STATE": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 243,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_RXF_A": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 42,
+          "reg": 6,
+          "zeros": 37
+        }
+      ],
+      "width": 4
+    },
+    "CH0_RXF_B": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 42,
+          "reg": 18,
+          "zeros": 37
+        }
+      ],
+      "width": 4
+    },
+    "CH0_RXF_C": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 178,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_RXHF_CLKDN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0066": 128
+        }
+      },
+      "regs": [
+        {
+          "mask": 128,
+          "ones": null,
+          "reg": 102,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RXIDLE_MAX": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 240,
+          "ones": 168,
+          "reg": 2,
+          "zeros": 88
+        }
+      ],
+      "width": 4
+    },
+    "CH0_RXIDLE_MAX2": {
+      "bits": 16,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 182,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 183,
+          "zeros": 85
+        }
+      ],
+      "width": 16
+    },
+    "CH0_RXIDLE_MSB": {
+      "bits": 2,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 192,
+          "ones": 128,
+          "reg": 14,
+          "zeros": 64
+        }
+      ],
+      "width": 2
+    },
+    "CH0_RXM_A": {
+      "bits": 2,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 36,
+          "ones": 0,
+          "reg": 7,
+          "zeros": 36
+        }
+      ],
+      "width": 2
+    },
+    "CH0_RXM_B": {
+      "bits": 3,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 73,
+          "ones": 73,
+          "reg": 19,
+          "zeros": 0
+        }
+      ],
+      "width": 2
+    },
+    "CH0_RXM_C": {
+      "bits": 2,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 96,
+          "ones": 79,
+          "reg": 179,
+          "zeros": 47
+        }
+      ],
+      "width": 2
+    },
+    "CH0_RXN_A": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 31,
+          "ones": 85,
+          "reg": 7,
+          "zeros": 74
+        }
+      ],
+      "width": 5
+    },
+    "CH0_RXN_B": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 31,
+          "ones": 53,
+          "reg": 19,
+          "zeros": 42
+        }
+      ],
+      "width": 5
+    },
+    "CH0_RXN_C": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 31,
+          "ones": 21,
+          "reg": 179,
+          "zeros": 10
+        }
+      ],
+      "width": 5
+    },
+    "CH0_RXOFF_SETTLE_MAX": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 224,
+          "ones": 176,
+          "reg": 15,
+          "zeros": 80
+        }
+      ],
+      "width": 3
+    },
+    "CH0_RXOFF_STABLE_MAX": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 31,
+          "ones": 117,
+          "reg": 15,
+          "zeros": 106
+        }
+      ],
+      "width": 5
+    },
+    "CH0_RXPLLINIT": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "INITIALIZED": {
+          "0x0066": 8
+        }
+      },
+      "regs": [
+        {
+          "mask": 8,
+          "ones": null,
+          "reg": 102,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RXPLLRST": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "RESET": {
+          "0x0066": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 102,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RX_BOND_MASK": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "EXCLUDE": {
+          "0x0120": 64
+        }
+      },
+      "regs": [
+        {
+          "mask": 64,
+          "ones": null,
+          "reg": 288,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RX_DBUS_20B": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "20BIT_WIDTH": {
+          "0x0120": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 288,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RX_DIV_MODE0": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DIV_1": {
+          "0x0006": 4
+        },
+        "DIV_4": {
+          "0x0006": 52
+        },
+        "DONTCARE": {
+          "0x0006": 20
+        }
+      },
+      "regs": [
+        {
+          "mask": 52,
+          "ones": null,
+          "reg": 6,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RX_DIV_MODE1": {
+      "bits": 2,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 20,
+          "ones": 0,
+          "reg": 18,
+          "zeros": 20
+        }
+      ],
+      "width": 2
+    },
+    "CH0_RX_DIV_MODE2": {
+      "bits": 2,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 48,
+          "ones": 36,
+          "reg": 178,
+          "zeros": 20
+        }
+      ],
+      "width": 2
+    },
+    "CH0_RX_FIFO_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0120": 8
+        }
+      },
+      "regs": [
+        {
+          "mask": 8,
+          "ones": null,
+          "reg": 288,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RX_GEAR_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0120": 4
+        }
+      },
+      "regs": [
+        {
+          "mask": 4,
+          "ones": null,
+          "reg": 288,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RX_HIZ": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "FORCED": {
+          "0x0066": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 102,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RX_IMPED_RATIO": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 3,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_RX_MPCS_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0120": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 288,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RX_MPCS_RST": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0120": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 288,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RX_PCSMODE_OVRD": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "OVERRIDE_MC1_PSMODE_SEL": {
+          "0x0100": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 256,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RX_PCSMODE_SEL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "PMA_64B_66B_PCS": {
+          "0x0100": 32
+        },
+        "PMA_ONLY": {
+          "0x0100": 96
+        },
+        "RESERVED": {
+          "0x0100": 64
+        }
+      },
+      "regs": [
+        {
+          "mask": 96,
+          "ones": null,
+          "reg": 256,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RX_POLINV": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "INVERT": {
+          "0x0074": 64
+        }
+      },
+      "regs": [
+        {
+          "mask": 64,
+          "ones": null,
+          "reg": 116,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RX_PRBS31_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x01A3": 4
+        }
+      },
+      "regs": [
+        {
+          "mask": 4,
+          "ones": null,
+          "reg": 419,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RX_PRTP_DATA_SEL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ZERO_DATA_PATTERN": {
+          "0x01A3": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 419,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RX_PRTP_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x01A3": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 419,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_RX_PWRDN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "FORCED": {
+          "0x0067": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 103,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_SDPTN_MASK_BYTE0": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 329,
+          "zeros": 85
+        },
+        {
+          "mask": 3,
+          "ones": 2,
+          "reg": 333,
+          "zeros": 1
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SDPTN_MASK_BYTE1": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 330,
+          "zeros": 85
+        },
+        {
+          "mask": 12,
+          "ones": 8,
+          "reg": 333,
+          "zeros": 4
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SDPTN_MASK_BYTE2": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 331,
+          "zeros": 85
+        },
+        {
+          "mask": 48,
+          "ones": 32,
+          "reg": 333,
+          "zeros": 16
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SDPTN_MASK_BYTE3": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 332,
+          "zeros": 85
+        },
+        {
+          "mask": 192,
+          "ones": 128,
+          "reg": 333,
+          "zeros": 64
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SEC_LAPTN_BYTE0": {
+      "bits": 9,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 343,
+          "zeros": 85
+        },
+        {
+          "mask": 2,
+          "ones": 2,
+          "reg": 347,
+          "zeros": 0
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SEC_LAPTN_BYTE1": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 344,
+          "zeros": 85
+        },
+        {
+          "mask": 12,
+          "ones": 9,
+          "reg": 347,
+          "zeros": 5
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SEC_LAPTN_BYTE2": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 345,
+          "zeros": 85
+        },
+        {
+          "mask": 48,
+          "ones": 33,
+          "reg": 347,
+          "zeros": 17
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SEC_LAPTN_BYTE3": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 346,
+          "zeros": 85
+        },
+        {
+          "mask": 192,
+          "ones": 129,
+          "reg": 347,
+          "zeros": 65
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SEC_LAPTN_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0150": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 336,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_SEC_SDPTN_BYTE0": {
+      "bits": 9,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 324,
+          "zeros": 85
+        },
+        {
+          "mask": 2,
+          "ones": 2,
+          "reg": 328,
+          "zeros": 0
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SEC_SDPTN_BYTE1": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 325,
+          "zeros": 85
+        },
+        {
+          "mask": 12,
+          "ones": 9,
+          "reg": 328,
+          "zeros": 5
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SEC_SDPTN_BYTE2": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 326,
+          "zeros": 85
+        },
+        {
+          "mask": 48,
+          "ones": 33,
+          "reg": 328,
+          "zeros": 17
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SEC_SDPTN_BYTE3": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 327,
+          "zeros": 85
+        },
+        {
+          "mask": 192,
+          "ones": 129,
+          "reg": 328,
+          "zeros": 65
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SEC_SKIP_BYTE0": {
+      "bits": 9,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 361,
+          "zeros": 85
+        },
+        {
+          "mask": 2,
+          "ones": 2,
+          "reg": 365,
+          "zeros": 0
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SEC_SKIP_BYTE1": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 362,
+          "zeros": 85
+        },
+        {
+          "mask": 12,
+          "ones": 9,
+          "reg": 365,
+          "zeros": 5
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SEC_SKIP_BYTE2": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 363,
+          "zeros": 85
+        },
+        {
+          "mask": 48,
+          "ones": 33,
+          "reg": 365,
+          "zeros": 17
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SEC_SKIP_BYTE3": {
+      "bits": 10,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 364,
+          "zeros": 85
+        },
+        {
+          "mask": 192,
+          "ones": 129,
+          "reg": 365,
+          "zeros": 65
+        }
+      ],
+      "width": 10
+    },
+    "CH0_SEC_SKIP_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0160": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 352,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_SEC_SYNC_PTN_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x013D": 24
+        }
+      },
+      "regs": [
+        {
+          "mask": 24,
+          "ones": null,
+          "reg": 317,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_SEC_WAPTN_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0130": 8
+        }
+      },
+      "regs": [
+        {
+          "mask": 8,
+          "ones": null,
+          "reg": 304,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_SEC_WA_PTN": {
+      "bits": 20,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 308,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 309,
+          "zeros": 85
+        },
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 310,
+          "zeros": 5
+        }
+      ],
+      "width": 20
+    },
+    "CH0_SIGNAL_DETECT_THRESHOLD": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "180_MV": {
+          "0x0000": 130
+        }
+      },
+      "regs": [
+        {
+          "mask": 130,
+          "ones": null,
+          "reg": 0,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_SKIP_PTN_LEN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "2_BYTE": {
+          "0x0160": 8
+        },
+        "4_BYTE": {
+          "0x0160": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 24,
+          "ones": null,
+          "reg": 352,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_SKP_MASK_CODE": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 366,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_SRC_64B66B_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0180": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 384,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_SYNCDET_FSM_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0130": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 304,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_SYNC_PTN_10B": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "8B_CODE": {
+          "0x013D": 0
+        }
+      },
+      "regs": [
+        {
+          "mask": 0,
+          "ones": null,
+          "reg": 317,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_SYNC_PTN_ALIGN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x013D": 12
+        }
+      },
+      "regs": [
+        {
+          "mask": 12,
+          "ones": null,
+          "reg": 317,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_SYNC_PTN_LEN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "2": {
+          "0x013D": 9
+        },
+        "4": {
+          "0x013D": 10
+        }
+      },
+      "regs": [
+        {
+          "mask": 11,
+          "ones": null,
+          "reg": 317,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TRNG_A0COEF": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 162,
+          "ones": 0,
+          "reg": 213,
+          "zeros": 162
+        }
+      ],
+      "width": 3
+    },
+    "CH0_TRNG_A1COEF": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 21,
+          "ones": 0,
+          "reg": 212,
+          "zeros": 21
+        }
+      ],
+      "width": 3
+    },
+    "CH0_TRNG_A2COEF": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 42,
+          "ones": 0,
+          "reg": 212,
+          "zeros": 42
+        }
+      ],
+      "width": 3
+    },
+    "CH0_TRNG_FAST": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "SPLIT_IN_TWO": {
+          "0x00D4": 109
+        }
+      },
+      "regs": [
+        {
+          "mask": 109,
+          "ones": null,
+          "reg": 212,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TRNG_ITERCNT": {
+      "bits": 3,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 56,
+          "ones": 173,
+          "reg": 213,
+          "zeros": 149
+        }
+      ],
+      "width": 3
+    },
+    "CH0_TRNG_RXEQ_TIMER": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 223,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TXF_A": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 42,
+          "reg": 4,
+          "zeros": 37
+        }
+      ],
+      "width": 4
+    },
+    "CH0_TXF_B": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 42,
+          "reg": 16,
+          "zeros": 37
+        }
+      ],
+      "width": 4
+    },
+    "CH0_TXF_C": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 42,
+          "reg": 176,
+          "zeros": 37
+        }
+      ],
+      "width": 4
+    },
+    "CH0_TXHF_CLKDN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0066": 64
+        }
+      },
+      "regs": [
+        {
+          "mask": 64,
+          "ones": null,
+          "reg": 102,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TXM_A": {
+      "bits": 2,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 36,
+          "ones": 0,
+          "reg": 5,
+          "zeros": 36
+        }
+      ],
+      "width": 2
+    },
+    "CH0_TXM_B": {
+      "bits": 3,
+      "clean": false,
+      "regs": [
+        {
+          "mask": 73,
+          "ones": 73,
+          "reg": 17,
+          "zeros": 0
+        }
+      ],
+      "width": 2
+    },
+    "CH0_TXM_C": {
+      "bits": 2,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 96,
+          "ones": 79,
+          "reg": 177,
+          "zeros": 47
+        }
+      ],
+      "width": 2
+    },
+    "CH0_TXN_A": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 31,
+          "ones": 85,
+          "reg": 5,
+          "zeros": 74
+        }
+      ],
+      "width": 5
+    },
+    "CH0_TXN_B": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 31,
+          "ones": 53,
+          "reg": 17,
+          "zeros": 42
+        }
+      ],
+      "width": 5
+    },
+    "CH0_TXN_C": {
+      "bits": 5,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 31,
+          "ones": 21,
+          "reg": 177,
+          "zeros": 10
+        }
+      ],
+      "width": 5
+    },
+    "CH0_TXPLLRST": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "INITIALIZED": {
+          "0x0066": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 102,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TXPLL_INIT": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "INITIALIZED": {
+          "0x0066": 4
+        }
+      },
+      "regs": [
+        {
+          "mask": 4,
+          "ones": null,
+          "reg": 102,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TXVAL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "EPCS_TXVAL_HIGH": {
+          "0x01C7": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 455,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TXVAL_OVRD": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "OVERRIDE_EPCS_TXVAL": {
+          "0x01C7": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 455,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_AMP_RATIO_MARGIN0_FULL": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 24,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_AMP_RATIO_MARGIN0_HALF": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 40,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_AMP_RATIO_MARGIN1_FULL": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 25,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_AMP_RATIO_MARGIN1_HALF": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 41,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_AMP_RATIO_MARGIN2_FULL": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 26,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_AMP_RATIO_MARGIN2_HALF": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 42,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_AMP_RATIO_MARGIN3_FULL": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 27,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_AMP_RATIO_MARGIN3_HALF": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 43,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_AMP_RATIO_MARGIN4_FULL": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 28,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_AMP_RATIO_MARGIN4_HALF": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 44,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_AMP_RATIO_MARGIN5_FULL": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 29,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_AMP_RATIO_MARGIN5_HALF": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 45,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_AMP_RATIO_MARGIN6_FULL": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 30,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_AMP_RATIO_MARGIN6_HALF": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 46,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_AMP_RATIO_MARGIN7_FULL": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 31,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_AMP_RATIO_MARGIN7_HALF": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 47,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_BOND_MASK": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "EXCLUDE": {
+          "0x0110": 64
+        }
+      },
+      "regs": [
+        {
+          "mask": 64,
+          "ones": null,
+          "reg": 272,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_DBUS_20": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "20BIT_WIDTH": {
+          "0x0110": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 272,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_DIV_MODE0": {
+      "bits": 2,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 20,
+          "ones": 0,
+          "reg": 4,
+          "zeros": 20
+        }
+      ],
+      "width": 2
+    },
+    "CH0_TX_DIV_MODE1": {
+      "bits": 2,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 20,
+          "ones": 0,
+          "reg": 16,
+          "zeros": 20
+        }
+      ],
+      "width": 2
+    },
+    "CH0_TX_DIV_MODE2": {
+      "bits": 2,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 20,
+          "ones": 0,
+          "reg": 176,
+          "zeros": 20
+        }
+      ],
+      "width": 2
+    },
+    "CH0_TX_FIFO_AE": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 386,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_TX_FIFO_AF": {
+      "bits": 4,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 385,
+          "zeros": 5
+        }
+      ],
+      "width": 4
+    },
+    "CH0_TX_FIFO_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0110": 8
+        }
+      },
+      "regs": [
+        {
+          "mask": 8,
+          "ones": null,
+          "reg": 272,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_GEAR_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0110": 4
+        }
+      },
+      "regs": [
+        {
+          "mask": 4,
+          "ones": null,
+          "reg": 272,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_HIZ": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "FORCED": {
+          "0x0066": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 102,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_IMPED_RATIO": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 9,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_MPCS_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0110": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 272,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_MPCS_RST": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x0110": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 272,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_PCSMODE_SEL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "PMA_64B_66B_PCS": {
+          "0x0100": 2
+        },
+        "PMA_ONLY": {
+          "0x0100": 6
+        },
+        "RESERVED": {
+          "0x0100": 4
+        }
+      },
+      "regs": [
+        {
+          "mask": 6,
+          "ones": null,
+          "reg": 256,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_PCS_MODE_OVRD": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "OVERRIDE_MC1_PSMODE_SEL": {
+          "0x0100": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 256,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_PMFIFO_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0110": 128
+        }
+      },
+      "regs": [
+        {
+          "mask": 128,
+          "ones": null,
+          "reg": 272,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_POLINV": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "INVERT": {
+          "0x0074": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 116,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_PRBS31_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x01A2": 8
+        }
+      },
+      "regs": [
+        {
+          "mask": 8,
+          "ones": null,
+          "reg": 418,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_PRBS9_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x01A2": 16
+        }
+      },
+      "regs": [
+        {
+          "mask": 16,
+          "ones": null,
+          "reg": 418,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_PRE_RATIO": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 11,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_PRE_RATIO_DEEMP0_FULL": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 21,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_PRE_RATIO_DEEMP0_HALF": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 37,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_PRE_RATIO_DEEMP1_FULL": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 23,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_PRE_RATIO_DEEMP1_HALF": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 39,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_PRTP_DATA_SEL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ZERO_DATA_PATTERN": {
+          "0x01A2": 1
+        }
+      },
+      "regs": [
+        {
+          "mask": 1,
+          "ones": null,
+          "reg": 418,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_PRTP_EN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "ENABLED": {
+          "0x01A2": 4
+        }
+      },
+      "regs": [
+        {
+          "mask": 4,
+          "ones": null,
+          "reg": 418,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_PRTP_TEST_SEL": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "SQUARE_WAVE": {
+          "0x01A2": 2
+        }
+      },
+      "regs": [
+        {
+          "mask": 2,
+          "ones": null,
+          "reg": 418,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_PST_RATIO": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 10,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_PST_RATIO_DEEMP0_FULL": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 20,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_PST_RATIO_DEEMP0_HALF": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 36,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_PST_RATIO_DEEMP1_FULL": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 22,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_PST_RATIO_DEEMP1_HALF": {
+      "bits": 8,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 38,
+          "zeros": 85
+        }
+      ],
+      "width": 8
+    },
+    "CH0_TX_SELECT_RX_FEEDBACK": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "CDR_PLL": {
+          "0x0000": 129
+        }
+      },
+      "regs": [
+        {
+          "mask": 129,
+          "ones": null,
+          "reg": 0,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_TX_SW_PATTERN": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "10": {
+          "0x01A2": 96
+        },
+        "11": {
+          "0x01A2": 128
+        },
+        "5": {
+          "0x01A2": 32
+        },
+        "6": {
+          "0x01A2": 64
+        }
+      },
+      "regs": [
+        {
+          "mask": 224,
+          "ones": null,
+          "reg": 418,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_UDBC1": {
+      "bits": 20,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 483,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 484,
+          "zeros": 85
+        },
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 485,
+          "zeros": 5
+        }
+      ],
+      "width": 20
+    },
+    "CH0_UDBC2": {
+      "bits": 20,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 486,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 487,
+          "zeros": 85
+        },
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 488,
+          "zeros": 5
+        }
+      ],
+      "width": 20
+    },
+    "CH0_WA_DIS": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "DISABLED": {
+          "0x0130": 32
+        }
+      },
+      "regs": [
+        {
+          "mask": 32,
+          "ones": null,
+          "reg": 304,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    },
+    "CH0_WA_MASK_CODE": {
+      "bits": 20,
+      "clean": true,
+      "regs": [
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 311,
+          "zeros": 85
+        },
+        {
+          "mask": 255,
+          "ones": 170,
+          "reg": 312,
+          "zeros": 85
+        },
+        {
+          "mask": 15,
+          "ones": 10,
+          "reg": 313,
+          "zeros": 5
+        }
+      ],
+      "width": 20
+    },
+    "CH0_WA_PTN_20B": {
+      "bits": 0,
+      "clean": true,
+      "options": {
+        "20BIT_WIDTH": {
+          "0x0130": 4
+        }
+      },
+      "regs": [
+        {
+          "mask": 4,
+          "ones": null,
+          "reg": 304,
+          "zeros": 0
+        }
+      ],
+      "width": 0
+    }
+  },
+  "suspect": [
+    "CH0_ATXICP_RATE0",
+    "CH0_ATXICP_RATE1",
+    "CH0_CNT250NS_MAX",
+    "CH0_CUR_FOM_AVG",
+    "CH0_DIR_PST_GAIN",
+    "CH0_FOM_ITERCNT",
+    "CH0_GAIN_TIMER1",
+    "CH0_HINT1_A2GAIN",
+    "CH0_LOW_WATER_LINE",
+    "CH0_PRESET10_POSTCURSOR",
+    "CH0_PRESET1_POSTCURSOR",
+    "CH0_PRESET9_PRECURSOR",
+    "CH0_PRE_SDPTN_BYTE0",
+    "CH0_PRI_LAPTN_BYTE0",
+    "CH0_PRI_SKIP_BYTE0",
+    "CH0_RXM_B",
+    "CH0_SEC_LAPTN_BYTE0",
+    "CH0_SEC_SDPTN_BYTE0",
+    "CH0_SEC_SKIP_BYTE0",
+    "CH0_TXM_B"
+  ]
+}

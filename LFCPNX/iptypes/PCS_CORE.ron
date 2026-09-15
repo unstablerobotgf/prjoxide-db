@@ -1,0 +1,3590 @@
+(
+  pips: {},
+  words: {
+    "A0DIR_VAL": (
+      bits: [
+        [(frame:246,bit:0,invert:false,),],
+        [(frame:246,bit:4,invert:false,),],
+      ],
+    ),
+    "A0_FORCE": (
+      bits: [
+        [(frame:240,bit:7,invert:false,),],
+      ],
+    ),
+    "A0_FREEZE": (
+      bits: [
+        [(frame:240,bit:6,invert:false,),],
+      ],
+    ),
+    "A0_INIT": (
+      bits: [
+        [(frame:240,bit:0,invert:false,),],
+        [(frame:240,bit:1,invert:false,),],
+        [(frame:240,bit:2,invert:false,),],
+        [(frame:240,bit:3,invert:false,),],
+        [(frame:240,bit:4,invert:false,),],
+        [(frame:240,bit:5,invert:false,),],
+      ],
+    ),
+    "A1DIR_VAL": (
+      bits: [
+        [(frame:246,bit:1,invert:false,),],
+        [(frame:246,bit:4,invert:false,),],
+      ],
+    ),
+    "A1_FORCE": (
+      bits: [
+        [(frame:241,bit:7,invert:false,),],
+      ],
+    ),
+    "A1_FREEZE": (
+      bits: [
+        [(frame:241,bit:6,invert:false,),],
+      ],
+    ),
+    "A1_INIT": (
+      bits: [
+        [(frame:241,bit:0,invert:false,),],
+        [(frame:241,bit:1,invert:false,),],
+        [(frame:241,bit:2,invert:false,),],
+        [(frame:241,bit:3,invert:false,),],
+        [(frame:241,bit:4,invert:false,),],
+        [(frame:241,bit:5,invert:false,),],
+      ],
+    ),
+    "A2GAIN_CALIB": (
+      bits: [
+        [(frame:181,bit:0,invert:false,),],
+        [(frame:181,bit:1,invert:false,),],
+        [(frame:181,bit:2,invert:false,),],
+        [(frame:181,bit:3,invert:false,),],
+        [(frame:181,bit:4,invert:false,),],
+        [(frame:181,bit:5,invert:false,),],
+      ],
+    ),
+    "A2_FORCE": (
+      bits: [
+        [(frame:242,bit:7,invert:false,),],
+      ],
+    ),
+    "A2_FREEZE": (
+      bits: [
+        [(frame:242,bit:6,invert:false,),],
+      ],
+    ),
+    "A2_INIT": (
+      bits: [
+        [(frame:242,bit:0,invert:false,),],
+        [(frame:242,bit:1,invert:false,),],
+        [(frame:242,bit:2,invert:false,),],
+        [(frame:242,bit:3,invert:false,),],
+        [(frame:242,bit:4,invert:false,),],
+        [(frame:242,bit:5,invert:false,),],
+      ],
+    ),
+    "ACJTAG_REG": (
+      bits: [
+        [(frame:100,bit:4,invert:false,),],
+        [(frame:100,bit:5,invert:false,),],
+      ],
+    ),
+    "ADIR_OVR": (
+      bits: [
+        [(frame:246,bit:2,invert:false,),],
+        [(frame:246,bit:4,invert:false,),],
+      ],
+    ),
+    "ALERT_ENABLE": (
+      bits: [
+        [(frame:218,bit:5,invert:false,),],
+        [(frame:218,bit:6,invert:false,),],
+        [(frame:218,bit:7,invert:false,),],
+      ],
+    ),
+    "ALIGN_2BYTE_DIS": (
+      bits: [
+        [(frame:304,bit:4,invert:false,),],
+      ],
+    ),
+    "ALMOST_EMPTY_10B": (
+      bits: [
+        [(frame:148,bit:0,invert:false,),],
+        [(frame:148,bit:1,invert:false,),],
+        [(frame:148,bit:2,invert:false,),],
+        [(frame:148,bit:3,invert:false,),],
+        [(frame:148,bit:4,invert:false,),],
+        [(frame:148,bit:5,invert:false,),],
+      ],
+    ),
+    "ALMOST_EMPTY_20B": (
+      bits: [
+        [(frame:151,bit:0,invert:false,),],
+        [(frame:151,bit:1,invert:false,),],
+        [(frame:151,bit:2,invert:false,),],
+        [(frame:151,bit:3,invert:false,),],
+        [(frame:151,bit:4,invert:false,),],
+        [(frame:151,bit:5,invert:false,),],
+      ],
+    ),
+    "ALMOST_EMPTY_GEN3": (
+      bits: [
+        [(frame:154,bit:0,invert:false,),],
+        [(frame:154,bit:1,invert:false,),],
+        [(frame:154,bit:2,invert:false,),],
+        [(frame:154,bit:3,invert:false,),],
+        [(frame:154,bit:4,invert:false,),],
+        [(frame:154,bit:5,invert:false,),],
+      ],
+    ),
+    "ALMOST_FULL_10B": (
+      bits: [
+        [(frame:150,bit:0,invert:false,),],
+        [(frame:150,bit:1,invert:false,),],
+        [(frame:150,bit:2,invert:false,),],
+        [(frame:150,bit:3,invert:false,),],
+        [(frame:150,bit:4,invert:false,),],
+        [(frame:150,bit:5,invert:false,),],
+      ],
+    ),
+    "ALMOST_FULL_20B": (
+      bits: [
+        [(frame:153,bit:0,invert:false,),],
+        [(frame:153,bit:1,invert:false,),],
+        [(frame:153,bit:2,invert:false,),],
+        [(frame:153,bit:3,invert:false,),],
+        [(frame:153,bit:4,invert:false,),],
+        [(frame:153,bit:5,invert:false,),],
+      ],
+    ),
+    "ALMOST_FULL_GEN3": (
+      bits: [
+        [(frame:156,bit:0,invert:false,),],
+        [(frame:156,bit:1,invert:false,),],
+        [(frame:156,bit:2,invert:false,),],
+        [(frame:156,bit:3,invert:false,),],
+        [(frame:156,bit:4,invert:false,),],
+        [(frame:156,bit:5,invert:false,),],
+      ],
+    ),
+    "ARXCAL_OUT": (
+      bits: [
+        [(frame:136,bit:0,invert:false,),],
+        [(frame:136,bit:6,invert:false,),],
+      ],
+    ),
+    "ARXCDRICP_RATE0": (
+      bits: [
+        [(frame:118,bit:4,invert:false,),],
+        [(frame:118,bit:5,invert:false,),],
+        [(frame:118,bit:6,invert:false,),],
+      ],
+    ),
+    "ARXCDRICP_RATE1": (
+      bits: [
+        [(frame:120,bit:4,invert:false,),],
+        [(frame:120,bit:5,invert:false,),],
+        [(frame:120,bit:6,invert:false,),],
+      ],
+    ),
+    "ARXCDRICP_RATE2": (
+      bits: [
+        [(frame:123,bit:4,invert:false,),],
+        [(frame:123,bit:5,invert:false,),],
+        [(frame:123,bit:6,invert:false,),],
+      ],
+    ),
+    "ARXDMPWRDWN": (
+      bits: [
+        [(frame:136,bit:5,invert:false,),],
+        [(frame:136,bit:6,invert:false,),],
+      ],
+    ),
+    "ARXDPPWRDN": (
+      bits: [
+        [(frame:136,bit:4,invert:false,),],
+        [(frame:136,bit:6,invert:false,),],
+      ],
+    ),
+    "ARXICP_RATE0": (
+      bits: [
+        [(frame:118,bit:0,invert:false,),],
+        [(frame:118,bit:1,invert:false,),],
+        [(frame:118,bit:2,invert:false,),],
+      ],
+    ),
+    "ARXICP_RATE1": (
+      bits: [
+        [(frame:120,bit:0,invert:false,),],
+        [(frame:120,bit:1,invert:false,),],
+        [(frame:120,bit:2,invert:false,),],
+      ],
+    ),
+    "ARXICP_RATE2": (
+      bits: [
+        [(frame:123,bit:0,invert:false,),],
+        [(frame:123,bit:1,invert:false,),],
+        [(frame:123,bit:2,invert:false,),],
+      ],
+    ),
+    "ARXOVR_OUT": (
+      bits: [
+        [(frame:136,bit:2,invert:false,),],
+        [(frame:136,bit:6,invert:false,),],
+      ],
+    ),
+    "ARXRSACTAT": (
+      bits: [
+        [(frame:139,bit:0,invert:false,),],
+        [(frame:139,bit:1,invert:false,),],
+        [(frame:139,bit:2,invert:false,),],
+        [(frame:139,bit:3,invert:false,),],
+      ],
+    ),
+    "ARXRSAPTAT": (
+      bits: [
+        [(frame:139,bit:4,invert:false,),],
+        [(frame:139,bit:5,invert:false,),],
+        [(frame:139,bit:6,invert:false,),],
+        [(frame:139,bit:7,invert:false,),],
+      ],
+    ),
+    "ARXRSVCTL": (
+      bits: [
+        [(frame:125,bit:0,invert:false,),],
+        [(frame:125,bit:1,invert:false,),],
+        [(frame:125,bit:2,invert:false,),],
+        [(frame:125,bit:3,invert:false,),],
+        [(frame:125,bit:4,invert:false,),],
+        [(frame:125,bit:5,invert:false,),],
+        [(frame:125,bit:6,invert:false,),],
+        [(frame:125,bit:7,invert:false,),],
+      ],
+    ),
+    "ARXSEL_OUT": (
+      bits: [
+        [(frame:136,bit:1,invert:false,),],
+        [(frame:136,bit:6,invert:false,),],
+      ],
+    ),
+    "ATXICP_RATE2": (
+      bits: [
+        [(frame:122,bit:0,invert:false,),],
+        [(frame:122,bit:1,invert:false,),],
+        [(frame:122,bit:2,invert:false,),],
+      ],
+    ),
+    "AUTO_WA_DIS": (
+      bits: [
+        [(frame:304,bit:0,invert:false,),],
+      ],
+    ),
+    "AUXCLK1US_MAX": (
+      bits: [
+        [(frame:32,bit:0,invert:false,),],
+        [(frame:32,bit:1,invert:false,),],
+        [(frame:32,bit:2,invert:false,),],
+        [(frame:32,bit:3,invert:false,),],
+        [(frame:32,bit:4,invert:false,),],
+        [(frame:32,bit:5,invert:false,),],
+        [(frame:32,bit:6,invert:false,),],
+        [(frame:32,bit:7,invert:false,),],
+      ],
+    ),
+    "AUXIDL_MAX": (
+      bits: [
+        [(frame:147,bit:0,invert:false,),],
+        [(frame:147,bit:1,invert:false,),],
+        [(frame:147,bit:2,invert:false,),],
+        [(frame:147,bit:3,invert:false,),],
+        [(frame:147,bit:4,invert:false,),],
+        [(frame:147,bit:5,invert:false,),],
+        [(frame:147,bit:6,invert:false,),],
+        [(frame:147,bit:7,invert:false,),],
+      ],
+    ),
+    "A_CHNGD_MAX": (
+      bits: [
+        [(frame:214,bit:4,invert:false,),],
+        [(frame:214,bit:5,invert:false,),],
+        [(frame:214,bit:6,invert:false,),],
+      ],
+    ),
+    "BALIGN_64B66B_DIS": (
+      bits: [
+        [(frame:387,bit:3,invert:false,),],
+      ],
+    ),
+    "BIST_BUS8BIT_SEL": (
+      bits: [
+        [(frame:481,bit:2,invert:false,),],
+      ],
+    ),
+    "BIST_BYPASS_TX_GATE": (
+      bits: [
+        [(frame:481,bit:3,invert:false,),],
+      ],
+    ),
+    "BIST_CH_SEL": (
+      bits: [
+        [(frame:482,bit:6,invert:false,),],
+        [(frame:482,bit:7,invert:false,),],
+      ],
+    ),
+    "BIST_EN": (
+      bits: [
+        [(frame:481,bit:0,invert:false,),],
+      ],
+    ),
+    "BIST_MODE": (
+      bits: [
+        [(frame:481,bit:1,invert:false,),],
+      ],
+    ),
+    "BIST_PTN_SEL": (
+      bits: [
+        [(frame:481,bit:3,invert:false,),],
+        [(frame:481,bit:4,invert:false,),],
+        [(frame:481,bit:5,invert:false,),],
+      ],
+    ),
+    "BIST_RES_SEL": (
+      bits: [
+        [(frame:482,bit:4,invert:false,),],
+        [(frame:482,bit:5,invert:false,),],
+      ],
+    ),
+    "BIST_RX_DATA_SEL": (
+      bits: [
+        [(frame:481,bit:4,invert:false,),],
+      ],
+    ),
+    "BIST_SYNC_HEAD_REG": (
+      bits: [
+        [(frame:482,bit:0,invert:false,),],
+        [(frame:482,bit:1,invert:false,),],
+      ],
+    ),
+    "BIST_TIME_SEL": (
+      bits: [
+        [(frame:482,bit:2,invert:false,),],
+        [(frame:482,bit:3,invert:false,),],
+      ],
+    ),
+    "BYP_AVG": (
+      bits: [
+        [(frame:217,bit:2,invert:false,),],
+        [(frame:217,bit:3,invert:false,),],
+        [(frame:217,bit:4,invert:false,),],
+        [(frame:217,bit:5,invert:false,),],
+        [(frame:217,bit:6,invert:false,),],
+        [(frame:217,bit:7,invert:false,),],
+      ],
+    ),
+    "CALIB_3DB": (
+      bits: [
+        [(frame:181,bit:1,invert:false,),],
+        [(frame:181,bit:2,invert:false,),],
+        [(frame:181,bit:5,invert:false,),],
+      ],
+    ),
+    "CALIB_SETTLE_MAX": (
+      bits: [
+        [(frame:13,bit:5,invert:false,),],
+        [(frame:13,bit:6,invert:false,),],
+        [(frame:13,bit:7,invert:false,),],
+      ],
+    ),
+    "CALIB_STABLE_MAX": (
+      bits: [
+        [(frame:13,bit:0,invert:false,),],
+        [(frame:13,bit:1,invert:false,),],
+        [(frame:13,bit:2,invert:false,),],
+        [(frame:13,bit:3,invert:false,),],
+        [(frame:13,bit:4,invert:false,),],
+      ],
+    ),
+    "CDRPLL_CMP_MAX": (
+      bits: [
+        [(frame:33,bit:0,invert:false,),],
+        [(frame:33,bit:1,invert:false,),],
+        [(frame:33,bit:2,invert:false,),],
+        [(frame:33,bit:3,invert:false,),],
+        [(frame:33,bit:4,invert:false,),],
+        [(frame:33,bit:5,invert:false,),],
+        [(frame:33,bit:6,invert:false,),],
+        [(frame:33,bit:7,invert:false,),],
+      ],
+    ),
+    "CDRPLL_CNT_MAX": (
+      bits: [
+        [(frame:34,bit:0,invert:false,),],
+        [(frame:34,bit:1,invert:false,),],
+        [(frame:34,bit:2,invert:false,),],
+        [(frame:34,bit:3,invert:false,),],
+        [(frame:34,bit:4,invert:false,),],
+        [(frame:34,bit:5,invert:false,),],
+        [(frame:34,bit:6,invert:false,),],
+        [(frame:34,bit:7,invert:false,),],
+      ],
+    ),
+    "CDRPLL_PRE_RXEQ_COARSE_TIMER": (
+      bits: [
+        [(frame:196,bit:0,invert:false,),],
+        [(frame:196,bit:1,invert:false,),],
+        [(frame:196,bit:2,invert:false,),],
+        [(frame:196,bit:3,invert:false,),],
+        [(frame:196,bit:4,invert:false,),],
+        [(frame:196,bit:5,invert:false,),],
+        [(frame:196,bit:6,invert:false,),],
+        [(frame:196,bit:7,invert:false,),],
+      ],
+    ),
+    "CDRPLL_PRE_RXEQ_FINE_TIMER": (
+      bits: [
+        [(frame:198,bit:0,invert:false,),],
+        [(frame:198,bit:1,invert:false,),],
+        [(frame:198,bit:2,invert:false,),],
+        [(frame:198,bit:3,invert:false,),],
+        [(frame:198,bit:4,invert:false,),],
+        [(frame:198,bit:5,invert:false,),],
+        [(frame:198,bit:6,invert:false,),],
+        [(frame:198,bit:7,invert:false,),],
+      ],
+    ),
+    "CDRPLL_PST_RXEQ_COARSE_TIMER": (
+      bits: [
+        [(frame:197,bit:0,invert:false,),],
+        [(frame:197,bit:1,invert:false,),],
+        [(frame:197,bit:2,invert:false,),],
+        [(frame:197,bit:3,invert:false,),],
+        [(frame:197,bit:4,invert:false,),],
+        [(frame:197,bit:5,invert:false,),],
+        [(frame:197,bit:6,invert:false,),],
+        [(frame:197,bit:7,invert:false,),],
+      ],
+    ),
+    "CDRPLL_PST_RXEQ_FINE_TIMER": (
+      bits: [
+        [(frame:199,bit:0,invert:false,),],
+        [(frame:199,bit:1,invert:false,),],
+        [(frame:199,bit:2,invert:false,),],
+        [(frame:199,bit:3,invert:false,),],
+        [(frame:199,bit:4,invert:false,),],
+        [(frame:199,bit:5,invert:false,),],
+        [(frame:199,bit:6,invert:false,),],
+        [(frame:199,bit:7,invert:false,),],
+      ],
+    ),
+    "CDR_ERR": (
+      bits: [
+        [(frame:14,bit:1,invert:false,),],
+        [(frame:14,bit:6,invert:false,),],
+        [(frame:14,bit:7,invert:false,),],
+      ],
+    ),
+    "CDR_P1": (
+      bits: [
+        [(frame:14,bit:0,invert:false,),],
+        [(frame:14,bit:6,invert:false,),],
+        [(frame:14,bit:7,invert:false,),],
+      ],
+    ),
+    "CDR_PLL_DELTA": (
+      bits: [
+        [(frame:0,bit:2,invert:false,),],
+        [(frame:0,bit:7,invert:false,),],
+      ],
+    ),
+    "CDR_REFERENCE": (
+      bits: [
+        [(frame:0,bit:4,invert:false,),],
+        [(frame:0,bit:5,invert:false,),],
+      ],
+    ),
+    "CLEAR_ENABLE": (
+      bits: [
+        [(frame:448,bit:1,invert:false,),],
+      ],
+    ),
+    "CLK_COMP_10B": (
+      bits: [
+        [(frame:352,bit:2,invert:false,),],
+      ],
+    ),
+    "CLK_COMP_EN": (
+      bits: [
+        [(frame:352,bit:0,invert:false,),],
+      ],
+    ),
+    "COARSE_GAIN": (
+      bits: [
+        [(frame:121,bit:1,invert:false,),],
+      ],
+    ),
+    "CTC_64B66B_DIS": (
+      bits: [
+        [(frame:387,bit:2,invert:false,),],
+      ],
+    ),
+    "CTC_64B66B_HIGH": (
+      bits: [
+        [(frame:388,bit:0,invert:false,),],
+        [(frame:388,bit:1,invert:false,),],
+        [(frame:388,bit:2,invert:false,),],
+        [(frame:388,bit:3,invert:false,),],
+      ],
+    ),
+    "CTC_64B66B_LOW": (
+      bits: [
+        [(frame:389,bit:0,invert:false,),],
+        [(frame:389,bit:1,invert:false,),],
+        [(frame:389,bit:2,invert:false,),],
+        [(frame:389,bit:3,invert:false,),],
+      ],
+    ),
+    "CTC_FIFO_EN": (
+      bits: [
+        [(frame:352,bit:1,invert:false,),],
+      ],
+    ),
+    "CTC_REPEAT_WAIT": (
+      bits: [
+        [(frame:353,bit:2,invert:false,),],
+        [(frame:353,bit:3,invert:false,),],
+        [(frame:353,bit:4,invert:false,),],
+        [(frame:353,bit:5,invert:false,),],
+        [(frame:353,bit:6,invert:false,),],
+      ],
+    ),
+    "CTLEBIAS_1": (
+      bits: [
+        [(frame:122,bit:4,invert:false,),],
+        [(frame:122,bit:5,invert:false,),],
+        [(frame:122,bit:6,invert:false,),],
+        [(frame:122,bit:7,invert:false,),],
+      ],
+    ),
+    "CTLEBYPASS": (
+      bits: [
+        [(frame:124,bit:0,invert:false,),],
+        [(frame:124,bit:1,invert:false,),],
+        [(frame:124,bit:2,invert:false,),],
+      ],
+    ),
+    "CTLE_SETTLE": (
+      bits: [
+        [(frame:214,bit:0,invert:false,),],
+        [(frame:214,bit:1,invert:false,),],
+        [(frame:214,bit:2,invert:false,),],
+      ],
+    ),
+    "CUR_FOM": (
+      bits: [
+        [(frame:216,bit:0,invert:false,),],
+        [(frame:216,bit:2,invert:false,),],
+        [(frame:216,bit:3,invert:false,),],
+        [(frame:216,bit:5,invert:false,),],
+        [(frame:216,bit:7,invert:false,),],
+      ],
+    ),
+    "CUSTOM_PATTERN": (
+      bits: [
+        [(frame:104,bit:0,invert:false,),],
+        [(frame:104,bit:1,invert:false,),],
+        [(frame:104,bit:2,invert:false,),],
+        [(frame:104,bit:3,invert:false,),],
+        [(frame:104,bit:4,invert:false,),],
+        [(frame:104,bit:5,invert:false,),],
+        [(frame:104,bit:6,invert:false,),],
+        [(frame:104,bit:7,invert:false,),],
+        [(frame:105,bit:0,invert:false,),],
+        [(frame:105,bit:1,invert:false,),],
+        [(frame:105,bit:2,invert:false,),],
+        [(frame:105,bit:3,invert:false,),],
+        [(frame:105,bit:4,invert:false,),],
+        [(frame:105,bit:5,invert:false,),],
+        [(frame:105,bit:6,invert:false,),],
+        [(frame:105,bit:7,invert:false,),],
+        [(frame:106,bit:0,invert:false,),],
+        [(frame:106,bit:1,invert:false,),],
+        [(frame:106,bit:2,invert:false,),],
+        [(frame:106,bit:3,invert:false,),],
+        [(frame:106,bit:4,invert:false,),],
+        [(frame:106,bit:5,invert:false,),],
+        [(frame:106,bit:6,invert:false,),],
+        [(frame:106,bit:7,invert:false,),],
+        [(frame:107,bit:0,invert:false,),],
+        [(frame:107,bit:1,invert:false,),],
+        [(frame:107,bit:2,invert:false,),],
+        [(frame:107,bit:3,invert:false,),],
+        [(frame:107,bit:4,invert:false,),],
+        [(frame:107,bit:5,invert:false,),],
+        [(frame:107,bit:6,invert:false,),],
+        [(frame:107,bit:7,invert:false,),],
+        [(frame:108,bit:0,invert:false,),],
+        [(frame:108,bit:1,invert:false,),],
+        [(frame:108,bit:2,invert:false,),],
+        [(frame:108,bit:3,invert:false,),],
+        [(frame:108,bit:4,invert:false,),],
+        [(frame:108,bit:5,invert:false,),],
+        [(frame:108,bit:6,invert:false,),],
+        [(frame:108,bit:7,invert:false,),],
+        [(frame:109,bit:0,invert:false,),],
+        [(frame:109,bit:1,invert:false,),],
+        [(frame:109,bit:2,invert:false,),],
+        [(frame:109,bit:3,invert:false,),],
+        [(frame:109,bit:4,invert:false,),],
+        [(frame:109,bit:5,invert:false,),],
+        [(frame:109,bit:6,invert:false,),],
+        [(frame:109,bit:7,invert:false,),],
+        [(frame:110,bit:0,invert:false,),],
+        [(frame:110,bit:1,invert:false,),],
+        [(frame:110,bit:2,invert:false,),],
+        [(frame:110,bit:3,invert:false,),],
+        [(frame:110,bit:4,invert:false,),],
+        [(frame:110,bit:5,invert:false,),],
+        [(frame:110,bit:6,invert:false,),],
+        [(frame:110,bit:7,invert:false,),],
+        [(frame:111,bit:0,invert:false,),],
+        [(frame:111,bit:1,invert:false,),],
+        [(frame:111,bit:2,invert:false,),],
+        [(frame:111,bit:3,invert:false,),],
+        [(frame:111,bit:4,invert:false,),],
+        [(frame:111,bit:5,invert:false,),],
+        [(frame:111,bit:6,invert:false,),],
+        [(frame:111,bit:7,invert:false,),],
+        [(frame:112,bit:0,invert:false,),],
+        [(frame:112,bit:1,invert:false,),],
+        [(frame:112,bit:2,invert:false,),],
+        [(frame:112,bit:3,invert:false,),],
+        [(frame:112,bit:4,invert:false,),],
+        [(frame:112,bit:5,invert:false,),],
+        [(frame:112,bit:6,invert:false,),],
+        [(frame:112,bit:7,invert:false,),],
+        [(frame:113,bit:0,invert:false,),],
+        [(frame:113,bit:1,invert:false,),],
+        [(frame:113,bit:2,invert:false,),],
+        [(frame:113,bit:3,invert:false,),],
+        [(frame:113,bit:4,invert:false,),],
+        [(frame:113,bit:5,invert:false,),],
+        [(frame:113,bit:6,invert:false,),],
+        [(frame:113,bit:7,invert:false,),],
+      ],
+    ),
+    "CUST_AUTO": (
+      bits: [
+        [(frame:114,bit:6,invert:false,),],
+      ],
+    ),
+    "CUST_CHK": (
+      bits: [
+        [(frame:114,bit:4,invert:false,),],
+      ],
+    ),
+    "CUST_SEL": (
+      bits: [
+        [(frame:114,bit:0,invert:false,),],
+      ],
+    ),
+    "CUST_SKIP": (
+      bits: [
+        [(frame:114,bit:5,invert:false,),],
+      ],
+    ),
+    "CUST_TYP": (
+      bits: [
+        [(frame:114,bit:1,invert:false,),],
+        [(frame:114,bit:2,invert:false,),],
+        [(frame:114,bit:3,invert:false,),],
+      ],
+    ),
+    "DEC_64B66B_DIS": (
+      bits: [
+        [(frame:387,bit:1,invert:false,),],
+      ],
+    ),
+    "DEC_8B10B_DIS": (
+      bits: [
+        [(frame:288,bit:4,invert:false,),],
+      ],
+    ),
+    "DEC_8B10B_INTERLEAVE": (
+      bits: [
+        [(frame:290,bit:0,invert:false,),],
+      ],
+    ),
+    "DEL_OS_CONT": (
+      bits: [
+        [(frame:387,bit:5,invert:false,),],
+      ],
+    ),
+    "DESCR_64B66B_DIS": (
+      bits: [
+        [(frame:387,bit:0,invert:false,),],
+      ],
+    ),
+    "DFE_BIAS": (
+      bits: [
+        [(frame:138,bit:0,invert:false,),],
+        [(frame:138,bit:1,invert:false,),],
+        [(frame:138,bit:2,invert:false,),],
+        [(frame:138,bit:3,invert:false,),],
+      ],
+    ),
+    "DFE_PWDN": (
+      bits: [
+        [(frame:124,bit:1,invert:false,),],
+        [(frame:124,bit:2,invert:false,),],
+        [(frame:124,bit:4,invert:false,),],
+      ],
+    ),
+    "DIR_PRE_GAIN": (
+      bits: [
+        [(frame:255,bit:6,invert:false,),],
+        [(frame:255,bit:7,invert:false,),],
+      ],
+    ),
+    "DSPDIR_PRESGN": (
+      bits: [
+        [(frame:253,bit:0,invert:false,),],
+        [(frame:253,bit:1,invert:false,),],
+        [(frame:253,bit:2,invert:false,),],
+        [(frame:253,bit:3,invert:false,),],
+        [(frame:253,bit:4,invert:false,),],
+        [(frame:253,bit:5,invert:false,),],
+        [(frame:253,bit:6,invert:false,),],
+        [(frame:253,bit:7,invert:false,),],
+      ],
+    ),
+    "DSPDIR_PREVAL": (
+      bits: [
+        [(frame:254,bit:0,invert:false,),],
+        [(frame:254,bit:1,invert:false,),],
+        [(frame:254,bit:2,invert:false,),],
+        [(frame:254,bit:3,invert:false,),],
+        [(frame:254,bit:4,invert:false,),],
+        [(frame:254,bit:5,invert:false,),],
+        [(frame:254,bit:6,invert:false,),],
+        [(frame:254,bit:7,invert:false,),],
+      ],
+    ),
+    "DSPDIR_PSTSGN0": (
+      bits: [
+        [(frame:249,bit:0,invert:false,),],
+        [(frame:249,bit:1,invert:false,),],
+        [(frame:249,bit:2,invert:false,),],
+        [(frame:249,bit:3,invert:false,),],
+        [(frame:249,bit:4,invert:false,),],
+        [(frame:249,bit:5,invert:false,),],
+        [(frame:249,bit:6,invert:false,),],
+        [(frame:249,bit:7,invert:false,),],
+      ],
+    ),
+    "DSPDIR_PSTSGN1": (
+      bits: [
+        [(frame:250,bit:0,invert:false,),],
+        [(frame:250,bit:1,invert:false,),],
+        [(frame:250,bit:2,invert:false,),],
+        [(frame:250,bit:3,invert:false,),],
+        [(frame:250,bit:4,invert:false,),],
+        [(frame:250,bit:5,invert:false,),],
+        [(frame:250,bit:6,invert:false,),],
+        [(frame:250,bit:7,invert:false,),],
+      ],
+    ),
+    "DSPDIR_PSTVAL0": (
+      bits: [
+        [(frame:251,bit:0,invert:false,),],
+        [(frame:251,bit:1,invert:false,),],
+        [(frame:251,bit:2,invert:false,),],
+        [(frame:251,bit:3,invert:false,),],
+        [(frame:251,bit:4,invert:false,),],
+        [(frame:251,bit:5,invert:false,),],
+        [(frame:251,bit:6,invert:false,),],
+        [(frame:251,bit:7,invert:false,),],
+      ],
+    ),
+    "DSPDIR_PSTVAL1": (
+      bits: [
+        [(frame:252,bit:0,invert:false,),],
+        [(frame:252,bit:1,invert:false,),],
+        [(frame:252,bit:2,invert:false,),],
+        [(frame:252,bit:3,invert:false,),],
+        [(frame:252,bit:4,invert:false,),],
+        [(frame:252,bit:5,invert:false,),],
+        [(frame:252,bit:6,invert:false,),],
+        [(frame:252,bit:7,invert:false,),],
+      ],
+    ),
+    "EFF_LPBK": (
+      bits: [
+        [(frame:116,bit:4,invert:false,),],
+      ],
+    ),
+    "EI4": (
+      bits: [
+        [(frame:35,bit:0,invert:false,),],
+        [(frame:35,bit:1,invert:false,),],
+        [(frame:35,bit:7,invert:false,),],
+      ],
+    ),
+    "ENC_8B10B_DIS": (
+      bits: [
+        [(frame:272,bit:4,invert:false,),],
+      ],
+    ),
+    "ENC_8B10B_INTERLEAVE": (
+      bits: [
+        [(frame:273,bit:0,invert:false,),],
+      ],
+    ),
+    "ENDCALIB_MAX": (
+      bits: [
+        [(frame:12,bit:0,invert:false,),],
+        [(frame:12,bit:1,invert:false,),],
+        [(frame:12,bit:2,invert:false,),],
+        [(frame:12,bit:3,invert:false,),],
+        [(frame:12,bit:4,invert:false,),],
+        [(frame:12,bit:5,invert:false,),],
+        [(frame:12,bit:6,invert:false,),],
+        [(frame:12,bit:7,invert:false,),],
+      ],
+    ),
+    "END_64B66B_DIS": (
+      bits: [
+        [(frame:384,bit:1,invert:false,),],
+      ],
+    ),
+    "EOM0DIR": (
+      bits: [
+        [(frame:160,bit:6,invert:false,),],
+      ],
+    ),
+    "EOM1DIR": (
+      bits: [
+        [(frame:160,bit:7,invert:false,),],
+      ],
+    ),
+    "EOMCTRL0_LOW": (
+      bits: [
+        [(frame:164,bit:3,invert:false,),],
+      ],
+    ),
+    "EOMDIVDIS": (
+      bits: [
+        [(frame:164,bit:4,invert:false,),],
+      ],
+    ),
+    "EOMMODE": (
+      bits: [
+        [(frame:164,bit:6,invert:false,),],
+        [(frame:164,bit:7,invert:false,),],
+      ],
+    ),
+    "EOMRDSEL": (
+      bits: [
+        [(frame:164,bit:5,invert:false,),],
+      ],
+    ),
+    "EOMSTART": (
+      bits: [
+        [(frame:164,bit:0,invert:false,),],
+      ],
+    ),
+    "EOMX": (
+      bits: [
+        [(frame:160,bit:0,invert:false,),],
+        [(frame:160,bit:1,invert:false,),],
+        [(frame:160,bit:2,invert:false,),],
+        [(frame:160,bit:3,invert:false,),],
+        [(frame:160,bit:4,invert:false,),],
+        [(frame:160,bit:5,invert:false,),],
+      ],
+    ),
+    "EOMX_UPDATE_CNT_VALUE": (
+      bits: [
+        [(frame:53,bit:0,invert:false,),],
+        [(frame:53,bit:1,invert:false,),],
+        [(frame:53,bit:2,invert:false,),],
+        [(frame:53,bit:3,invert:false,),],
+        [(frame:53,bit:4,invert:false,),],
+        [(frame:53,bit:5,invert:false,),],
+        [(frame:53,bit:6,invert:false,),],
+      ],
+    ),
+    "EOMY": (
+      bits: [
+        [(frame:161,bit:0,invert:false,),],
+        [(frame:161,bit:1,invert:false,),],
+        [(frame:161,bit:2,invert:false,),],
+        [(frame:161,bit:3,invert:false,),],
+        [(frame:161,bit:4,invert:false,),],
+        [(frame:161,bit:5,invert:false,),],
+        [(frame:161,bit:6,invert:false,),],
+        [(frame:161,bit:7,invert:false,),],
+      ],
+    ),
+    "EOM_TIME": (
+      bits: [
+        [(frame:162,bit:0,invert:false,),],
+        [(frame:162,bit:1,invert:false,),],
+        [(frame:162,bit:2,invert:false,),],
+        [(frame:162,bit:3,invert:false,),],
+        [(frame:162,bit:4,invert:false,),],
+        [(frame:162,bit:5,invert:false,),],
+        [(frame:162,bit:6,invert:false,),],
+        [(frame:162,bit:7,invert:false,),],
+        [(frame:163,bit:0,invert:false,),],
+        [(frame:163,bit:1,invert:false,),],
+        [(frame:163,bit:2,invert:false,),],
+        [(frame:163,bit:3,invert:false,),],
+        [(frame:163,bit:4,invert:false,),],
+        [(frame:163,bit:5,invert:false,),],
+        [(frame:163,bit:6,invert:false,),],
+        [(frame:163,bit:7,invert:false,),],
+      ],
+    ),
+    "ERRCNT_DEC": (
+      bits: [
+        [(frame:1,bit:0,invert:false,),],
+        [(frame:1,bit:1,invert:false,),],
+        [(frame:1,bit:2,invert:false,),],
+        [(frame:1,bit:3,invert:false,),],
+        [(frame:1,bit:4,invert:false,),],
+        [(frame:1,bit:5,invert:false,),],
+        [(frame:1,bit:6,invert:false,),],
+        [(frame:1,bit:7,invert:false,),],
+      ],
+    ),
+    "ERRCNT_THR": (
+      bits: [
+        [(frame:2,bit:0,invert:false,),],
+        [(frame:2,bit:1,invert:false,),],
+        [(frame:2,bit:2,invert:false,),],
+        [(frame:2,bit:3,invert:false,),],
+      ],
+    ),
+    "ES_PWDN": (
+      bits: [
+        [(frame:124,bit:1,invert:false,),],
+        [(frame:124,bit:2,invert:false,),],
+        [(frame:124,bit:5,invert:false,),],
+      ],
+    ),
+    "EVAL_RST": (
+      bits: [
+        [(frame:212,bit:0,invert:false,),],
+        [(frame:212,bit:2,invert:false,),],
+        [(frame:212,bit:3,invert:false,),],
+        [(frame:212,bit:5,invert:false,),],
+        [(frame:212,bit:7,invert:false,),],
+      ],
+    ),
+    "FAR_LP_EN": (
+      bits: [
+        [(frame:480,bit:1,invert:false,),],
+      ],
+    ),
+    "FINE_GAIN": (
+      bits: [
+        [(frame:121,bit:2,invert:false,),],
+      ],
+    ),
+    "FOM_COMPARE": (
+      bits: [
+        [(frame:244,bit:0,invert:false,),],
+        [(frame:244,bit:1,invert:false,),],
+        [(frame:244,bit:2,invert:false,),],
+        [(frame:244,bit:3,invert:false,),],
+        [(frame:244,bit:4,invert:false,),],
+        [(frame:244,bit:5,invert:false,),],
+        [(frame:244,bit:6,invert:false,),],
+        [(frame:244,bit:7,invert:false,),],
+      ],
+    ),
+    "FOM_HIRES": (
+      bits: [
+        [(frame:215,bit:2,invert:false,),],
+        [(frame:215,bit:6,invert:false,),],
+        [(frame:215,bit:7,invert:false,),],
+      ],
+    ),
+    "FOM_THR": (
+      bits: [
+        [(frame:215,bit:0,invert:false,),],
+        [(frame:215,bit:1,invert:false,),],
+        [(frame:215,bit:2,invert:false,),],
+        [(frame:215,bit:3,invert:false,),],
+      ],
+    ),
+    "FORCE_ATXDRA": (
+      bits: [
+        [(frame:88,bit:0,invert:false,),],
+        [(frame:88,bit:1,invert:false,),],
+        [(frame:88,bit:2,invert:false,),],
+        [(frame:88,bit:3,invert:false,),],
+        [(frame:88,bit:4,invert:false,),],
+        [(frame:88,bit:5,invert:false,),],
+        [(frame:88,bit:6,invert:false,),],
+        [(frame:88,bit:7,invert:false,),],
+        [(frame:89,bit:0,invert:false,),],
+        [(frame:89,bit:1,invert:false,),],
+        [(frame:89,bit:2,invert:false,),],
+        [(frame:89,bit:3,invert:false,),],
+        [(frame:89,bit:4,invert:false,),],
+        [(frame:89,bit:5,invert:false,),],
+        [(frame:89,bit:6,invert:false,),],
+        [(frame:89,bit:7,invert:false,),],
+        [(frame:90,bit:0,invert:false,),],
+        [(frame:90,bit:1,invert:false,),],
+        [(frame:90,bit:2,invert:false,),],
+        [(frame:90,bit:3,invert:false,),],
+        [(frame:90,bit:4,invert:false,),],
+      ],
+    ),
+    "FORCE_ATXDRP": (
+      bits: [
+        [(frame:85,bit:0,invert:false,),],
+        [(frame:85,bit:1,invert:false,),],
+        [(frame:85,bit:2,invert:false,),],
+        [(frame:85,bit:3,invert:false,),],
+        [(frame:85,bit:4,invert:false,),],
+        [(frame:85,bit:5,invert:false,),],
+        [(frame:85,bit:6,invert:false,),],
+        [(frame:85,bit:7,invert:false,),],
+        [(frame:86,bit:0,invert:false,),],
+        [(frame:86,bit:1,invert:false,),],
+        [(frame:86,bit:2,invert:false,),],
+        [(frame:86,bit:3,invert:false,),],
+        [(frame:86,bit:4,invert:false,),],
+        [(frame:86,bit:5,invert:false,),],
+        [(frame:86,bit:6,invert:false,),],
+        [(frame:86,bit:7,invert:false,),],
+        [(frame:87,bit:0,invert:false,),],
+        [(frame:87,bit:1,invert:false,),],
+        [(frame:87,bit:2,invert:false,),],
+        [(frame:87,bit:3,invert:false,),],
+        [(frame:87,bit:4,invert:false,),],
+      ],
+    ),
+    "FORCE_ATXDRR": (
+      bits: [
+        [(frame:82,bit:0,invert:false,),],
+        [(frame:82,bit:1,invert:false,),],
+        [(frame:82,bit:2,invert:false,),],
+        [(frame:82,bit:3,invert:false,),],
+        [(frame:82,bit:4,invert:false,),],
+        [(frame:82,bit:5,invert:false,),],
+        [(frame:82,bit:6,invert:false,),],
+        [(frame:82,bit:7,invert:false,),],
+        [(frame:83,bit:0,invert:false,),],
+        [(frame:83,bit:1,invert:false,),],
+        [(frame:83,bit:2,invert:false,),],
+        [(frame:83,bit:3,invert:false,),],
+        [(frame:83,bit:4,invert:false,),],
+        [(frame:83,bit:5,invert:false,),],
+        [(frame:83,bit:6,invert:false,),],
+        [(frame:83,bit:7,invert:false,),],
+        [(frame:84,bit:0,invert:false,),],
+        [(frame:84,bit:1,invert:false,),],
+        [(frame:84,bit:2,invert:false,),],
+        [(frame:84,bit:3,invert:false,),],
+        [(frame:84,bit:4,invert:false,),],
+      ],
+    ),
+    "FORCE_ATXDRT": (
+      bits: [
+        [(frame:91,bit:0,invert:false,),],
+        [(frame:91,bit:1,invert:false,),],
+        [(frame:91,bit:2,invert:false,),],
+        [(frame:91,bit:3,invert:false,),],
+        [(frame:91,bit:4,invert:false,),],
+        [(frame:91,bit:5,invert:false,),],
+        [(frame:91,bit:6,invert:false,),],
+        [(frame:91,bit:7,invert:false,),],
+        [(frame:92,bit:0,invert:false,),],
+        [(frame:92,bit:1,invert:false,),],
+        [(frame:92,bit:2,invert:false,),],
+        [(frame:92,bit:3,invert:false,),],
+        [(frame:92,bit:4,invert:false,),],
+        [(frame:92,bit:5,invert:false,),],
+        [(frame:92,bit:6,invert:false,),],
+        [(frame:92,bit:7,invert:false,),],
+        [(frame:93,bit:0,invert:false,),],
+        [(frame:93,bit:1,invert:false,),],
+        [(frame:93,bit:2,invert:false,),],
+        [(frame:93,bit:3,invert:false,),],
+        [(frame:93,bit:4,invert:false,),],
+      ],
+    ),
+    "FORCE_DIR_RSLT": (
+      bits: [
+        [(frame:220,bit:0,invert:false,),],
+        [(frame:220,bit:1,invert:false,),],
+        [(frame:220,bit:2,invert:false,),],
+        [(frame:220,bit:3,invert:false,),],
+        [(frame:220,bit:4,invert:false,),],
+        [(frame:220,bit:5,invert:false,),],
+      ],
+    ),
+    "FORCE_FOM_RSLT": (
+      bits: [
+        [(frame:221,bit:0,invert:false,),],
+        [(frame:221,bit:1,invert:false,),],
+        [(frame:221,bit:2,invert:false,),],
+        [(frame:221,bit:3,invert:false,),],
+        [(frame:221,bit:4,invert:false,),],
+        [(frame:221,bit:5,invert:false,),],
+        [(frame:221,bit:6,invert:false,),],
+        [(frame:221,bit:7,invert:false,),],
+      ],
+    ),
+    "FORCE_IDLE": (
+      bits: [
+        [(frame:14,bit:4,invert:false,),],
+        [(frame:14,bit:6,invert:false,),],
+        [(frame:14,bit:7,invert:false,),],
+      ],
+    ),
+    "FORCE_RX_DETECT": (
+      bits: [
+        [(frame:0,bit:6,invert:false,),],
+        [(frame:0,bit:7,invert:false,),],
+      ],
+    ),
+    "FORCE_SIGNAL": (
+      bits: [
+        [(frame:14,bit:5,invert:false,),],
+        [(frame:14,bit:6,invert:false,),],
+        [(frame:14,bit:7,invert:false,),],
+      ],
+    ),
+    "FREQ_LOCK": (
+      bits: [
+        [(frame:121,bit:0,invert:false,),],
+      ],
+    ),
+    "F_ARXCTLEDIR": (
+      bits: [
+        [(frame:140,bit:4,invert:false,),],
+      ],
+    ),
+    "F_ARXCTLENULL": (
+      bits: [
+        [(frame:140,bit:0,invert:false,),],
+        [(frame:140,bit:1,invert:false,),],
+        [(frame:140,bit:2,invert:false,),],
+        [(frame:140,bit:3,invert:false,),],
+      ],
+    ),
+    "F_ARXDMDIR": (
+      bits: [
+        [(frame:134,bit:5,invert:false,),],
+      ],
+    ),
+    "F_ARXDMNULL": (
+      bits: [
+        [(frame:134,bit:0,invert:false,),],
+        [(frame:134,bit:1,invert:false,),],
+        [(frame:134,bit:2,invert:false,),],
+        [(frame:134,bit:3,invert:false,),],
+        [(frame:134,bit:4,invert:false,),],
+      ],
+    ),
+    "F_ARXDPDIR": (
+      bits: [
+        [(frame:97,bit:5,invert:false,),],
+      ],
+    ),
+    "F_ARXDPNULL": (
+      bits: [
+        [(frame:97,bit:0,invert:false,),],
+        [(frame:97,bit:1,invert:false,),],
+        [(frame:97,bit:2,invert:false,),],
+        [(frame:97,bit:3,invert:false,),],
+        [(frame:97,bit:4,invert:false,),],
+      ],
+    ),
+    "F_ARXEOMDIR": (
+      bits: [
+        [(frame:159,bit:5,invert:false,),],
+      ],
+    ),
+    "F_ARXEOMNULL": (
+      bits: [
+        [(frame:159,bit:0,invert:false,),],
+        [(frame:159,bit:1,invert:false,),],
+        [(frame:159,bit:2,invert:false,),],
+        [(frame:159,bit:3,invert:false,),],
+        [(frame:159,bit:4,invert:false,),],
+      ],
+    ),
+    "F_ARXESDIR": (
+      bits: [
+        [(frame:135,bit:5,invert:false,),],
+      ],
+    ),
+    "F_ARXESNULL": (
+      bits: [
+        [(frame:135,bit:0,invert:false,),],
+        [(frame:135,bit:1,invert:false,),],
+        [(frame:135,bit:2,invert:false,),],
+        [(frame:135,bit:3,invert:false,),],
+        [(frame:135,bit:4,invert:false,),],
+      ],
+    ),
+    "F_ARXTDIR": (
+      bits: [
+        [(frame:98,bit:5,invert:false,),],
+      ],
+    ),
+    "F_ARXTNULL": (
+      bits: [
+        [(frame:98,bit:0,invert:false,),],
+        [(frame:98,bit:1,invert:false,),],
+        [(frame:98,bit:2,invert:false,),],
+        [(frame:98,bit:3,invert:false,),],
+        [(frame:98,bit:4,invert:false,),],
+      ],
+    ),
+    "F_ASCHCAL": (
+      bits: [
+        [(frame:99,bit:5,invert:false,),],
+      ],
+    ),
+    "F_ASCHDIR": (
+      bits: [
+        [(frame:99,bit:4,invert:false,),],
+      ],
+    ),
+    "F_ASCHNULL": (
+      bits: [
+        [(frame:99,bit:0,invert:false,),],
+        [(frame:99,bit:1,invert:false,),],
+        [(frame:99,bit:2,invert:false,),],
+        [(frame:99,bit:3,invert:false,),],
+      ],
+    ),
+    "GEN12_ENA_POST_A0": (
+      bits: [
+        [(frame:213,bit:0,invert:false,),],
+        [(frame:213,bit:2,invert:false,),],
+        [(frame:213,bit:5,invert:false,),],
+        [(frame:213,bit:6,invert:false,),],
+        [(frame:213,bit:7,invert:false,),],
+      ],
+    ),
+    "GEN12_ENA_POST_A1A2": (
+      bits: [
+        [(frame:211,bit:0,invert:false,),],
+        [(frame:211,bit:5,invert:false,),],
+        [(frame:211,bit:6,invert:false,),],
+        [(frame:211,bit:7,invert:false,),],
+      ],
+    ),
+    "GEN12_ENA_PREA0": (
+      bits: [
+        [(frame:209,bit:0,invert:false,),],
+        [(frame:209,bit:2,invert:false,),],
+        [(frame:209,bit:5,invert:false,),],
+        [(frame:209,bit:6,invert:false,),],
+        [(frame:209,bit:7,invert:false,),],
+      ],
+    ),
+    "GEN3_ENA_POST_A0": (
+      bits: [
+        [(frame:213,bit:0,invert:false,),],
+        [(frame:213,bit:2,invert:false,),],
+        [(frame:213,bit:5,invert:false,),],
+      ],
+    ),
+    "GEN3_ENA_POST_A1A2": (
+      bits: [
+        [(frame:211,bit:0,invert:false,),],
+        [(frame:211,bit:5,invert:false,),],
+      ],
+    ),
+    "GEN3_ENA_PREA0": (
+      bits: [
+        [(frame:209,bit:0,invert:false,),],
+        [(frame:209,bit:2,invert:false,),],
+        [(frame:209,bit:5,invert:false,),],
+      ],
+    ),
+    "HIGH_WATER_LINE": (
+      bits: [
+        [(frame:354,bit:0,invert:false,),],
+        [(frame:354,bit:1,invert:false,),],
+        [(frame:354,bit:2,invert:false,),],
+        [(frame:354,bit:3,invert:false,),],
+        [(frame:354,bit:4,invert:false,),],
+      ],
+    ),
+    "HINT0_3DB": (
+      bits: [
+        [(frame:200,bit:0,invert:false,),],
+        [(frame:200,bit:1,invert:false,),],
+        [(frame:200,bit:2,invert:false,),],
+        [(frame:200,bit:3,invert:false,),],
+        [(frame:200,bit:4,invert:false,),],
+        [(frame:200,bit:5,invert:false,),],
+      ],
+    ),
+    "HINT0_A0GAIN": (
+      bits: [
+        [(frame:200,bit:3,invert:false,),],
+        [(frame:200,bit:4,invert:false,),],
+        [(frame:200,bit:5,invert:false,),],
+      ],
+    ),
+    "HINT0_A2GAIN": (
+      bits: [
+        [(frame:200,bit:0,invert:false,),],
+        [(frame:200,bit:1,invert:false,),],
+        [(frame:200,bit:2,invert:false,),],
+      ],
+    ),
+    "HINT1_3DB": (
+      bits: [
+        [(frame:201,bit:0,invert:false,),],
+        [(frame:201,bit:2,invert:false,),],
+        [(frame:201,bit:3,invert:false,),],
+        [(frame:201,bit:4,invert:false,),],
+      ],
+    ),
+    "HINT1_A0GAIN": (
+      bits: [
+        [(frame:201,bit:3,invert:false,),],
+        [(frame:201,bit:4,invert:false,),],
+        [(frame:201,bit:5,invert:false,),],
+      ],
+    ),
+    "HINT2_3DB": (
+      bits: [
+        [(frame:202,bit:0,invert:false,),],
+        [(frame:202,bit:1,invert:false,),],
+        [(frame:202,bit:2,invert:false,),],
+        [(frame:202,bit:3,invert:false,),],
+        [(frame:202,bit:4,invert:false,),],
+      ],
+    ),
+    "HINT2_A0GAIN": (
+      bits: [
+        [(frame:202,bit:3,invert:false,),],
+        [(frame:202,bit:4,invert:false,),],
+        [(frame:202,bit:5,invert:false,),],
+      ],
+    ),
+    "HINT2_A2GAIN": (
+      bits: [
+        [(frame:202,bit:0,invert:false,),],
+        [(frame:202,bit:1,invert:false,),],
+        [(frame:202,bit:2,invert:false,),],
+      ],
+    ),
+    "HINT3_3DB": (
+      bits: [
+        [(frame:203,bit:0,invert:false,),],
+        [(frame:203,bit:1,invert:false,),],
+        [(frame:203,bit:2,invert:false,),],
+      ],
+    ),
+    "HINT3_A0GAIN": (
+      bits: [
+        [(frame:203,bit:3,invert:false,),],
+        [(frame:203,bit:4,invert:false,),],
+        [(frame:203,bit:5,invert:false,),],
+      ],
+    ),
+    "HINT3_A2GAIN": (
+      bits: [
+        [(frame:203,bit:0,invert:false,),],
+        [(frame:203,bit:1,invert:false,),],
+        [(frame:203,bit:2,invert:false,),],
+      ],
+    ),
+    "HINT4_3DB": (
+      bits: [
+        [(frame:204,bit:0,invert:false,),],
+        [(frame:204,bit:1,invert:false,),],
+        [(frame:204,bit:2,invert:false,),],
+        [(frame:204,bit:3,invert:false,),],
+        [(frame:204,bit:4,invert:false,),],
+        [(frame:204,bit:5,invert:false,),],
+        [(frame:204,bit:6,invert:false,),],
+      ],
+    ),
+    "HINT4_A0GAIN": (
+      bits: [
+        [(frame:204,bit:3,invert:false,),],
+        [(frame:204,bit:4,invert:false,),],
+        [(frame:204,bit:5,invert:false,),],
+      ],
+    ),
+    "HINT4_A2GAIN": (
+      bits: [
+        [(frame:204,bit:0,invert:false,),],
+        [(frame:204,bit:1,invert:false,),],
+        [(frame:204,bit:2,invert:false,),],
+      ],
+    ),
+    "HINT5_3DB": (
+      bits: [
+        [(frame:205,bit:0,invert:false,),],
+        [(frame:205,bit:2,invert:false,),],
+        [(frame:205,bit:3,invert:false,),],
+        [(frame:205,bit:4,invert:false,),],
+        [(frame:205,bit:6,invert:false,),],
+      ],
+    ),
+    "HINT5_A0GAIN": (
+      bits: [
+        [(frame:205,bit:3,invert:false,),],
+        [(frame:205,bit:4,invert:false,),],
+        [(frame:205,bit:5,invert:false,),],
+      ],
+    ),
+    "HINT5_A2GAIN": (
+      bits: [
+        [(frame:205,bit:1,invert:false,),],
+        [(frame:205,bit:3,invert:false,),],
+        [(frame:205,bit:4,invert:false,),],
+      ],
+    ),
+    "HINT6_3DB": (
+      bits: [
+        [(frame:206,bit:0,invert:false,),],
+        [(frame:206,bit:1,invert:false,),],
+        [(frame:206,bit:2,invert:false,),],
+        [(frame:206,bit:3,invert:false,),],
+        [(frame:206,bit:4,invert:false,),],
+        [(frame:206,bit:6,invert:false,),],
+      ],
+    ),
+    "HINT6_A0GAIN": (
+      bits: [
+        [(frame:206,bit:3,invert:false,),],
+        [(frame:206,bit:4,invert:false,),],
+        [(frame:206,bit:5,invert:false,),],
+      ],
+    ),
+    "HINT6_A2GAIN": (
+      bits: [
+        [(frame:206,bit:0,invert:false,),],
+        [(frame:206,bit:1,invert:false,),],
+        [(frame:206,bit:2,invert:false,),],
+      ],
+    ),
+    "HINT7_3DB": (
+      bits: [
+        [(frame:207,bit:0,invert:false,),],
+        [(frame:207,bit:1,invert:false,),],
+        [(frame:207,bit:2,invert:false,),],
+        [(frame:207,bit:6,invert:false,),],
+      ],
+    ),
+    "HINT7_A0GAIN": (
+      bits: [
+        [(frame:207,bit:3,invert:false,),],
+        [(frame:207,bit:4,invert:false,),],
+        [(frame:207,bit:5,invert:false,),],
+      ],
+    ),
+    "HINT7_A2GAIN": (
+      bits: [
+        [(frame:207,bit:0,invert:false,),],
+        [(frame:207,bit:1,invert:false,),],
+        [(frame:207,bit:2,invert:false,),],
+      ],
+    ),
+    "HINT7_OVR": (
+      bits: [
+        [(frame:207,bit:0,invert:false,),],
+        [(frame:207,bit:1,invert:false,),],
+        [(frame:207,bit:2,invert:false,),],
+        [(frame:207,bit:7,invert:false,),],
+      ],
+    ),
+    "L1_ENTER_PLL_RESET_TIME": (
+      bits: [
+        [(frame:146,bit:0,invert:false,),],
+        [(frame:146,bit:1,invert:false,),],
+        [(frame:146,bit:2,invert:false,),],
+      ],
+    ),
+    "L1_EXIT_PLL_LOCK_TIME": (
+      bits: [
+        [(frame:146,bit:3,invert:false,),],
+        [(frame:146,bit:4,invert:false,),],
+        [(frame:146,bit:5,invert:false,),],
+        [(frame:146,bit:6,invert:false,),],
+        [(frame:146,bit:7,invert:false,),],
+      ],
+    ),
+    "LALIGN_10B": (
+      bits: [
+        [(frame:336,bit:1,invert:false,),],
+      ],
+    ),
+    "LALIGN_EN": (
+      bits: [
+        [(frame:336,bit:0,invert:false,),],
+      ],
+    ),
+    "LALIGN_MASK_CODE": (
+      bits: [
+        [(frame:348,bit:0,invert:false,),],
+        [(frame:348,bit:1,invert:false,),],
+        [(frame:348,bit:2,invert:false,),],
+        [(frame:348,bit:3,invert:false,),],
+      ],
+    ),
+    "LALIGN_PTN_LEN": (
+      bits: [
+        [(frame:336,bit:2,invert:false,),],
+        [(frame:336,bit:3,invert:false,),],
+      ],
+    ),
+    "LF_PHY": (
+      bits: [
+        [(frame:180,bit:0,invert:false,),],
+        [(frame:180,bit:1,invert:false,),],
+        [(frame:180,bit:2,invert:false,),],
+        [(frame:180,bit:3,invert:false,),],
+        [(frame:180,bit:4,invert:false,),],
+        [(frame:180,bit:5,invert:false,),],
+      ],
+    ),
+    "LOCK_FIFO_POINTERS": (
+      bits: [
+        [(frame:448,bit:0,invert:false,),],
+      ],
+    ),
+    "LPBK_EN": (
+      bits: [
+        [(frame:100,bit:1,invert:false,),],
+      ],
+    ),
+    "MAX_LSKEW": (
+      bits: [
+        [(frame:337,bit:0,invert:false,),],
+        [(frame:337,bit:1,invert:false,),],
+        [(frame:337,bit:2,invert:false,),],
+        [(frame:337,bit:3,invert:false,),],
+      ],
+    ),
+    "MAX_RSA_WAIT": (
+      bits: [
+        [(frame:175,bit:0,invert:false,),],
+        [(frame:175,bit:1,invert:false,),],
+        [(frame:175,bit:2,invert:false,),],
+        [(frame:175,bit:3,invert:false,),],
+        [(frame:175,bit:4,invert:false,),],
+        [(frame:175,bit:5,invert:false,),],
+        [(frame:175,bit:6,invert:false,),],
+        [(frame:175,bit:7,invert:false,),],
+      ],
+    ),
+    "MAX_VAR": (
+      bits: [
+        [(frame:218,bit:0,invert:false,),],
+        [(frame:218,bit:1,invert:false,),],
+        [(frame:218,bit:2,invert:false,),],
+        [(frame:218,bit:3,invert:false,),],
+        [(frame:218,bit:4,invert:false,),],
+      ],
+    ),
+    "MESO_LPBK": (
+      bits: [
+        [(frame:116,bit:2,invert:false,),],
+      ],
+    ),
+    "MID_VALUE_10B": (
+      bits: [
+        [(frame:149,bit:0,invert:false,),],
+        [(frame:149,bit:1,invert:false,),],
+        [(frame:149,bit:2,invert:false,),],
+        [(frame:149,bit:3,invert:false,),],
+        [(frame:149,bit:4,invert:false,),],
+        [(frame:149,bit:5,invert:false,),],
+      ],
+    ),
+    "MID_VALUE_20B": (
+      bits: [
+        [(frame:152,bit:0,invert:false,),],
+        [(frame:152,bit:1,invert:false,),],
+        [(frame:152,bit:2,invert:false,),],
+        [(frame:152,bit:3,invert:false,),],
+        [(frame:152,bit:4,invert:false,),],
+        [(frame:152,bit:5,invert:false,),],
+      ],
+    ),
+    "MID_VALUE_GEN3": (
+      bits: [
+        [(frame:155,bit:0,invert:false,),],
+        [(frame:155,bit:1,invert:false,),],
+        [(frame:155,bit:2,invert:false,),],
+        [(frame:155,bit:3,invert:false,),],
+        [(frame:155,bit:4,invert:false,),],
+        [(frame:155,bit:5,invert:false,),],
+      ],
+    ),
+    "MIN_IPG_CNT": (
+      bits: [
+        [(frame:353,bit:0,invert:false,),],
+        [(frame:353,bit:1,invert:false,),],
+      ],
+    ),
+    "MIX_DIR": (
+      bits: [
+        [(frame:246,bit:4,invert:false,),],
+        [(frame:246,bit:5,invert:false,),],
+      ],
+    ),
+    "MODE_BFF": (
+      bits: [
+        [(frame:217,bit:2,invert:false,),],
+        [(frame:217,bit:4,invert:false,),],
+        [(frame:217,bit:5,invert:false,),],
+        [(frame:217,bit:6,invert:false,),],
+      ],
+    ),
+    "NEAR_LP_EN": (
+      bits: [
+        [(frame:480,bit:0,invert:false,),],
+      ],
+    ),
+    "NO_FCMP": (
+      bits: [
+        [(frame:14,bit:3,invert:false,),],
+        [(frame:14,bit:6,invert:false,),],
+        [(frame:14,bit:7,invert:false,),],
+      ],
+    ),
+    "NUM_BAD_CODE": (
+      bits: [
+        [(frame:315,bit:0,invert:false,),],
+        [(frame:315,bit:1,invert:false,),],
+        [(frame:315,bit:2,invert:false,),],
+        [(frame:315,bit:3,invert:false,),],
+        [(frame:315,bit:4,invert:false,),],
+        [(frame:315,bit:5,invert:false,),],
+      ],
+    ),
+    "NUM_GOOD_CODE": (
+      bits: [
+        [(frame:316,bit:0,invert:false,),],
+        [(frame:316,bit:1,invert:false,),],
+        [(frame:316,bit:2,invert:false,),],
+        [(frame:316,bit:3,invert:false,),],
+        [(frame:316,bit:4,invert:false,),],
+        [(frame:316,bit:5,invert:false,),],
+        [(frame:316,bit:6,invert:false,),],
+        [(frame:316,bit:7,invert:false,),],
+      ],
+    ),
+    "NUM_VAL_SYNC": (
+      bits: [
+        [(frame:314,bit:0,invert:false,),],
+        [(frame:314,bit:1,invert:false,),],
+        [(frame:314,bit:2,invert:false,),],
+        [(frame:314,bit:3,invert:false,),],
+        [(frame:314,bit:4,invert:false,),],
+        [(frame:314,bit:5,invert:false,),],
+        [(frame:314,bit:6,invert:false,),],
+        [(frame:314,bit:7,invert:false,),],
+      ],
+    ),
+    "OVER_CTLE": (
+      bits: [
+        [(frame:81,bit:7,invert:false,),],
+      ],
+    ),
+    "OVER_RX": (
+      bits: [
+        [(frame:81,bit:0,invert:false,),],
+      ],
+    ),
+    "OVER_RXDM": (
+      bits: [
+        [(frame:81,bit:5,invert:false,),],
+      ],
+    ),
+    "OVER_RXDP": (
+      bits: [
+        [(frame:81,bit:2,invert:false,),],
+      ],
+    ),
+    "OVER_RXES": (
+      bits: [
+        [(frame:81,bit:6,invert:false,),],
+      ],
+    ),
+    "OVER_RXT": (
+      bits: [
+        [(frame:81,bit:3,invert:false,),],
+      ],
+    ),
+    "OVER_SCH": (
+      bits: [
+        [(frame:81,bit:4,invert:false,),],
+      ],
+    ),
+    "OVER_TX": (
+      bits: [
+        [(frame:81,bit:1,invert:false,),],
+      ],
+    ),
+    "OVR_CDR": (
+      bits: [
+        [(frame:243,bit:6,invert:false,),],
+      ],
+    ),
+    "OVR_DIR": (
+      bits: [
+        [(frame:243,bit:5,invert:false,),],
+      ],
+    ),
+    "OVR_FOM": (
+      bits: [
+        [(frame:243,bit:4,invert:false,),],
+      ],
+    ),
+    "OVR_GAIN3DB": (
+      bits: [
+        [(frame:124,bit:2,invert:false,),],
+      ],
+    ),
+    "OVR_HINT3DB": (
+      bits: [
+        [(frame:124,bit:1,invert:false,),],
+      ],
+    ),
+    "PAR_LPBK": (
+      bits: [
+        [(frame:116,bit:1,invert:false,),],
+      ],
+    ),
+    "PCS_64B66B_NOFPLL": (
+      bits: [
+        [(frame:387,bit:4,invert:false,),],
+      ],
+    ),
+    "PHY_STS_PIPE_PHY_STATUS": (
+      bits: [
+        [(frame:510,bit:6,invert:false,),],
+      ],
+    ),
+    "PLESIO_LPBK": (
+      bits: [
+        [(frame:116,bit:0,invert:false,),],
+      ],
+    ),
+    "PMA_DRIVEN_MODE": (
+      bits: [
+        [(frame:0,bit:3,invert:false,),],
+        [(frame:0,bit:7,invert:false,),],
+      ],
+    ),
+    "PMFF_ALL": (
+      bits: [
+        [(frame:14,bit:2,invert:false,),],
+        [(frame:14,bit:6,invert:false,),],
+        [(frame:14,bit:7,invert:false,),],
+      ],
+    ),
+    "POST_A0COEF": (
+      bits: [
+        [(frame:211,bit:0,invert:false,),],
+        [(frame:211,bit:1,invert:false,),],
+        [(frame:211,bit:2,invert:false,),],
+      ],
+    ),
+    "POST_A1COEF": (
+      bits: [
+        [(frame:210,bit:3,invert:false,),],
+        [(frame:210,bit:4,invert:false,),],
+        [(frame:210,bit:5,invert:false,),],
+      ],
+    ),
+    "POST_A2COEF": (
+      bits: [
+        [(frame:210,bit:0,invert:false,),],
+        [(frame:210,bit:1,invert:false,),],
+        [(frame:210,bit:2,invert:false,),],
+      ],
+    ),
+    "POST_ITERCNT": (
+      bits: [
+        [(frame:211,bit:3,invert:false,),],
+        [(frame:211,bit:4,invert:false,),],
+        [(frame:211,bit:5,invert:false,),],
+      ],
+    ),
+    "PRBS_CHK": (
+      bits: [
+        [(frame:100,bit:6,invert:false,),],
+      ],
+    ),
+    "PRBS_GEN": (
+      bits: [
+        [(frame:100,bit:0,invert:false,),],
+      ],
+    ),
+    "PRBS_TYP": (
+      bits: [
+        [(frame:100,bit:2,invert:false,),],
+        [(frame:100,bit:3,invert:false,),],
+      ],
+    ),
+    "PRESET0_POSTCURSOR": (
+      bits: [
+        [(frame:184,bit:4,invert:false,),],
+        [(frame:184,bit:5,invert:false,),],
+        [(frame:184,bit:6,invert:false,),],
+        [(frame:184,bit:7,invert:false,),],
+      ],
+    ),
+    "PRESET0_PRECURSOR": (
+      bits: [
+        [(frame:184,bit:0,invert:false,),],
+        [(frame:184,bit:1,invert:false,),],
+        [(frame:184,bit:2,invert:false,),],
+        [(frame:184,bit:3,invert:false,),],
+      ],
+    ),
+    "PRESET10_PRECURSOR": (
+      bits: [
+        [(frame:194,bit:0,invert:false,),],
+        [(frame:194,bit:1,invert:false,),],
+        [(frame:194,bit:2,invert:false,),],
+        [(frame:194,bit:3,invert:false,),],
+      ],
+    ),
+    "PRESET1_PRECURSOR": (
+      bits: [
+        [(frame:185,bit:0,invert:false,),],
+        [(frame:185,bit:1,invert:false,),],
+        [(frame:185,bit:2,invert:false,),],
+        [(frame:185,bit:3,invert:false,),],
+      ],
+    ),
+    "PRESET2_POSTCURSOR": (
+      bits: [
+        [(frame:186,bit:4,invert:false,),],
+        [(frame:186,bit:5,invert:false,),],
+        [(frame:186,bit:6,invert:false,),],
+        [(frame:186,bit:7,invert:false,),],
+      ],
+    ),
+    "PRESET2_PRECURSOR": (
+      bits: [
+        [(frame:186,bit:0,invert:false,),],
+        [(frame:186,bit:1,invert:false,),],
+        [(frame:186,bit:2,invert:false,),],
+        [(frame:186,bit:3,invert:false,),],
+      ],
+    ),
+    "PRESET3_POSTCURSOR": (
+      bits: [
+        [(frame:187,bit:4,invert:false,),],
+        [(frame:187,bit:5,invert:false,),],
+        [(frame:187,bit:6,invert:false,),],
+        [(frame:187,bit:7,invert:false,),],
+      ],
+    ),
+    "PRESET3_PRECURSOR": (
+      bits: [
+        [(frame:187,bit:0,invert:false,),],
+        [(frame:187,bit:1,invert:false,),],
+        [(frame:187,bit:2,invert:false,),],
+        [(frame:187,bit:3,invert:false,),],
+      ],
+    ),
+    "PRESET4_POSTCURSOR": (
+      bits: [
+        [(frame:188,bit:4,invert:false,),],
+        [(frame:188,bit:5,invert:false,),],
+        [(frame:188,bit:6,invert:false,),],
+        [(frame:188,bit:7,invert:false,),],
+      ],
+    ),
+    "PRESET4_PRECURSOR": (
+      bits: [
+        [(frame:188,bit:0,invert:false,),],
+        [(frame:188,bit:1,invert:false,),],
+        [(frame:188,bit:2,invert:false,),],
+        [(frame:188,bit:3,invert:false,),],
+      ],
+    ),
+    "PRESET5_POSTCURSOR": (
+      bits: [
+        [(frame:189,bit:4,invert:false,),],
+        [(frame:189,bit:5,invert:false,),],
+        [(frame:189,bit:6,invert:false,),],
+        [(frame:189,bit:7,invert:false,),],
+      ],
+    ),
+    "PRESET5_PRECURSOR": (
+      bits: [
+        [(frame:189,bit:0,invert:false,),],
+        [(frame:189,bit:1,invert:false,),],
+        [(frame:189,bit:2,invert:false,),],
+        [(frame:189,bit:3,invert:false,),],
+      ],
+    ),
+    "PRESET6_POSTCURSOR": (
+      bits: [
+        [(frame:190,bit:4,invert:false,),],
+        [(frame:190,bit:5,invert:false,),],
+        [(frame:190,bit:6,invert:false,),],
+        [(frame:190,bit:7,invert:false,),],
+      ],
+    ),
+    "PRESET6_PRECURSOR": (
+      bits: [
+        [(frame:190,bit:0,invert:false,),],
+        [(frame:190,bit:1,invert:false,),],
+        [(frame:190,bit:2,invert:false,),],
+        [(frame:190,bit:3,invert:false,),],
+      ],
+    ),
+    "PRESET7_POSTCURSOR": (
+      bits: [
+        [(frame:191,bit:4,invert:false,),],
+        [(frame:191,bit:5,invert:false,),],
+        [(frame:191,bit:6,invert:false,),],
+        [(frame:191,bit:7,invert:false,),],
+      ],
+    ),
+    "PRESET7_PRECURSOR": (
+      bits: [
+        [(frame:191,bit:0,invert:false,),],
+        [(frame:191,bit:1,invert:false,),],
+        [(frame:191,bit:2,invert:false,),],
+        [(frame:191,bit:3,invert:false,),],
+      ],
+    ),
+    "PRESET8_POSTCURSOR": (
+      bits: [
+        [(frame:192,bit:4,invert:false,),],
+        [(frame:192,bit:5,invert:false,),],
+        [(frame:192,bit:6,invert:false,),],
+        [(frame:192,bit:7,invert:false,),],
+      ],
+    ),
+    "PRESET8_PRECURSOR": (
+      bits: [
+        [(frame:192,bit:0,invert:false,),],
+        [(frame:192,bit:1,invert:false,),],
+        [(frame:192,bit:2,invert:false,),],
+        [(frame:192,bit:3,invert:false,),],
+      ],
+    ),
+    "PRESET9_POSTCURSOR": (
+      bits: [
+        [(frame:193,bit:4,invert:false,),],
+        [(frame:193,bit:5,invert:false,),],
+        [(frame:193,bit:6,invert:false,),],
+        [(frame:193,bit:7,invert:false,),],
+      ],
+    ),
+    "PRESET_COUNT_INI": (
+      bits: [
+        [(frame:195,bit:0,invert:false,),],
+        [(frame:195,bit:1,invert:false,),],
+        [(frame:195,bit:2,invert:false,),],
+        [(frame:195,bit:3,invert:false,),],
+      ],
+    ),
+    "PRE_A0COEF": (
+      bits: [
+        [(frame:209,bit:1,invert:false,),],
+        [(frame:209,bit:5,invert:false,),],
+        [(frame:209,bit:7,invert:false,),],
+      ],
+    ),
+    "PRE_A1COEF": (
+      bits: [
+        [(frame:208,bit:0,invert:false,),],
+        [(frame:208,bit:2,invert:false,),],
+        [(frame:208,bit:4,invert:false,),],
+      ],
+    ),
+    "PRE_A2COEF": (
+      bits: [
+        [(frame:208,bit:1,invert:false,),],
+        [(frame:208,bit:3,invert:false,),],
+        [(frame:208,bit:5,invert:false,),],
+      ],
+    ),
+    "PRE_FOM": (
+      bits: [
+        [(frame:216,bit:0,invert:false,),],
+        [(frame:216,bit:2,invert:false,),],
+        [(frame:216,bit:3,invert:false,),],
+        [(frame:216,bit:5,invert:false,),],
+        [(frame:216,bit:6,invert:false,),],
+      ],
+    ),
+    "PRE_FOM_AVG": (
+      bits: [
+        [(frame:215,bit:4,invert:false,),],
+        [(frame:215,bit:5,invert:false,),],
+        [(frame:215,bit:6,invert:false,),],
+      ],
+    ),
+    "PRE_ITERCNT": (
+      bits: [
+        [(frame:209,bit:3,invert:false,),],
+        [(frame:209,bit:4,invert:false,),],
+        [(frame:209,bit:5,invert:false,),],
+      ],
+    ),
+    "PRE_RXEQ_TIMER": (
+      bits: [
+        [(frame:222,bit:0,invert:false,),],
+        [(frame:222,bit:1,invert:false,),],
+        [(frame:222,bit:2,invert:false,),],
+        [(frame:222,bit:3,invert:false,),],
+        [(frame:222,bit:4,invert:false,),],
+        [(frame:222,bit:5,invert:false,),],
+        [(frame:222,bit:6,invert:false,),],
+        [(frame:222,bit:7,invert:false,),],
+      ],
+    ),
+    "PRE_SDPTN_BYTE1": (
+      bits: [
+        [(frame:320,bit:0,invert:false,),],
+        [(frame:320,bit:1,invert:false,),],
+        [(frame:320,bit:2,invert:false,),],
+        [(frame:320,bit:3,invert:false,),],
+        [(frame:320,bit:4,invert:false,),],
+        [(frame:320,bit:5,invert:false,),],
+        [(frame:320,bit:6,invert:false,),],
+        [(frame:320,bit:7,invert:false,),],
+        [(frame:323,bit:2,invert:false,),],
+        [(frame:323,bit:3,invert:false,),],
+      ],
+    ),
+    "PRE_SDPTN_BYTE2": (
+      bits: [
+        [(frame:321,bit:0,invert:false,),],
+        [(frame:321,bit:1,invert:false,),],
+        [(frame:321,bit:2,invert:false,),],
+        [(frame:321,bit:3,invert:false,),],
+        [(frame:321,bit:4,invert:false,),],
+        [(frame:321,bit:5,invert:false,),],
+        [(frame:321,bit:6,invert:false,),],
+        [(frame:321,bit:7,invert:false,),],
+        [(frame:323,bit:4,invert:false,),],
+        [(frame:323,bit:5,invert:false,),],
+      ],
+    ),
+    "PRE_SDPTN_BYTE3": (
+      bits: [
+        [(frame:322,bit:0,invert:false,),],
+        [(frame:322,bit:1,invert:false,),],
+        [(frame:322,bit:2,invert:false,),],
+        [(frame:322,bit:3,invert:false,),],
+        [(frame:322,bit:4,invert:false,),],
+        [(frame:322,bit:5,invert:false,),],
+        [(frame:322,bit:6,invert:false,),],
+        [(frame:322,bit:7,invert:false,),],
+        [(frame:323,bit:6,invert:false,),],
+        [(frame:323,bit:7,invert:false,),],
+      ],
+    ),
+    "PRI_LAPTN_BYTE1": (
+      bits: [
+        [(frame:339,bit:0,invert:false,),],
+        [(frame:339,bit:1,invert:false,),],
+        [(frame:339,bit:2,invert:false,),],
+        [(frame:339,bit:3,invert:false,),],
+        [(frame:339,bit:4,invert:false,),],
+        [(frame:339,bit:5,invert:false,),],
+        [(frame:339,bit:6,invert:false,),],
+        [(frame:339,bit:7,invert:false,),],
+        [(frame:342,bit:2,invert:false,),],
+        [(frame:342,bit:3,invert:false,),],
+      ],
+    ),
+    "PRI_LAPTN_BYTE2": (
+      bits: [
+        [(frame:340,bit:0,invert:false,),],
+        [(frame:340,bit:1,invert:false,),],
+        [(frame:340,bit:2,invert:false,),],
+        [(frame:340,bit:3,invert:false,),],
+        [(frame:340,bit:4,invert:false,),],
+        [(frame:340,bit:5,invert:false,),],
+        [(frame:340,bit:6,invert:false,),],
+        [(frame:340,bit:7,invert:false,),],
+        [(frame:342,bit:4,invert:false,),],
+        [(frame:342,bit:5,invert:false,),],
+      ],
+    ),
+    "PRI_LAPTN_BYTE3": (
+      bits: [
+        [(frame:341,bit:0,invert:false,),],
+        [(frame:341,bit:1,invert:false,),],
+        [(frame:341,bit:2,invert:false,),],
+        [(frame:341,bit:3,invert:false,),],
+        [(frame:341,bit:4,invert:false,),],
+        [(frame:341,bit:5,invert:false,),],
+        [(frame:341,bit:6,invert:false,),],
+        [(frame:341,bit:7,invert:false,),],
+        [(frame:342,bit:6,invert:false,),],
+        [(frame:342,bit:7,invert:false,),],
+      ],
+    ),
+    "PRI_SKIP_BYTE1": (
+      bits: [
+        [(frame:357,bit:0,invert:false,),],
+        [(frame:357,bit:1,invert:false,),],
+        [(frame:357,bit:2,invert:false,),],
+        [(frame:357,bit:3,invert:false,),],
+        [(frame:357,bit:4,invert:false,),],
+        [(frame:357,bit:5,invert:false,),],
+        [(frame:357,bit:6,invert:false,),],
+        [(frame:357,bit:7,invert:false,),],
+        [(frame:360,bit:2,invert:false,),],
+        [(frame:360,bit:3,invert:false,),],
+      ],
+    ),
+    "PRI_SKIP_BYTE2": (
+      bits: [
+        [(frame:358,bit:0,invert:false,),],
+        [(frame:358,bit:1,invert:false,),],
+        [(frame:358,bit:2,invert:false,),],
+        [(frame:358,bit:3,invert:false,),],
+        [(frame:358,bit:4,invert:false,),],
+        [(frame:358,bit:5,invert:false,),],
+        [(frame:358,bit:6,invert:false,),],
+        [(frame:358,bit:7,invert:false,),],
+        [(frame:360,bit:4,invert:false,),],
+        [(frame:360,bit:5,invert:false,),],
+      ],
+    ),
+    "PRI_SKIP_BYTE3": (
+      bits: [
+        [(frame:359,bit:0,invert:false,),],
+        [(frame:359,bit:1,invert:false,),],
+        [(frame:359,bit:2,invert:false,),],
+        [(frame:359,bit:3,invert:false,),],
+        [(frame:359,bit:4,invert:false,),],
+        [(frame:359,bit:5,invert:false,),],
+        [(frame:359,bit:6,invert:false,),],
+        [(frame:359,bit:7,invert:false,),],
+        [(frame:360,bit:6,invert:false,),],
+        [(frame:360,bit:7,invert:false,),],
+      ],
+    ),
+    "PRI_WA_PTN": (
+      bits: [
+        [(frame:305,bit:0,invert:false,),],
+        [(frame:305,bit:1,invert:false,),],
+        [(frame:305,bit:2,invert:false,),],
+        [(frame:305,bit:3,invert:false,),],
+        [(frame:305,bit:4,invert:false,),],
+        [(frame:305,bit:5,invert:false,),],
+        [(frame:305,bit:6,invert:false,),],
+        [(frame:305,bit:7,invert:false,),],
+        [(frame:306,bit:0,invert:false,),],
+        [(frame:306,bit:1,invert:false,),],
+        [(frame:306,bit:2,invert:false,),],
+        [(frame:306,bit:3,invert:false,),],
+        [(frame:306,bit:4,invert:false,),],
+        [(frame:306,bit:5,invert:false,),],
+        [(frame:306,bit:6,invert:false,),],
+        [(frame:306,bit:7,invert:false,),],
+        [(frame:307,bit:0,invert:false,),],
+        [(frame:307,bit:1,invert:false,),],
+        [(frame:307,bit:2,invert:false,),],
+        [(frame:307,bit:3,invert:false,),],
+      ],
+    ),
+    "PRTP_SEED_A": (
+      bits: [
+        [(frame:402,bit:0,invert:false,),],
+        [(frame:402,bit:1,invert:false,),],
+        [(frame:402,bit:2,invert:false,),],
+        [(frame:402,bit:3,invert:false,),],
+        [(frame:402,bit:4,invert:false,),],
+        [(frame:402,bit:5,invert:false,),],
+        [(frame:402,bit:6,invert:false,),],
+        [(frame:402,bit:7,invert:false,),],
+        [(frame:403,bit:0,invert:false,),],
+        [(frame:403,bit:1,invert:false,),],
+        [(frame:403,bit:2,invert:false,),],
+        [(frame:403,bit:3,invert:false,),],
+        [(frame:403,bit:4,invert:false,),],
+        [(frame:403,bit:5,invert:false,),],
+        [(frame:403,bit:6,invert:false,),],
+        [(frame:403,bit:7,invert:false,),],
+        [(frame:404,bit:0,invert:false,),],
+        [(frame:404,bit:1,invert:false,),],
+        [(frame:404,bit:2,invert:false,),],
+        [(frame:404,bit:3,invert:false,),],
+        [(frame:404,bit:4,invert:false,),],
+        [(frame:404,bit:5,invert:false,),],
+        [(frame:404,bit:6,invert:false,),],
+        [(frame:404,bit:7,invert:false,),],
+        [(frame:405,bit:0,invert:false,),],
+        [(frame:405,bit:1,invert:false,),],
+        [(frame:405,bit:2,invert:false,),],
+        [(frame:405,bit:3,invert:false,),],
+        [(frame:405,bit:4,invert:false,),],
+        [(frame:405,bit:5,invert:false,),],
+        [(frame:405,bit:6,invert:false,),],
+        [(frame:405,bit:7,invert:false,),],
+        [(frame:406,bit:0,invert:false,),],
+        [(frame:406,bit:1,invert:false,),],
+        [(frame:406,bit:2,invert:false,),],
+        [(frame:406,bit:3,invert:false,),],
+        [(frame:406,bit:4,invert:false,),],
+        [(frame:406,bit:5,invert:false,),],
+        [(frame:406,bit:6,invert:false,),],
+        [(frame:406,bit:7,invert:false,),],
+        [(frame:407,bit:0,invert:false,),],
+        [(frame:407,bit:1,invert:false,),],
+        [(frame:407,bit:2,invert:false,),],
+        [(frame:407,bit:3,invert:false,),],
+        [(frame:407,bit:4,invert:false,),],
+        [(frame:407,bit:5,invert:false,),],
+        [(frame:407,bit:6,invert:false,),],
+        [(frame:407,bit:7,invert:false,),],
+        [(frame:408,bit:0,invert:false,),],
+        [(frame:408,bit:1,invert:false,),],
+        [(frame:408,bit:2,invert:false,),],
+        [(frame:408,bit:3,invert:false,),],
+        [(frame:408,bit:4,invert:false,),],
+        [(frame:408,bit:5,invert:false,),],
+        [(frame:408,bit:6,invert:false,),],
+        [(frame:408,bit:7,invert:false,),],
+        [(frame:409,bit:0,invert:false,),],
+        [(frame:409,bit:1,invert:false,),],
+      ],
+    ),
+    "PRTP_SEED_B": (
+      bits: [
+        [(frame:410,bit:0,invert:false,),],
+        [(frame:410,bit:1,invert:false,),],
+        [(frame:410,bit:2,invert:false,),],
+        [(frame:410,bit:3,invert:false,),],
+        [(frame:410,bit:4,invert:false,),],
+        [(frame:410,bit:5,invert:false,),],
+        [(frame:410,bit:6,invert:false,),],
+        [(frame:410,bit:7,invert:false,),],
+        [(frame:411,bit:0,invert:false,),],
+        [(frame:411,bit:1,invert:false,),],
+        [(frame:411,bit:2,invert:false,),],
+        [(frame:411,bit:3,invert:false,),],
+        [(frame:411,bit:4,invert:false,),],
+        [(frame:411,bit:5,invert:false,),],
+        [(frame:411,bit:6,invert:false,),],
+        [(frame:411,bit:7,invert:false,),],
+        [(frame:412,bit:0,invert:false,),],
+        [(frame:412,bit:1,invert:false,),],
+        [(frame:412,bit:2,invert:false,),],
+        [(frame:412,bit:3,invert:false,),],
+        [(frame:412,bit:4,invert:false,),],
+        [(frame:412,bit:5,invert:false,),],
+        [(frame:412,bit:6,invert:false,),],
+        [(frame:412,bit:7,invert:false,),],
+        [(frame:413,bit:0,invert:false,),],
+        [(frame:413,bit:1,invert:false,),],
+        [(frame:413,bit:2,invert:false,),],
+        [(frame:413,bit:3,invert:false,),],
+        [(frame:413,bit:4,invert:false,),],
+        [(frame:413,bit:5,invert:false,),],
+        [(frame:413,bit:6,invert:false,),],
+        [(frame:413,bit:7,invert:false,),],
+        [(frame:414,bit:0,invert:false,),],
+        [(frame:414,bit:1,invert:false,),],
+        [(frame:414,bit:2,invert:false,),],
+        [(frame:414,bit:3,invert:false,),],
+        [(frame:414,bit:4,invert:false,),],
+        [(frame:414,bit:5,invert:false,),],
+        [(frame:414,bit:6,invert:false,),],
+        [(frame:414,bit:7,invert:false,),],
+        [(frame:415,bit:0,invert:false,),],
+        [(frame:415,bit:1,invert:false,),],
+        [(frame:415,bit:2,invert:false,),],
+        [(frame:415,bit:3,invert:false,),],
+        [(frame:415,bit:4,invert:false,),],
+        [(frame:415,bit:5,invert:false,),],
+        [(frame:415,bit:6,invert:false,),],
+        [(frame:415,bit:7,invert:false,),],
+        [(frame:416,bit:0,invert:false,),],
+        [(frame:416,bit:1,invert:false,),],
+        [(frame:416,bit:2,invert:false,),],
+        [(frame:416,bit:3,invert:false,),],
+        [(frame:416,bit:4,invert:false,),],
+        [(frame:416,bit:5,invert:false,),],
+        [(frame:416,bit:6,invert:false,),],
+        [(frame:416,bit:7,invert:false,),],
+        [(frame:417,bit:0,invert:false,),],
+        [(frame:417,bit:1,invert:false,),],
+      ],
+    ),
+    "RFIFO_COM_ALIGN": (
+      bits: [
+        [(frame:288,bit:7,invert:false,),],
+      ],
+    ),
+    "RL1": (
+      bits: [
+        [(frame:144,bit:0,invert:false,),],
+        [(frame:144,bit:1,invert:false,),],
+        [(frame:144,bit:2,invert:false,),],
+        [(frame:144,bit:3,invert:false,),],
+      ],
+    ),
+    "RL2": (
+      bits: [
+        [(frame:144,bit:0,invert:false,),],
+        [(frame:144,bit:1,invert:false,),],
+        [(frame:144,bit:5,invert:false,),],
+        [(frame:144,bit:7,invert:false,),],
+      ],
+    ),
+    "RL3": (
+      bits: [
+        [(frame:145,bit:0,invert:false,),],
+        [(frame:145,bit:1,invert:false,),],
+        [(frame:145,bit:2,invert:false,),],
+        [(frame:145,bit:3,invert:false,),],
+      ],
+    ),
+    "RSTCDR_ERR": (
+      bits: [
+        [(frame:35,bit:1,invert:false,),],
+      ],
+    ),
+    "RSTCDR_FRQ": (
+      bits: [
+        [(frame:35,bit:0,invert:false,),],
+      ],
+    ),
+    "RSTCDR_IDL": (
+      bits: [
+        [(frame:35,bit:0,invert:false,),],
+        [(frame:35,bit:1,invert:false,),],
+        [(frame:35,bit:2,invert:false,),],
+      ],
+    ),
+    "RXEQ_ALGO": (
+      bits: [
+        [(frame:217,bit:4,invert:false,),],
+        [(frame:217,bit:5,invert:false,),],
+        [(frame:217,bit:6,invert:false,),],
+      ],
+    ),
+    "RXEQ_ENABLE": (
+      bits: [
+        [(frame:217,bit:0,invert:false,),],
+        [(frame:217,bit:1,invert:false,),],
+        [(frame:217,bit:2,invert:false,),],
+      ],
+    ),
+    "RXEQ_EVAL_MAX": (
+      bits: [
+        [(frame:219,bit:0,invert:false,),],
+        [(frame:219,bit:1,invert:false,),],
+        [(frame:219,bit:2,invert:false,),],
+        [(frame:219,bit:3,invert:false,),],
+        [(frame:219,bit:4,invert:false,),],
+        [(frame:219,bit:5,invert:false,),],
+        [(frame:219,bit:6,invert:false,),],
+        [(frame:219,bit:7,invert:false,),],
+      ],
+    ),
+    "RXEQ_MANUAL": (
+      bits: [
+        [(frame:243,bit:7,invert:false,),],
+      ],
+    ),
+    "RXEQ_STATE": (
+      bits: [
+        [(frame:243,bit:0,invert:false,),],
+        [(frame:243,bit:1,invert:false,),],
+        [(frame:243,bit:2,invert:false,),],
+        [(frame:243,bit:3,invert:false,),],
+      ],
+    ),
+    "RXF_A": (
+      bits: [
+        [(frame:6,bit:0,invert:false,),],
+        [(frame:6,bit:1,invert:false,),],
+        [(frame:6,bit:2,invert:false,),],
+        [(frame:6,bit:3,invert:false,),],
+      ],
+    ),
+    "RXF_B": (
+      bits: [
+        [(frame:18,bit:0,invert:false,),],
+        [(frame:18,bit:1,invert:false,),],
+        [(frame:18,bit:2,invert:false,),],
+        [(frame:18,bit:3,invert:false,),],
+      ],
+    ),
+    "RXF_C": (
+      bits: [
+        [(frame:178,bit:0,invert:false,),],
+        [(frame:178,bit:1,invert:false,),],
+        [(frame:178,bit:2,invert:false,),],
+        [(frame:178,bit:3,invert:false,),],
+      ],
+    ),
+    "RXHF_CLKDN": (
+      bits: [
+        [(frame:102,bit:7,invert:false,),],
+      ],
+    ),
+    "RXIDLE_MAX": (
+      bits: [
+        [(frame:2,bit:4,invert:false,),],
+        [(frame:2,bit:5,invert:false,),],
+        [(frame:2,bit:6,invert:false,),],
+        [(frame:2,bit:7,invert:false,),],
+      ],
+    ),
+    "RXIDLE_MAX2": (
+      bits: [
+        [(frame:182,bit:0,invert:false,),],
+        [(frame:182,bit:1,invert:false,),],
+        [(frame:182,bit:2,invert:false,),],
+        [(frame:182,bit:3,invert:false,),],
+        [(frame:182,bit:4,invert:false,),],
+        [(frame:182,bit:5,invert:false,),],
+        [(frame:182,bit:6,invert:false,),],
+        [(frame:182,bit:7,invert:false,),],
+        [(frame:183,bit:0,invert:false,),],
+        [(frame:183,bit:1,invert:false,),],
+        [(frame:183,bit:2,invert:false,),],
+        [(frame:183,bit:3,invert:false,),],
+        [(frame:183,bit:4,invert:false,),],
+        [(frame:183,bit:5,invert:false,),],
+        [(frame:183,bit:6,invert:false,),],
+        [(frame:183,bit:7,invert:false,),],
+      ],
+    ),
+    "RXIDLE_MSB": (
+      bits: [
+        [(frame:14,bit:6,invert:false,),],
+        [(frame:14,bit:7,invert:false,),],
+      ],
+    ),
+    "RXM_A": (
+      bits: [
+        [(frame:7,bit:2,invert:false,),],
+        [(frame:7,bit:5,invert:false,),],
+      ],
+    ),
+    "RXM_C": (
+      bits: [
+        [(frame:179,bit:5,invert:false,),],
+        [(frame:179,bit:6,invert:false,),],
+      ],
+    ),
+    "RXN_A": (
+      bits: [
+        [(frame:7,bit:0,invert:false,),],
+        [(frame:7,bit:1,invert:false,),],
+        [(frame:7,bit:2,invert:false,),],
+        [(frame:7,bit:3,invert:false,),],
+        [(frame:7,bit:4,invert:false,),],
+      ],
+    ),
+    "RXN_B": (
+      bits: [
+        [(frame:19,bit:0,invert:false,),],
+        [(frame:19,bit:1,invert:false,),],
+        [(frame:19,bit:2,invert:false,),],
+        [(frame:19,bit:3,invert:false,),],
+        [(frame:19,bit:4,invert:false,),],
+      ],
+    ),
+    "RXN_C": (
+      bits: [
+        [(frame:179,bit:0,invert:false,),],
+        [(frame:179,bit:1,invert:false,),],
+        [(frame:179,bit:2,invert:false,),],
+        [(frame:179,bit:3,invert:false,),],
+        [(frame:179,bit:4,invert:false,),],
+      ],
+    ),
+    "RXOFF_SETTLE_MAX": (
+      bits: [
+        [(frame:15,bit:5,invert:false,),],
+        [(frame:15,bit:6,invert:false,),],
+        [(frame:15,bit:7,invert:false,),],
+      ],
+    ),
+    "RXOFF_STABLE_MAX": (
+      bits: [
+        [(frame:15,bit:0,invert:false,),],
+        [(frame:15,bit:1,invert:false,),],
+        [(frame:15,bit:2,invert:false,),],
+        [(frame:15,bit:3,invert:false,),],
+        [(frame:15,bit:4,invert:false,),],
+      ],
+    ),
+    "RXPLLINIT": (
+      bits: [
+        [(frame:102,bit:3,invert:false,),],
+      ],
+    ),
+    "RXPLLRST": (
+      bits: [
+        [(frame:102,bit:5,invert:false,),],
+      ],
+    ),
+    "RX_BOND_MASK": (
+      bits: [
+        [(frame:288,bit:6,invert:false,),],
+      ],
+    ),
+    "RX_DBUS_20B": (
+      bits: [
+        [(frame:288,bit:5,invert:false,),],
+      ],
+    ),
+    "RX_DIV_MODE0": (
+      bits: [
+        [(frame:6,bit:2,invert:false,),],
+        [(frame:6,bit:4,invert:false,),],
+        [(frame:6,bit:5,invert:false,),],
+      ],
+    ),
+    "RX_DIV_MODE1": (
+      bits: [
+        [(frame:18,bit:2,invert:false,),],
+        [(frame:18,bit:4,invert:false,),],
+      ],
+    ),
+    "RX_DIV_MODE2": (
+      bits: [
+        [(frame:178,bit:4,invert:false,),],
+        [(frame:178,bit:5,invert:false,),],
+      ],
+    ),
+    "RX_FIFO_DIS": (
+      bits: [
+        [(frame:288,bit:3,invert:false,),],
+      ],
+    ),
+    "RX_GEAR_EN": (
+      bits: [
+        [(frame:288,bit:2,invert:false,),],
+      ],
+    ),
+    "RX_HIZ": (
+      bits: [
+        [(frame:102,bit:1,invert:false,),],
+      ],
+    ),
+    "RX_IMPED_RATIO": (
+      bits: [
+        [(frame:3,bit:0,invert:false,),],
+        [(frame:3,bit:1,invert:false,),],
+        [(frame:3,bit:2,invert:false,),],
+        [(frame:3,bit:3,invert:false,),],
+        [(frame:3,bit:4,invert:false,),],
+        [(frame:3,bit:5,invert:false,),],
+        [(frame:3,bit:6,invert:false,),],
+        [(frame:3,bit:7,invert:false,),],
+      ],
+    ),
+    "RX_MPCS_DIS": (
+      bits: [
+        [(frame:288,bit:0,invert:false,),],
+      ],
+    ),
+    "RX_MPCS_RST": (
+      bits: [
+        [(frame:288,bit:1,invert:false,),],
+      ],
+    ),
+    "RX_PCSMODE_OVRD": (
+      bits: [
+        [(frame:256,bit:4,invert:false,),],
+      ],
+    ),
+    "RX_PCSMODE_SEL": (
+      bits: [
+        [(frame:256,bit:5,invert:false,),],
+        [(frame:256,bit:6,invert:false,),],
+      ],
+    ),
+    "RX_POLINV": (
+      bits: [
+        [(frame:116,bit:6,invert:false,),],
+      ],
+    ),
+    "RX_PRBS31_EN": (
+      bits: [
+        [(frame:419,bit:2,invert:false,),],
+      ],
+    ),
+    "RX_PRTP_DATA_SEL": (
+      bits: [
+        [(frame:419,bit:0,invert:false,),],
+      ],
+    ),
+    "RX_PRTP_EN": (
+      bits: [
+        [(frame:419,bit:1,invert:false,),],
+      ],
+    ),
+    "RX_PWRDN": (
+      bits: [
+        [(frame:103,bit:0,invert:false,),],
+      ],
+    ),
+    "SDPTN_MASK_BYTE0": (
+      bits: [
+        [(frame:329,bit:0,invert:false,),],
+        [(frame:329,bit:1,invert:false,),],
+        [(frame:329,bit:2,invert:false,),],
+        [(frame:329,bit:3,invert:false,),],
+        [(frame:329,bit:4,invert:false,),],
+        [(frame:329,bit:5,invert:false,),],
+        [(frame:329,bit:6,invert:false,),],
+        [(frame:329,bit:7,invert:false,),],
+        [(frame:333,bit:0,invert:false,),],
+        [(frame:333,bit:1,invert:false,),],
+      ],
+    ),
+    "SDPTN_MASK_BYTE1": (
+      bits: [
+        [(frame:330,bit:0,invert:false,),],
+        [(frame:330,bit:1,invert:false,),],
+        [(frame:330,bit:2,invert:false,),],
+        [(frame:330,bit:3,invert:false,),],
+        [(frame:330,bit:4,invert:false,),],
+        [(frame:330,bit:5,invert:false,),],
+        [(frame:330,bit:6,invert:false,),],
+        [(frame:330,bit:7,invert:false,),],
+        [(frame:333,bit:2,invert:false,),],
+        [(frame:333,bit:3,invert:false,),],
+      ],
+    ),
+    "SDPTN_MASK_BYTE2": (
+      bits: [
+        [(frame:331,bit:0,invert:false,),],
+        [(frame:331,bit:1,invert:false,),],
+        [(frame:331,bit:2,invert:false,),],
+        [(frame:331,bit:3,invert:false,),],
+        [(frame:331,bit:4,invert:false,),],
+        [(frame:331,bit:5,invert:false,),],
+        [(frame:331,bit:6,invert:false,),],
+        [(frame:331,bit:7,invert:false,),],
+        [(frame:333,bit:4,invert:false,),],
+        [(frame:333,bit:5,invert:false,),],
+      ],
+    ),
+    "SDPTN_MASK_BYTE3": (
+      bits: [
+        [(frame:332,bit:0,invert:false,),],
+        [(frame:332,bit:1,invert:false,),],
+        [(frame:332,bit:2,invert:false,),],
+        [(frame:332,bit:3,invert:false,),],
+        [(frame:332,bit:4,invert:false,),],
+        [(frame:332,bit:5,invert:false,),],
+        [(frame:332,bit:6,invert:false,),],
+        [(frame:332,bit:7,invert:false,),],
+        [(frame:333,bit:6,invert:false,),],
+        [(frame:333,bit:7,invert:false,),],
+      ],
+    ),
+    "SEC_LAPTN_BYTE1": (
+      bits: [
+        [(frame:344,bit:0,invert:false,),],
+        [(frame:344,bit:1,invert:false,),],
+        [(frame:344,bit:2,invert:false,),],
+        [(frame:344,bit:3,invert:false,),],
+        [(frame:344,bit:4,invert:false,),],
+        [(frame:344,bit:5,invert:false,),],
+        [(frame:344,bit:6,invert:false,),],
+        [(frame:344,bit:7,invert:false,),],
+        [(frame:347,bit:2,invert:false,),],
+        [(frame:347,bit:3,invert:false,),],
+      ],
+    ),
+    "SEC_LAPTN_BYTE2": (
+      bits: [
+        [(frame:345,bit:0,invert:false,),],
+        [(frame:345,bit:1,invert:false,),],
+        [(frame:345,bit:2,invert:false,),],
+        [(frame:345,bit:3,invert:false,),],
+        [(frame:345,bit:4,invert:false,),],
+        [(frame:345,bit:5,invert:false,),],
+        [(frame:345,bit:6,invert:false,),],
+        [(frame:345,bit:7,invert:false,),],
+        [(frame:347,bit:4,invert:false,),],
+        [(frame:347,bit:5,invert:false,),],
+      ],
+    ),
+    "SEC_LAPTN_BYTE3": (
+      bits: [
+        [(frame:346,bit:0,invert:false,),],
+        [(frame:346,bit:1,invert:false,),],
+        [(frame:346,bit:2,invert:false,),],
+        [(frame:346,bit:3,invert:false,),],
+        [(frame:346,bit:4,invert:false,),],
+        [(frame:346,bit:5,invert:false,),],
+        [(frame:346,bit:6,invert:false,),],
+        [(frame:346,bit:7,invert:false,),],
+        [(frame:347,bit:6,invert:false,),],
+        [(frame:347,bit:7,invert:false,),],
+      ],
+    ),
+    "SEC_LAPTN_EN": (
+      bits: [
+        [(frame:336,bit:4,invert:false,),],
+      ],
+    ),
+    "SEC_SDPTN_BYTE1": (
+      bits: [
+        [(frame:325,bit:0,invert:false,),],
+        [(frame:325,bit:1,invert:false,),],
+        [(frame:325,bit:2,invert:false,),],
+        [(frame:325,bit:3,invert:false,),],
+        [(frame:325,bit:4,invert:false,),],
+        [(frame:325,bit:5,invert:false,),],
+        [(frame:325,bit:6,invert:false,),],
+        [(frame:325,bit:7,invert:false,),],
+        [(frame:328,bit:2,invert:false,),],
+        [(frame:328,bit:3,invert:false,),],
+      ],
+    ),
+    "SEC_SDPTN_BYTE2": (
+      bits: [
+        [(frame:326,bit:0,invert:false,),],
+        [(frame:326,bit:1,invert:false,),],
+        [(frame:326,bit:2,invert:false,),],
+        [(frame:326,bit:3,invert:false,),],
+        [(frame:326,bit:4,invert:false,),],
+        [(frame:326,bit:5,invert:false,),],
+        [(frame:326,bit:6,invert:false,),],
+        [(frame:326,bit:7,invert:false,),],
+        [(frame:328,bit:4,invert:false,),],
+        [(frame:328,bit:5,invert:false,),],
+      ],
+    ),
+    "SEC_SDPTN_BYTE3": (
+      bits: [
+        [(frame:327,bit:0,invert:false,),],
+        [(frame:327,bit:1,invert:false,),],
+        [(frame:327,bit:2,invert:false,),],
+        [(frame:327,bit:3,invert:false,),],
+        [(frame:327,bit:4,invert:false,),],
+        [(frame:327,bit:5,invert:false,),],
+        [(frame:327,bit:6,invert:false,),],
+        [(frame:327,bit:7,invert:false,),],
+        [(frame:328,bit:6,invert:false,),],
+        [(frame:328,bit:7,invert:false,),],
+      ],
+    ),
+    "SEC_SKIP_BYTE1": (
+      bits: [
+        [(frame:362,bit:0,invert:false,),],
+        [(frame:362,bit:1,invert:false,),],
+        [(frame:362,bit:2,invert:false,),],
+        [(frame:362,bit:3,invert:false,),],
+        [(frame:362,bit:4,invert:false,),],
+        [(frame:362,bit:5,invert:false,),],
+        [(frame:362,bit:6,invert:false,),],
+        [(frame:362,bit:7,invert:false,),],
+        [(frame:365,bit:2,invert:false,),],
+        [(frame:365,bit:3,invert:false,),],
+      ],
+    ),
+    "SEC_SKIP_BYTE2": (
+      bits: [
+        [(frame:363,bit:0,invert:false,),],
+        [(frame:363,bit:1,invert:false,),],
+        [(frame:363,bit:2,invert:false,),],
+        [(frame:363,bit:3,invert:false,),],
+        [(frame:363,bit:4,invert:false,),],
+        [(frame:363,bit:5,invert:false,),],
+        [(frame:363,bit:6,invert:false,),],
+        [(frame:363,bit:7,invert:false,),],
+        [(frame:365,bit:4,invert:false,),],
+        [(frame:365,bit:5,invert:false,),],
+      ],
+    ),
+    "SEC_SKIP_BYTE3": (
+      bits: [
+        [(frame:364,bit:0,invert:false,),],
+        [(frame:364,bit:1,invert:false,),],
+        [(frame:364,bit:2,invert:false,),],
+        [(frame:364,bit:3,invert:false,),],
+        [(frame:364,bit:4,invert:false,),],
+        [(frame:364,bit:5,invert:false,),],
+        [(frame:364,bit:6,invert:false,),],
+        [(frame:364,bit:7,invert:false,),],
+        [(frame:365,bit:6,invert:false,),],
+        [(frame:365,bit:7,invert:false,),],
+      ],
+    ),
+    "SEC_SKIP_EN": (
+      bits: [
+        [(frame:352,bit:5,invert:false,),],
+      ],
+    ),
+    "SEC_SYNC_PTN_DIS": (
+      bits: [
+        [(frame:317,bit:3,invert:false,),],
+        [(frame:317,bit:4,invert:false,),],
+      ],
+    ),
+    "SEC_WAPTN_DIS": (
+      bits: [
+        [(frame:304,bit:3,invert:false,),],
+      ],
+    ),
+    "SEC_WA_PTN": (
+      bits: [
+        [(frame:308,bit:0,invert:false,),],
+        [(frame:308,bit:1,invert:false,),],
+        [(frame:308,bit:2,invert:false,),],
+        [(frame:308,bit:3,invert:false,),],
+        [(frame:308,bit:4,invert:false,),],
+        [(frame:308,bit:5,invert:false,),],
+        [(frame:308,bit:6,invert:false,),],
+        [(frame:308,bit:7,invert:false,),],
+        [(frame:309,bit:0,invert:false,),],
+        [(frame:309,bit:1,invert:false,),],
+        [(frame:309,bit:2,invert:false,),],
+        [(frame:309,bit:3,invert:false,),],
+        [(frame:309,bit:4,invert:false,),],
+        [(frame:309,bit:5,invert:false,),],
+        [(frame:309,bit:6,invert:false,),],
+        [(frame:309,bit:7,invert:false,),],
+        [(frame:310,bit:0,invert:false,),],
+        [(frame:310,bit:1,invert:false,),],
+        [(frame:310,bit:2,invert:false,),],
+        [(frame:310,bit:3,invert:false,),],
+      ],
+    ),
+    "SIGNAL_DETECT_THRESHOLD": (
+      bits: [
+        [(frame:0,bit:1,invert:false,),],
+        [(frame:0,bit:7,invert:false,),],
+      ],
+    ),
+    "SKIP_PTN_LEN": (
+      bits: [
+        [(frame:352,bit:3,invert:false,),],
+        [(frame:352,bit:4,invert:false,),],
+      ],
+    ),
+    "SKP_MASK_CODE": (
+      bits: [
+        [(frame:366,bit:0,invert:false,),],
+        [(frame:366,bit:1,invert:false,),],
+        [(frame:366,bit:2,invert:false,),],
+        [(frame:366,bit:3,invert:false,),],
+      ],
+    ),
+    "SRC_64B66B_DIS": (
+      bits: [
+        [(frame:384,bit:0,invert:false,),],
+      ],
+    ),
+    "SYNCDET_FSM_DIS": (
+      bits: [
+        [(frame:304,bit:1,invert:false,),],
+      ],
+    ),
+    "SYNC_PTN_ALIGN": (
+      bits: [
+        [(frame:317,bit:2,invert:false,),],
+        [(frame:317,bit:3,invert:false,),],
+      ],
+    ),
+    "SYNC_PTN_LEN": (
+      bits: [
+        [(frame:317,bit:0,invert:false,),],
+        [(frame:317,bit:1,invert:false,),],
+        [(frame:317,bit:3,invert:false,),],
+      ],
+    ),
+    "TRNG_A0COEF": (
+      bits: [
+        [(frame:213,bit:1,invert:false,),],
+        [(frame:213,bit:5,invert:false,),],
+        [(frame:213,bit:7,invert:false,),],
+      ],
+    ),
+    "TRNG_A1COEF": (
+      bits: [
+        [(frame:212,bit:0,invert:false,),],
+        [(frame:212,bit:2,invert:false,),],
+        [(frame:212,bit:4,invert:false,),],
+      ],
+    ),
+    "TRNG_A2COEF": (
+      bits: [
+        [(frame:212,bit:1,invert:false,),],
+        [(frame:212,bit:3,invert:false,),],
+        [(frame:212,bit:5,invert:false,),],
+      ],
+    ),
+    "TRNG_FAST": (
+      bits: [
+        [(frame:212,bit:0,invert:false,),],
+        [(frame:212,bit:2,invert:false,),],
+        [(frame:212,bit:3,invert:false,),],
+        [(frame:212,bit:5,invert:false,),],
+        [(frame:212,bit:6,invert:false,),],
+      ],
+    ),
+    "TRNG_ITERCNT": (
+      bits: [
+        [(frame:213,bit:3,invert:false,),],
+        [(frame:213,bit:4,invert:false,),],
+        [(frame:213,bit:5,invert:false,),],
+      ],
+    ),
+    "TRNG_RXEQ_TIMER": (
+      bits: [
+        [(frame:223,bit:0,invert:false,),],
+        [(frame:223,bit:1,invert:false,),],
+        [(frame:223,bit:2,invert:false,),],
+        [(frame:223,bit:3,invert:false,),],
+        [(frame:223,bit:4,invert:false,),],
+        [(frame:223,bit:5,invert:false,),],
+        [(frame:223,bit:6,invert:false,),],
+        [(frame:223,bit:7,invert:false,),],
+      ],
+    ),
+    "TXF_A": (
+      bits: [
+        [(frame:4,bit:0,invert:false,),],
+        [(frame:4,bit:1,invert:false,),],
+        [(frame:4,bit:2,invert:false,),],
+        [(frame:4,bit:3,invert:false,),],
+      ],
+    ),
+    "TXF_B": (
+      bits: [
+        [(frame:16,bit:0,invert:false,),],
+        [(frame:16,bit:1,invert:false,),],
+        [(frame:16,bit:2,invert:false,),],
+        [(frame:16,bit:3,invert:false,),],
+      ],
+    ),
+    "TXF_C": (
+      bits: [
+        [(frame:176,bit:0,invert:false,),],
+        [(frame:176,bit:1,invert:false,),],
+        [(frame:176,bit:2,invert:false,),],
+        [(frame:176,bit:3,invert:false,),],
+      ],
+    ),
+    "TXHF_CLKDN": (
+      bits: [
+        [(frame:102,bit:6,invert:false,),],
+      ],
+    ),
+    "TXM_A": (
+      bits: [
+        [(frame:5,bit:2,invert:false,),],
+        [(frame:5,bit:5,invert:false,),],
+      ],
+    ),
+    "TXM_C": (
+      bits: [
+        [(frame:177,bit:5,invert:false,),],
+        [(frame:177,bit:6,invert:false,),],
+      ],
+    ),
+    "TXN_A": (
+      bits: [
+        [(frame:5,bit:0,invert:false,),],
+        [(frame:5,bit:1,invert:false,),],
+        [(frame:5,bit:2,invert:false,),],
+        [(frame:5,bit:3,invert:false,),],
+        [(frame:5,bit:4,invert:false,),],
+      ],
+    ),
+    "TXN_B": (
+      bits: [
+        [(frame:17,bit:0,invert:false,),],
+        [(frame:17,bit:1,invert:false,),],
+        [(frame:17,bit:2,invert:false,),],
+        [(frame:17,bit:3,invert:false,),],
+        [(frame:17,bit:4,invert:false,),],
+      ],
+    ),
+    "TXN_C": (
+      bits: [
+        [(frame:177,bit:0,invert:false,),],
+        [(frame:177,bit:1,invert:false,),],
+        [(frame:177,bit:2,invert:false,),],
+        [(frame:177,bit:3,invert:false,),],
+        [(frame:177,bit:4,invert:false,),],
+      ],
+    ),
+    "TXPLLRST": (
+      bits: [
+        [(frame:102,bit:4,invert:false,),],
+      ],
+    ),
+    "TXPLL_INIT": (
+      bits: [
+        [(frame:102,bit:2,invert:false,),],
+      ],
+    ),
+    "TXVAL": (
+      bits: [
+        [(frame:455,bit:0,invert:false,),],
+      ],
+    ),
+    "TXVAL_OVRD": (
+      bits: [
+        [(frame:455,bit:1,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN0_FULL": (
+      bits: [
+        [(frame:24,bit:0,invert:false,),],
+        [(frame:24,bit:1,invert:false,),],
+        [(frame:24,bit:2,invert:false,),],
+        [(frame:24,bit:3,invert:false,),],
+        [(frame:24,bit:4,invert:false,),],
+        [(frame:24,bit:5,invert:false,),],
+        [(frame:24,bit:6,invert:false,),],
+        [(frame:24,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN0_HALF": (
+      bits: [
+        [(frame:40,bit:0,invert:false,),],
+        [(frame:40,bit:1,invert:false,),],
+        [(frame:40,bit:2,invert:false,),],
+        [(frame:40,bit:3,invert:false,),],
+        [(frame:40,bit:4,invert:false,),],
+        [(frame:40,bit:5,invert:false,),],
+        [(frame:40,bit:6,invert:false,),],
+        [(frame:40,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN1_FULL": (
+      bits: [
+        [(frame:25,bit:0,invert:false,),],
+        [(frame:25,bit:1,invert:false,),],
+        [(frame:25,bit:2,invert:false,),],
+        [(frame:25,bit:3,invert:false,),],
+        [(frame:25,bit:4,invert:false,),],
+        [(frame:25,bit:5,invert:false,),],
+        [(frame:25,bit:6,invert:false,),],
+        [(frame:25,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN1_HALF": (
+      bits: [
+        [(frame:41,bit:0,invert:false,),],
+        [(frame:41,bit:1,invert:false,),],
+        [(frame:41,bit:2,invert:false,),],
+        [(frame:41,bit:3,invert:false,),],
+        [(frame:41,bit:4,invert:false,),],
+        [(frame:41,bit:5,invert:false,),],
+        [(frame:41,bit:6,invert:false,),],
+        [(frame:41,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN2_FULL": (
+      bits: [
+        [(frame:26,bit:0,invert:false,),],
+        [(frame:26,bit:1,invert:false,),],
+        [(frame:26,bit:2,invert:false,),],
+        [(frame:26,bit:3,invert:false,),],
+        [(frame:26,bit:4,invert:false,),],
+        [(frame:26,bit:5,invert:false,),],
+        [(frame:26,bit:6,invert:false,),],
+        [(frame:26,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN2_HALF": (
+      bits: [
+        [(frame:42,bit:0,invert:false,),],
+        [(frame:42,bit:1,invert:false,),],
+        [(frame:42,bit:2,invert:false,),],
+        [(frame:42,bit:3,invert:false,),],
+        [(frame:42,bit:4,invert:false,),],
+        [(frame:42,bit:5,invert:false,),],
+        [(frame:42,bit:6,invert:false,),],
+        [(frame:42,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN3_FULL": (
+      bits: [
+        [(frame:27,bit:0,invert:false,),],
+        [(frame:27,bit:1,invert:false,),],
+        [(frame:27,bit:2,invert:false,),],
+        [(frame:27,bit:3,invert:false,),],
+        [(frame:27,bit:4,invert:false,),],
+        [(frame:27,bit:5,invert:false,),],
+        [(frame:27,bit:6,invert:false,),],
+        [(frame:27,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN3_HALF": (
+      bits: [
+        [(frame:43,bit:0,invert:false,),],
+        [(frame:43,bit:1,invert:false,),],
+        [(frame:43,bit:2,invert:false,),],
+        [(frame:43,bit:3,invert:false,),],
+        [(frame:43,bit:4,invert:false,),],
+        [(frame:43,bit:5,invert:false,),],
+        [(frame:43,bit:6,invert:false,),],
+        [(frame:43,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN4_FULL": (
+      bits: [
+        [(frame:28,bit:0,invert:false,),],
+        [(frame:28,bit:1,invert:false,),],
+        [(frame:28,bit:2,invert:false,),],
+        [(frame:28,bit:3,invert:false,),],
+        [(frame:28,bit:4,invert:false,),],
+        [(frame:28,bit:5,invert:false,),],
+        [(frame:28,bit:6,invert:false,),],
+        [(frame:28,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN4_HALF": (
+      bits: [
+        [(frame:44,bit:0,invert:false,),],
+        [(frame:44,bit:1,invert:false,),],
+        [(frame:44,bit:2,invert:false,),],
+        [(frame:44,bit:3,invert:false,),],
+        [(frame:44,bit:4,invert:false,),],
+        [(frame:44,bit:5,invert:false,),],
+        [(frame:44,bit:6,invert:false,),],
+        [(frame:44,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN5_FULL": (
+      bits: [
+        [(frame:29,bit:0,invert:false,),],
+        [(frame:29,bit:1,invert:false,),],
+        [(frame:29,bit:2,invert:false,),],
+        [(frame:29,bit:3,invert:false,),],
+        [(frame:29,bit:4,invert:false,),],
+        [(frame:29,bit:5,invert:false,),],
+        [(frame:29,bit:6,invert:false,),],
+        [(frame:29,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN5_HALF": (
+      bits: [
+        [(frame:45,bit:0,invert:false,),],
+        [(frame:45,bit:1,invert:false,),],
+        [(frame:45,bit:2,invert:false,),],
+        [(frame:45,bit:3,invert:false,),],
+        [(frame:45,bit:4,invert:false,),],
+        [(frame:45,bit:5,invert:false,),],
+        [(frame:45,bit:6,invert:false,),],
+        [(frame:45,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN6_FULL": (
+      bits: [
+        [(frame:30,bit:0,invert:false,),],
+        [(frame:30,bit:1,invert:false,),],
+        [(frame:30,bit:2,invert:false,),],
+        [(frame:30,bit:3,invert:false,),],
+        [(frame:30,bit:4,invert:false,),],
+        [(frame:30,bit:5,invert:false,),],
+        [(frame:30,bit:6,invert:false,),],
+        [(frame:30,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN6_HALF": (
+      bits: [
+        [(frame:46,bit:0,invert:false,),],
+        [(frame:46,bit:1,invert:false,),],
+        [(frame:46,bit:2,invert:false,),],
+        [(frame:46,bit:3,invert:false,),],
+        [(frame:46,bit:4,invert:false,),],
+        [(frame:46,bit:5,invert:false,),],
+        [(frame:46,bit:6,invert:false,),],
+        [(frame:46,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN7_FULL": (
+      bits: [
+        [(frame:31,bit:0,invert:false,),],
+        [(frame:31,bit:1,invert:false,),],
+        [(frame:31,bit:2,invert:false,),],
+        [(frame:31,bit:3,invert:false,),],
+        [(frame:31,bit:4,invert:false,),],
+        [(frame:31,bit:5,invert:false,),],
+        [(frame:31,bit:6,invert:false,),],
+        [(frame:31,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_AMP_RATIO_MARGIN7_HALF": (
+      bits: [
+        [(frame:47,bit:0,invert:false,),],
+        [(frame:47,bit:1,invert:false,),],
+        [(frame:47,bit:2,invert:false,),],
+        [(frame:47,bit:3,invert:false,),],
+        [(frame:47,bit:4,invert:false,),],
+        [(frame:47,bit:5,invert:false,),],
+        [(frame:47,bit:6,invert:false,),],
+        [(frame:47,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_BOND_MASK": (
+      bits: [
+        [(frame:272,bit:6,invert:false,),],
+      ],
+    ),
+    "TX_DBUS_20": (
+      bits: [
+        [(frame:272,bit:5,invert:false,),],
+      ],
+    ),
+    "TX_DIV_MODE0": (
+      bits: [
+        [(frame:4,bit:2,invert:false,),],
+        [(frame:4,bit:4,invert:false,),],
+      ],
+    ),
+    "TX_DIV_MODE1": (
+      bits: [
+        [(frame:16,bit:2,invert:false,),],
+        [(frame:16,bit:4,invert:false,),],
+      ],
+    ),
+    "TX_DIV_MODE2": (
+      bits: [
+        [(frame:176,bit:2,invert:false,),],
+        [(frame:176,bit:4,invert:false,),],
+      ],
+    ),
+    "TX_FIFO_AE": (
+      bits: [
+        [(frame:386,bit:0,invert:false,),],
+        [(frame:386,bit:1,invert:false,),],
+        [(frame:386,bit:2,invert:false,),],
+        [(frame:386,bit:3,invert:false,),],
+      ],
+    ),
+    "TX_FIFO_AF": (
+      bits: [
+        [(frame:385,bit:0,invert:false,),],
+        [(frame:385,bit:1,invert:false,),],
+        [(frame:385,bit:2,invert:false,),],
+        [(frame:385,bit:3,invert:false,),],
+      ],
+    ),
+    "TX_FIFO_DIS": (
+      bits: [
+        [(frame:272,bit:3,invert:false,),],
+      ],
+    ),
+    "TX_GEAR_EN": (
+      bits: [
+        [(frame:272,bit:2,invert:false,),],
+      ],
+    ),
+    "TX_HIZ": (
+      bits: [
+        [(frame:102,bit:0,invert:false,),],
+      ],
+    ),
+    "TX_IMPED_RATIO": (
+      bits: [
+        [(frame:9,bit:0,invert:false,),],
+        [(frame:9,bit:1,invert:false,),],
+        [(frame:9,bit:2,invert:false,),],
+        [(frame:9,bit:3,invert:false,),],
+        [(frame:9,bit:4,invert:false,),],
+        [(frame:9,bit:5,invert:false,),],
+        [(frame:9,bit:6,invert:false,),],
+        [(frame:9,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_MPCS_DIS": (
+      bits: [
+        [(frame:272,bit:0,invert:false,),],
+      ],
+    ),
+    "TX_MPCS_RST": (
+      bits: [
+        [(frame:272,bit:1,invert:false,),],
+      ],
+    ),
+    "TX_PCSMODE_SEL": (
+      bits: [
+        [(frame:256,bit:1,invert:false,),],
+        [(frame:256,bit:2,invert:false,),],
+      ],
+    ),
+    "TX_PCS_MODE_OVRD": (
+      bits: [
+        [(frame:256,bit:0,invert:false,),],
+      ],
+    ),
+    "TX_PMFIFO_DIS": (
+      bits: [
+        [(frame:272,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_POLINV": (
+      bits: [
+        [(frame:116,bit:5,invert:false,),],
+      ],
+    ),
+    "TX_PRBS31_EN": (
+      bits: [
+        [(frame:418,bit:3,invert:false,),],
+      ],
+    ),
+    "TX_PRBS9_EN": (
+      bits: [
+        [(frame:418,bit:4,invert:false,),],
+      ],
+    ),
+    "TX_PRE_RATIO": (
+      bits: [
+        [(frame:11,bit:0,invert:false,),],
+        [(frame:11,bit:1,invert:false,),],
+        [(frame:11,bit:2,invert:false,),],
+        [(frame:11,bit:3,invert:false,),],
+        [(frame:11,bit:4,invert:false,),],
+        [(frame:11,bit:5,invert:false,),],
+        [(frame:11,bit:6,invert:false,),],
+        [(frame:11,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_PRE_RATIO_DEEMP0_FULL": (
+      bits: [
+        [(frame:21,bit:0,invert:false,),],
+        [(frame:21,bit:1,invert:false,),],
+        [(frame:21,bit:2,invert:false,),],
+        [(frame:21,bit:3,invert:false,),],
+        [(frame:21,bit:4,invert:false,),],
+        [(frame:21,bit:5,invert:false,),],
+        [(frame:21,bit:6,invert:false,),],
+        [(frame:21,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_PRE_RATIO_DEEMP0_HALF": (
+      bits: [
+        [(frame:37,bit:0,invert:false,),],
+        [(frame:37,bit:1,invert:false,),],
+        [(frame:37,bit:2,invert:false,),],
+        [(frame:37,bit:3,invert:false,),],
+        [(frame:37,bit:4,invert:false,),],
+        [(frame:37,bit:5,invert:false,),],
+        [(frame:37,bit:6,invert:false,),],
+        [(frame:37,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_PRE_RATIO_DEEMP1_FULL": (
+      bits: [
+        [(frame:23,bit:0,invert:false,),],
+        [(frame:23,bit:1,invert:false,),],
+        [(frame:23,bit:2,invert:false,),],
+        [(frame:23,bit:3,invert:false,),],
+        [(frame:23,bit:4,invert:false,),],
+        [(frame:23,bit:5,invert:false,),],
+        [(frame:23,bit:6,invert:false,),],
+        [(frame:23,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_PRE_RATIO_DEEMP1_HALF": (
+      bits: [
+        [(frame:39,bit:0,invert:false,),],
+        [(frame:39,bit:1,invert:false,),],
+        [(frame:39,bit:2,invert:false,),],
+        [(frame:39,bit:3,invert:false,),],
+        [(frame:39,bit:4,invert:false,),],
+        [(frame:39,bit:5,invert:false,),],
+        [(frame:39,bit:6,invert:false,),],
+        [(frame:39,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_PRTP_DATA_SEL": (
+      bits: [
+        [(frame:418,bit:0,invert:false,),],
+      ],
+    ),
+    "TX_PRTP_EN": (
+      bits: [
+        [(frame:418,bit:2,invert:false,),],
+      ],
+    ),
+    "TX_PRTP_TEST_SEL": (
+      bits: [
+        [(frame:418,bit:1,invert:false,),],
+      ],
+    ),
+    "TX_PST_RATIO": (
+      bits: [
+        [(frame:10,bit:0,invert:false,),],
+        [(frame:10,bit:1,invert:false,),],
+        [(frame:10,bit:2,invert:false,),],
+        [(frame:10,bit:3,invert:false,),],
+        [(frame:10,bit:4,invert:false,),],
+        [(frame:10,bit:5,invert:false,),],
+        [(frame:10,bit:6,invert:false,),],
+        [(frame:10,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_PST_RATIO_DEEMP0_FULL": (
+      bits: [
+        [(frame:20,bit:0,invert:false,),],
+        [(frame:20,bit:1,invert:false,),],
+        [(frame:20,bit:2,invert:false,),],
+        [(frame:20,bit:3,invert:false,),],
+        [(frame:20,bit:4,invert:false,),],
+        [(frame:20,bit:5,invert:false,),],
+        [(frame:20,bit:6,invert:false,),],
+        [(frame:20,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_PST_RATIO_DEEMP0_HALF": (
+      bits: [
+        [(frame:36,bit:0,invert:false,),],
+        [(frame:36,bit:1,invert:false,),],
+        [(frame:36,bit:2,invert:false,),],
+        [(frame:36,bit:3,invert:false,),],
+        [(frame:36,bit:4,invert:false,),],
+        [(frame:36,bit:5,invert:false,),],
+        [(frame:36,bit:6,invert:false,),],
+        [(frame:36,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_PST_RATIO_DEEMP1_FULL": (
+      bits: [
+        [(frame:22,bit:0,invert:false,),],
+        [(frame:22,bit:1,invert:false,),],
+        [(frame:22,bit:2,invert:false,),],
+        [(frame:22,bit:3,invert:false,),],
+        [(frame:22,bit:4,invert:false,),],
+        [(frame:22,bit:5,invert:false,),],
+        [(frame:22,bit:6,invert:false,),],
+        [(frame:22,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_PST_RATIO_DEEMP1_HALF": (
+      bits: [
+        [(frame:38,bit:0,invert:false,),],
+        [(frame:38,bit:1,invert:false,),],
+        [(frame:38,bit:2,invert:false,),],
+        [(frame:38,bit:3,invert:false,),],
+        [(frame:38,bit:4,invert:false,),],
+        [(frame:38,bit:5,invert:false,),],
+        [(frame:38,bit:6,invert:false,),],
+        [(frame:38,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_SELECT_RX_FEEDBACK": (
+      bits: [
+        [(frame:0,bit:0,invert:false,),],
+        [(frame:0,bit:7,invert:false,),],
+      ],
+    ),
+    "TX_SW_PATTERN": (
+      bits: [
+        [(frame:418,bit:5,invert:false,),],
+        [(frame:418,bit:6,invert:false,),],
+        [(frame:418,bit:7,invert:false,),],
+      ],
+    ),
+    "UDBC1": (
+      bits: [
+        [(frame:483,bit:0,invert:false,),],
+        [(frame:483,bit:1,invert:false,),],
+        [(frame:483,bit:2,invert:false,),],
+        [(frame:483,bit:3,invert:false,),],
+        [(frame:483,bit:4,invert:false,),],
+        [(frame:483,bit:5,invert:false,),],
+        [(frame:483,bit:6,invert:false,),],
+        [(frame:483,bit:7,invert:false,),],
+        [(frame:484,bit:0,invert:false,),],
+        [(frame:484,bit:1,invert:false,),],
+        [(frame:484,bit:2,invert:false,),],
+        [(frame:484,bit:3,invert:false,),],
+        [(frame:484,bit:4,invert:false,),],
+        [(frame:484,bit:5,invert:false,),],
+        [(frame:484,bit:6,invert:false,),],
+        [(frame:484,bit:7,invert:false,),],
+        [(frame:485,bit:0,invert:false,),],
+        [(frame:485,bit:1,invert:false,),],
+        [(frame:485,bit:2,invert:false,),],
+        [(frame:485,bit:3,invert:false,),],
+      ],
+    ),
+    "UDBC2": (
+      bits: [
+        [(frame:486,bit:0,invert:false,),],
+        [(frame:486,bit:1,invert:false,),],
+        [(frame:486,bit:2,invert:false,),],
+        [(frame:486,bit:3,invert:false,),],
+        [(frame:486,bit:4,invert:false,),],
+        [(frame:486,bit:5,invert:false,),],
+        [(frame:486,bit:6,invert:false,),],
+        [(frame:486,bit:7,invert:false,),],
+        [(frame:487,bit:0,invert:false,),],
+        [(frame:487,bit:1,invert:false,),],
+        [(frame:487,bit:2,invert:false,),],
+        [(frame:487,bit:3,invert:false,),],
+        [(frame:487,bit:4,invert:false,),],
+        [(frame:487,bit:5,invert:false,),],
+        [(frame:487,bit:6,invert:false,),],
+        [(frame:487,bit:7,invert:false,),],
+        [(frame:488,bit:0,invert:false,),],
+        [(frame:488,bit:1,invert:false,),],
+        [(frame:488,bit:2,invert:false,),],
+        [(frame:488,bit:3,invert:false,),],
+      ],
+    ),
+    "WA_DIS": (
+      bits: [
+        [(frame:304,bit:5,invert:false,),],
+      ],
+    ),
+    "WA_MASK_CODE": (
+      bits: [
+        [(frame:311,bit:0,invert:false,),],
+        [(frame:311,bit:1,invert:false,),],
+        [(frame:311,bit:2,invert:false,),],
+        [(frame:311,bit:3,invert:false,),],
+        [(frame:311,bit:4,invert:false,),],
+        [(frame:311,bit:5,invert:false,),],
+        [(frame:311,bit:6,invert:false,),],
+        [(frame:311,bit:7,invert:false,),],
+        [(frame:312,bit:0,invert:false,),],
+        [(frame:312,bit:1,invert:false,),],
+        [(frame:312,bit:2,invert:false,),],
+        [(frame:312,bit:3,invert:false,),],
+        [(frame:312,bit:4,invert:false,),],
+        [(frame:312,bit:5,invert:false,),],
+        [(frame:312,bit:6,invert:false,),],
+        [(frame:312,bit:7,invert:false,),],
+        [(frame:313,bit:0,invert:false,),],
+        [(frame:313,bit:1,invert:false,),],
+        [(frame:313,bit:2,invert:false,),],
+        [(frame:313,bit:3,invert:false,),],
+      ],
+    ),
+    "WA_PTN_20B": (
+      bits: [
+        [(frame:304,bit:2,invert:false,),],
+      ],
+    ),
+  },
+  enums: {},
+  conns: {},
+)
